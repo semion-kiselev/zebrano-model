@@ -4,12 +4,34 @@ import cn from 'classnames';
 import {graphql, Link} from 'gatsby';
 import Layout from '../components/layout';
 import Card from '../components/card';
+import LightBox from '../components/light-box';
 import {getNormalizedData, getNavData, getPagesArray} from '../utils';
 
 class Subsection extends PureComponent {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            viewedImage: undefined
+        };
+
+        this.handleLoupe = this.handleLoupe.bind(this);
+        this.clearViewedImage = this.clearViewedImage.bind(this);
+    }
+
+    handleLoupe(image) {
+        // todo: check for screen width
+        this.setState({viewedImage: image});
+    }
+
+    clearViewedImage() {
+        this.setState({viewedImage: undefined});
+    }
+
     render() {
         const {locale, subsection, numPages, currentPage} = this.props.pageContext;
         const {data} = this.props;
+        const {viewedImage} = this.state;
         const newsItems = getNormalizedData(data.newsItems);
         const items = getNormalizedData(data.items);
         const navData = getNavData(locale);
@@ -54,6 +76,7 @@ class Subsection extends PureComponent {
                                         locale={locale}
                                         item={item}
                                         subsectionSlug={subsection.slug}
+                                        onLoupe={this.handleLoupe}
                                     />
                                 </div>
                             ))
@@ -79,6 +102,11 @@ class Subsection extends PureComponent {
                             </div>
                         </div>
                     }
+                    <LightBox
+                        onRequestClose={this.clearViewedImage}
+                        isVisible={Boolean(viewedImage)}
+                        image={viewedImage}
+                    />
                 </div>
             </Layout>
         );

@@ -6,23 +6,19 @@ import {IMAGE_URL, BOX_IMAGE, SMALL_IMAGE, itemTypes} from '../constants';
 
 class Card extends PureComponent {
     render() {
-        const {locale, subsectionSlug, item} = this.props;
+        const {locale, subsectionSlug, item, onLoupe} = this.props;
 
         return (
             <div className={cn('card', {
                 'card--figures': item.type === itemTypes.FIGURES,
                 'card--acc': item.type === itemTypes.ACCESSORIES
             })}>
-                <span
-                    className="card__image-link"
-                    data-link={`${IMAGE_URL}/${BOX_IMAGE}/${item.boxImage}`}
-                >
-                    <img
-                        className="card__thumbnail"
-                        src={`${IMAGE_URL}/${BOX_IMAGE}/${SMALL_IMAGE}/${item.boxImageSmall}`}
-                        alt={`${item.name[locale]}`}
-                    />
-                </span>
+                <img
+                    className="card__thumbnail"
+                    onClick={() => onLoupe(`${IMAGE_URL}/${BOX_IMAGE}/${item.boxImage}`)}
+                    src={`${IMAGE_URL}/${BOX_IMAGE}/${SMALL_IMAGE}/${item.boxImageSmall}`}
+                    alt={`${item.name[locale]}`}
+                />
                 <div
                     className="card__name"
                     title={`${item.name[locale]}`}
@@ -55,7 +51,8 @@ class Card extends PureComponent {
 Card.propTypes = {
     locale: PropTypes.string.isRequired,
     subsectionSlug: PropTypes.string.isRequired,
-    item: PropTypes.object
+    item: PropTypes.object,
+    onLoupe: PropTypes.func.isRequired
 };
 
 export default Card;
