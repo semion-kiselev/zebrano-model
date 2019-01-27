@@ -1,0 +1,1649 @@
+[
+    {
+        "name": {"ru": "ГАЗ-ААА с установкой 4М", "en": "GAZ-AAA with 4M"},
+        "title": {"ru": "ГАЗ-ААА с установкой 4М", "en": "GAZ-AAA with 4M"},
+        "description": {"ru": "ГАЗ-ААА с установкой 4М в масштабе 1/72", "en": "1/72 scale model GAZ-AAA with 4M"},
+        "text": {
+            "ru": "",
+            "en": "GAZ- AAA, the first Soviet triaxial truck, was a modified version of the American Ford truck. The first trucks were assembled in 1934. The truck was the base for numerous military options. Among others, the quadruple installation of Maxim machine guns 4M designed by F.V. Tokarev was set on that truck. This version of GAZ-AAA was used as a mobile Red Army air defense. Besides the weapons in truck’s body, there was place for boxes with ammunition, different tools, as well as for the combat crew. This truck was produced until the summer, 1943."
+        },
+        "slug": "72001-gaz-aaa-4m",
+        "article": "72001",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "by8u1xqtggt8ata8q3kd.jpg",
+        "boxImageSmall": "ccx54bgbegx6x7auyff0.jpg",
+        "bucketOfImages": ["tm3jq5qwnxhgbjkcaw36.jpg", "vvjo0lnowdsajh7ya6et.jpg", "oirwy6uiktvjugxkgiqe.jpg", "i1c29qlywbanoqnaqydx.jpg"],
+        "sortOrder": 1
+    },
+    {
+        "name": {"ru": "ГАЗ-ААА с установкой ДШК", "en": "GAZ-AAA with DSHK m.1938"},
+        "title": {"ru": "ГАЗ-ААА с установкой ДШК","en": "GAZ-AAA with DSHK m.1938"},
+        "description": {"ru": "ГАЗ-ААА с установкой ДШК в масштабе 1/72", "en": "1/72 scale model GAZ-AAA with DSHK m.1938"},
+        "text": {
+            "ru": "Крупнокалиберный пулемет ДШК был принят на вооружение РККА в 1938 году под обозначением \"12,7 мм крупнокалиберный пулемет Дегтярева Шпагина обр. 1938 года\". Массовый выпуск ДШК был начат в 1940-41 годах, и за годы Великой Отечественной войны было выпущено порядка 8 тысяч пулеметов ДШК. Они использовались в качестве зенитных, оружия поддержки пехоты, устанавливались на бронетехнику и малые корабли (в том числе - торпедные катера).",
+            "en": "GAZ- AAA, the first Soviet triaxial truck, was a modified version of the American Ford truck. The first trucks were assembled in 1934. The truck was the base for numerous military options. Among others, 12.7 mm heavy machine gun DShK (Degtyarev-Shrapin m.1938) was set on that truck. Besides the weapons in truck’s body, there was place for boxes with ammunition, different tools, as well as for the combat crew. This truck was produced until the summer, 1943. Heavy machine gun DShK was adopted by the Red Army in 1938 under the designation \"12.7 mm heavy machine gun Degtyarev - Shpagin m.1938\". The mass production of DShK was launched in 1940-41, and for the years of Great Patriotic War was produced about 8 thousand DShK. They were used as anti-aircraft and as infantry support weapons, mounted on trucks, armored vehicles and small ships (including - motor torpedo boats)."
+        },
+        "slug": "72002-gaz-aaa-dshk",
+        "article": "72002",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "y3w30qkhjnmhpw1xhkz7.jpg",
+        "boxImageSmall": "jjbksdsy97op3mtafddb.jpg",
+        "bucketOfImages": ["zihj8rfjldznzz19iuto.jpg", "be00m2ce3zm3nnlu30pn.jpg", "yh1ujvygm0x1pyggsdop.jpg", "c5ib988ser7so0stxbou.jpg"],
+        "sortOrder": 2
+    },
+    {
+        "name": {"ru": "Передвижная радиостанция РСБ-Ф", "en": "RSB-F Movavle Wireless"},
+        "title": {"ru": "Передвижная радиостанция РСБ-Ф","en": "RSB-F Movavle Wireless"},
+        "description": {"ru": "Передвижная радиостанция РСБ-Ф в масштабе 1/72", "en": "1/72 scale model RSB-F Movavle Wireless"},
+        "text": {
+            "ru": "В 1942г. для замены радиостанции 11-АК, размещавшейся в двух автомобилях, была создана РСБ-Ф - модернизированная в первые месяцы войны радиостанция самолета-бомбардировщика, размещенная в фургоне автомобиля ГАЗ-ААА. Дальность ее связи достигала 300-1500 км. В ней применялся чувствительный супергетеродинный приемник и передатчик с кварцевой стабилизацией частоты.",
+            "en": "In 1942, to replace the radio station 11-AK placed in two cars, RSB-F was created by upgrading a bomber radio station in the first months of the war and housing it in a van of GAZ-AAA truck. Range of communication reaches 300-1500 km depending on the type of antenna and mode of operation. It used a sensitive super heterodyne receiver and transmitter with a crystal-controlled frequency."
+        },
+        "slug": "72003-rsb-f",
+        "article": "72003",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "fiotqqljyxu34nmoxmpg.jpg",
+        "boxImageSmall": "cytnmokuceeh7irhvpz6.jpg",
+        "bucketOfImages": ["ldc3ykqhydmuwcdavirq.jpg", "oyltjljropbcqzvcoekz.jpg", "uu65u20bvz9zcfpaugl0.jpg"],
+        "sortOrder": 3
+    },
+    {
+        "name": {"ru": "ЗСУ 61-К", "en": "Soviet AA Self-propelled gun 61-K"},
+        "title": {"ru": "ЗСУ 61-К","en": "Soviet AA Self-propelled gun 61-K"},
+        "description": {"ru": "ЗСУ 61-К в масштабе 1/72", "en": "1/72 scale model Soviet AA Self-propelled gun 61-K"},
+        "text": {
+            "ru": "37-мм зенитная пушка была принята на вооружение Красной Армии в 1939 году и получила индекс \"61-К\". К началу Великой Отечественной войны в Красной Армии насчитывалось 1258 орудий \"61-К\". В годы Великой Отечественной войны эта пушка была самым массовым зенитным орудием в Красной Армии и широко применялась на всех фронтах. Всего было изготовлено более 17000 единиц зенитных пушек \"61-К\".",
+            "en": "The antiaircraft gun 37mm was accepted on the arms of the Red Army 1939 and has received an index \"61-K\". To the beginning of the Great Patriotic there were totally 1258 units of the gun \"61-K\" in the Red Army. Within the Great Patriotic War this gun was the most mass antiaircraft gun in the Red Army and widely applied on all fronts. In total it was made more than 17000 units of the \"61-K\" antiaircraft guns."
+        },
+        "slug": "72069-aa-61k",
+        "article": "72069",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "juhsrq5r8i2szp0yraot.jpg",
+        "boxImageSmall": "coddnr6fioouhqrashbc.jpg",
+        "bucketOfImages": ["sr7596gkujn34tzqy671.jpg", "dqyxmzyqlq5sz6bttrso.jpg"],
+        "sortOrder": 4
+    },
+    {
+        "name": {"ru": "Санитарный автомобиль ГАЗ-55 (1938)", "en": "GAZ-55 Ambulance (1938)"},
+        "title": {"ru": "Санитарный автомобиль ГАЗ-55 (1938)","en": "GAZ-55  Ambulance (1938)"},
+        "description": {"ru": "Санитарный автомобиль ГАЗ-55 (1938) в масштабе 1/72", "en": "1/72 scale model GAZ-55  Ambulance (1938)"},
+        "text": {
+            "ru": "Санитарный автомобиль ГАЗ-55 был разработан на Горьковском автозаводе в 1937 году на базе узлов  полуторки ГАЗ-АА. Его серийное производство началось в 1938 году и продолжалось до 1950 года. Автобус был предназначен для перевозки четырех лежачих и двух сидячих больных. Максимальная скорость автомобиля по шоссе достигала 70 км/ч. Это был самый распространенный санитарный автомобиль в Красной Армии в период Великой отечественной войны. Всего за 13 лет было построено 12369 автомобилей ГАЗ-55.",
+            "en": "GAZ-55 Ambulance was developed at the Gorky Automobile Plant in 1937 on the basis of units GAZ-AA lorry. Its production began in 1938 and lasted until 1950. The bus was designed to carry four stretcher and two sedentary patients. The full speed of bus on the highway was 70 km/h. It was most common in ambulance in the Red Army during the Great Patriotic War. There were built 12369 vehicles GAZ-55 during 13 years."
+        },
+        "slug": "72079-gaz-55-ambulance-1938",
+        "article": "72079",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "iwa8i3siq0r8tezsp7ye.jpg",
+        "boxImageSmall": "xefkobvvqmcrmhsjhlhd.jpg",
+        "bucketOfImages": ["bvpoargurpzftckjks6y.jpg", "lq8eoauukajiyaerbkli.jpg", "aqjtaqvjb9jjnteqwnn8.jpg"],
+        "sortOrder": 5
+    },
+    {
+        "name": {"ru": "Санитарный автомобиль ГАЗ-55 (1943)", "en": "GAZ-55 Ambulance (1943)"},
+        "title": {"ru": "Санитарный автомобиль ГАЗ-55 (1943)","en": "GAZ-55 Ambulance (1943)"},
+        "description": {"ru": "Санитарный автомобиль ГАЗ-55 (1943) в масштабе 1/72", "en": "1/72 scale model GAZ-55 Ambulance (1943)"},
+        "text": {
+            "ru": "Санитарный автомобиль ГАЗ-55 был разработан на Горьковском автозаводе в 1937 году на базе узлов полуторки ГАЗ-АА. Его серийное производство началось в 1938 годду и продолжалось до 1950 года. Автобус был предназначен для перевозки четырех лежачих и двух сидячих больных. Максимальная скорость автомобиля по шоссе достигала 70 км/ч. С началом войны конструкцию автомобили значительно упростили. Передние крылья были гнутые, как на ГАЗ-ММ, устанавливалась только левая фара. Это был самый распространенный санитарный автомобиль в Красной Армии в период Великой отечественной войны. Всего за 13 лет было построено 12369 автомобилей ГАЗ-55.",
+            "en": "GAZ-55 Ambulance was developed at the Gorky Automobile Plant in 1937 on the basis of units GAZ-AA lorry. Its production began in 1938 and lasted until 1950. The bus was designed to carry four stretcher and two sedentary patients. The full speed of bus on the highway was 70 km/h. It was most common in ambulance in the Red Army during the Great Patriotic War. There were built 12369 vehicles GAZ-55 during 13 years."
+        },
+        "slug": "72081-gaz-55-1943",
+        "article": "72081",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "dw8egtg5fmwxi1kimscl.jpg",
+        "boxImageSmall": "r8hf5fjvcvgnam6jfeo8.jpg",
+        "bucketOfImages": ["kty5kdvvqichl7ufxwol.jpg", "a9lqkwhnwhiykax2qrvq.jpg", "z2qjmzmerryz21kpj9ll.jpg"],
+        "sortOrder": 6
+    },
+    {
+        "name": {"ru": "Автобус ГАЗ-03-30 (1933)", "en": "GAZ-03-30 Omnibus (1933)"},
+        "title": {"ru": "Автобус ГАЗ-03-30 (1933)","en": "GAZ-03-30 Omnibus (1933)"},
+        "description": {"ru": "Автобус ГАЗ-03-30 (1933) в масштабе 1/72", "en": "1/72 scale model GAZ-03-30 Omnibus (1933)"},
+        "text": {
+            "ru": "Советский автобус малого класса ГАЗ-03-30 был разработан в 1932 году на базе агрегатов грузового автомобиля ГАЗ-АА и нашел широкое применение как на гражданской службе, так и в Красной Армии. Гражданский вариант был предназначен для перевозки 17 пассажиров. В армии автобус использовался как штабной, при этом он мог иметь другую конфигурацию салона и дополнительно оснащаться оборудованием для связи. Автобус данной модели серийно выпускался с 1933 по 1941 год.",
+            "en": "The soviet bus GAZ-03-30 was designed in 1932 on the basis of GAZ-AA truck units and found wide application both in the civil service and in the Red Army. The civil version was designed for transportation of 17 passengers. An army bus was used as a headquarters, while he could have another configuration of the cabin and additional equipment for communication. The bus of this model was produced from 1933 to 1941."
+        },
+        "slug": "72082-gaz-03-30-1933",
+        "article": "72082",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "svgaiopbj1w6qf1astcj.jpg",
+        "boxImage": "ed3rsishhwcq2reeadap.jpg",
+        "boxImageSmall": "sqbaiqld648musniieew.jpg",
+        "bucketOfImages": ["w7b9oiyhlnsm14i7etzj.jpg", "ymsf51zjzthebszxsesw.jpg", "nl3h7jebxxclvxxixpvi.jpg"],
+        "sortOrder": 7
+    },
+    {
+        "name": {"ru": "Автобус ГАЗ-03-30 (1945)", "en": "GAZ-03-30 Omnibus (1945)"},
+        "title": {"ru": "Автобус ГАЗ-03-30 (1945)","en": "GAZ-03-30 Omnibus (1945)"},
+        "description": {"ru": "Автобус ГАЗ-03-30 (1945) в масштабе 1/72", "en": "1/72 scale model GAZ-03-30 Omnibus (1945)"},
+        "text": {
+            "ru": "Советский автобус малого класса ГАЗ-03-30 был разработан в 1932 году на базе агрегатов грузового автомобиля ГАЗ-АА и нашел широкое применение как на гражданской службе, так и в Красной Армии. Гражданский вариант был предназначен для перевозки 17 пассажиров. Автобус данной модели серийно выпускался с 1933 по 1941 год и за этот период произвели 6569 машин. Во время Великой Отечественной войны выпуск автобуса практически прекратился (было выпущено 28 автобусов). По окончании войны выпуск ГАЗ-03-30 был возобновлен, но уже на базе автомобиля ГАЗ-ММ. Внешние отличия заключались в гнутых крыльях и двухстворчатой задней двери. Всего после войны было выпущено 8211 автобусов ГАЗ-03-30 модели 1945 года.",
+            "en": "The soviet bus GAZ-03-30 was designed in 1932 on the basis of GAZ-AA truck units and found wide application both in the civil service and in the Red Army. The civil version was designed for transportation of 17 passengers. The bus of this model was produced from 1933 to 1941 in the quanttaty of 6569 vehicles. During World War II the issue of the bus almost stopped (it was issued only 28 buses). After the war, the release of GAZ-03-30 was relaunched, but on the basis of GAZ-MM. External differences was in the wings and two-part rear door. The total issue of GAZ-03-30 m.1945 during 1945 - 1950 was 8211 vehicles."
+        },
+        "slug": "72083-gaz-03-30-1945",
+        "article": "72083",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "lrkwvlwsxgk9v5jsebwj.jpg",
+        "boxImage": "k5ywwn59mobxltowkr4s.jpg",
+        "boxImageSmall": "ctwmoikt42zbqopjra8p.jpg",
+        "bucketOfImages": ["ujvoancxkrljv0yk8sdf.jpg", "bo64enk6q6y8lbk2kj6t.jpg", "jcj5ct9yqbjqksbxn9a9.jpg"],
+        "sortOrder": 8
+    },
+    {
+        "name": {"ru": "Советская зенитная САУ ГАЗ-ММ/72-К", "en": "Soviet AA SPG GAZ-MM/72-K"},
+        "title": {"ru": "Советская зенитная САУ ГАЗ-ММ/72-К","en": "Soviet AA SPG GAZ-MM/72-K"},
+        "description": {"ru": "Советская зенитная САУ ГАЗ-ММ/72-К в масштабе 1/72", "en": "1/72 scale model Soviet AA SPG GAZ-MM/72-K"},
+        "text": {
+            "ru": "25-мм зенитная автоматическая пушка 72-К была разработана в 1939 г. в Свердловске в КБ Машиностроительного завода имени Калинина. В 1940 г. пушка прошла испытания и была принята на вооружение Красной Армии. Серийно пушка производилась с 1941 по 1945 год. Было изготовлено 4560 орудий. Освоение орудия в производстве шло с трудом. Особенные трудности вызывало изготовление колесного хода орудия. Выход был найден в установке вращающейся части орудия на автомобилях ГАЗ-ММ и в бронепоездах. Всего за 1941 год Красная Армия получила около 200 таких ипровизированных зенитных САУ.",
+            "en": "25-mm anti-aircraft automatic gun 72-K was designed in 1939 in Sverdlovsk in Design Department of Machine-Building Plant named after Kalinin. In 1940 the gun was tested and accepted by the Red Army. The gun was issued from 1941 to 1945. There were 4560 guns produced. The begining of production was signed with difficulties. Particular difficulties causing the production of wheeled carriage. The solution was found to install rotating part of the gun on the GAZ-MM truck and armored trains. Up to the end of 1941, the Red Army received about 200 such a kind of antiaircraft self-propelled guns."
+        },
+        "slug": "72084-gaz-mm-72-k",
+        "article": "72084",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "ycznvmgx4pdojlepccjr.jpg",
+        "boxImage": "it1gnsw2gf13pkk5cpk9.jpg",
+        "boxImageSmall": "fqyau4x7oo8kkh9okn2p.jpg",
+        "bucketOfImages": ["xw0nqztwbkkt2wbmerra.jpg", "uubya5dlqf9uwclvanj7.jpg"],
+        "sortOrder": 9
+    },
+    {
+        "name": {"ru": "Советская зенитная 25-мм пушка 72-К", "en": "72-K Soviet 25-mm AA Gun"},
+        "title": {"ru": "Советская зенитная 25-мм пушка 72-К","en": "72-K Soviet 25-mm AA Gun"},
+        "description": {"ru": "Советская зенитная 25-мм пушка 72-К в масштабе 1/72", "en": "1/72 scale model 72-K Soviet 25-mm AA Gun"},
+        "text": {
+            "ru": "25-мм зенитная автоматическая пушка 72-К была разработана в 1939 г. в Свердловске в КБ Машиностроительного завода имени Калинина. В 1940 г. пушка прошла испытания и была принята на вооружение Красной Армии. Серийно пушка производилась с 1941 по 1945 год. Было изготовлено 4560 орудий.",
+            "en": "25-mm anti-aircraft automatic gun 72-K was designed in 1939 in Sverdlovsk in Design Department of Machine-Building Plant named after Kalinin. In 1940 the gun was tested and accepted by the Red Army. The gun was issued from 1941 to 1945. There were 4560 guns produced."
+        },
+        "slug": "72085-72-k-25mm",
+        "article": "72085",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "fzy4ytkuw8g8tg1h02lg.jpg",
+        "boxImage": "zt86ss2qxrbl0rcug83b.jpg",
+        "boxImageSmall": "mfwayljjkruqiumg68d3.jpg",
+        "bucketOfImages": ["gxgxzaofs41ykotuvlbz.jpg", "fzx27mt5fcf9osooru9n.jpg", "a7fpgvrho7lywhe0pofg.jpg"],
+        "sortOrder": 10
+    },
+    {
+        "name": {"ru": "Специальный автомобиль ЗИС-12", "en": "ZiS-12 Special Truck"},
+        "title": {"ru": "Специальный автомобиль ЗИС-12","en": "ZiS-12 Special Truck"},
+        "description": {"ru": "Специальный автомобиль ЗИС-12 в масштабе 1/72", "en": "1/72 scale model ZiS-12 Special Truck"},
+        "text": {
+            "ru": "ЗИС-12 - удлиненное шасси (4х2) специального назначения, созданное на базе грузовика ЗИС-5, комплектовалось низкобортной платформой, на которй монтировались различные установки военного назначения (зенитные орудия, прожекторы 3-15-14, звукоулавливающие установки). Грузоподъемность 3,5 т. Поставлялись преимущественно в Красную армию. Произведено 4223 единицы.",
+            "en": "ZIS-12 - extended chassis (4x2) for special purposes, created on the basis of ZIS-5 truck, with low-board platform, on which various installations were mounted for military purposes (anti-aircraft guns, searchlights Z-15-14, etc). Load capacity is 3.5 tons. The trucks were shipped mostly to the Red Army. 4,223 units were produced."
+        },
+        "slug": "72101-zis-12",
+        "article": "72101",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "ytsqztydnw6gtired1pa.jpg",
+        "boxImageSmall": "fhi3vxb9kt97hhzkd6lf.jpg",
+        "bucketOfImages": ["o1volbhb9gyjarckvohu.jpg", "wathmuzdnon8qmnpfwye.jpg", "vc5vwzqxopqgsvomcsct.jpg", "pkx1ymdxoyvq3qwejnoi.jpg", "omh0r6zomovrh3vovnz8.jpg", "fvtidu3wkdmgwauihgrf.jpg"],
+        "sortOrder": 11
+    },
+    {
+        "name": {"ru": "Грузовой автомобиль ЗИС-5", "en": "ZiS-5 Truck"},
+        "title": {"ru": "Грузовой автомобиль ЗИС-5","en": "ZiS-5 Truck"},
+        "description": {"ru": "Грузовой автомобиль ЗИС-5 в масштабе 1/72", "en": "1/72 scale model ZiS-5 Truck"},
+        "text": {
+            "ru": "ЗИС-5 (\"трехтонка\") - советский грузовой автомобиль грузоподъемностью 3 тонны; второй по массовости (после ГАЗ-АА) грузовик 1930-40-х, один из основных транспортных автомобилей Красной Армии во время Великой Отечественной войны. Выпускался с 1933 по 1948 на Автомобильном заводе имени И.В. Сталина. В 1934 - 1948 гг. только на ЗИСе было выпущено 571199 автомобилей ЗИС-5 с модификациями.",
+            "en": "ZIS-5 (“three-ton”) – a Soviet truck with lifting capacity of 3 tons, the second mass (after the GAZ-AA) truck 1930-40s, one of the major transport vehicles of the Red Army during Word War II. It was produced from 1933 to 1948 at the automobile plant named after Stalin. 571,199 pieces of truck ZIS-5 with modifications were issued only at Moscow ZIS plant In the 1934-1948 years."
+        },
+        "slug": "72102-zis-5",
+        "article": "72102",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "shbvobkc1uflz7do6ptr.jpg",
+        "boxImageSmall": "znmo5nqy6qrngfuhwgy0.jpg",
+        "bucketOfImages": ["fbfhk45ghkoqj8ps22f5.jpg", "c7liwphgzgbqjjvk6i7u.jpg", "v8bh5msqgovurzej6wet.jpg"],
+        "sortOrder": 12
+    },
+    {
+        "name": {"ru": "Грузовой автомобиль ЗИС-6", "en": "ZiS-6 Truck"},
+        "title": {"ru": "Грузовой автомобиль ЗИС-6","en": "ZiS-6 Truck"},
+        "description": {"ru": "Грузовой автомобиль ЗИС-6 в масштабе 1/72", "en": "1/72 scale model ZiS-6 Truck"},
+        "text": {
+            "ru": "ЗИС-6 - совесткий трехосный (6х4) 4-тонный грузовик повышенной проходимости. Создан на базе массового народнохозяйственного грузовика ЗИС-5 (4х2). Вторая по массовости \"трехоска\" (после ГАЗ-ААА) в Красной армии 30-х и в начальный период Великой Отечественной войны. С декабря 1941 на Автомобильном заводе имени И.В. Сталина произведено 21239 единиц ЗИС-6.",
+            "en": "ZIS-6 - Soviet six-wheeled (6x4) off-road 4-ton truck. Truck ZIS-5 (4x2) was put into bulk production. ZiS-6 was the second in quantity (after the GAZ-AAA) in the Red Army in the 1930th and at the beginning of the World War II. 21,239 ZIS-6 trucks were produced at the automobile plant named after Stalin from December 1933 to October 1941."
+        },
+        "slug": "72103-zis-6",
+        "article": "72103",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "ay5b64sdmjw7hr1jkg9p.jpg",
+        "boxImageSmall": "wosdpzwbvtzz3ei7bant.jpg",
+        "bucketOfImages": ["nkyl259fmgesena5p6rh.jpg", "psubv5on3dimjhusdnjv.jpg", "bdldheecqabd87ms9ze6.jpg"],
+        "sortOrder": 13
+    },
+    {
+        "name": {"ru": "Легкий танк БТ-4", "en": "BТ-4 Soviet Light Tank"},
+        "title": {"ru": "Легкий танк БТ-4","en": "BТ-4 Soviet Light Tank"},
+        "description": {"ru": "Легкий танк БТ-4 в масштабе 1/72", "en": "1/72 scale model BТ-4 Soviet Light Tank"},
+        "text": {
+            "ru": "Танк БТ-4 являлся двухбашенной модификацией легкого танка БТ-2. Башни были взяты от легкого танка Т-26 образца 1931 года. Первый танк выпустили в 1932 году. Всего было выпущено до 20 машин, однако дальнейший выпуск был прекращен в связи с внедрением в серийное производство нового легкого танка БТ-5.",
+            "en": "The BT-4 light tank was a two-turret modification of the light tank BT-2. The turrets were taken from a light tank T-26 model 1931. The first tank was released in 1932. In all, there were 20 vehicles, however, the further production was discontinued with the introduction of mass-production of a new light tank BT-5."
+        },
+        "slug": "72104-bt-4",
+        "article": "72104",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "rn6purmfyb0lzu2sikwc.jpg",
+        "boxImageSmall": "bwpm4n1xjzbmshghrn0q.jpg",
+        "bucketOfImages": ["ga87i4gugv1tgwd02ipa.jpg"],
+        "sortOrder": 14
+    },
+    {
+        "name": {"ru": "Грузовой автомобиль ЗИС-5В", "en": "ZiS-5V Truck"},
+        "title": {"ru": "Грузовой автомобиль ЗИС-5В","en": "ZiS-5V Truck"},
+        "description": {"ru": "Грузовой автомобиль ЗИС-5В в масштабе 1/72", "en": "1/72 scale model ZiS-5V Truck"},
+        "text": {
+            "ru": "ЗИС-5В - это упрощенный вариант массового грузовика ЗИС-5, выпускавшийся в годы Великой Отечественной войны. Кабина полностью выполнялась из дерева, кузов имел только один откидной борт, тормоза оставили только на задних колесах, фара была только одна - левая. Всего за годы войны было выпущено около 86 тысяч автомобилей ЗИС-5В.",
+            "en": "After the start of World War II, with the aim to reduce the cost of production, simplify design and increase the number of the trucks, the design of ZIS-5 has been revised . The car received a wooden cabin, bent wings instead of stamped ones. Only the left headlight and brake on the rear wheels were left. The effect of simplicity was the reducing of the car weight by 125 kilograms. In the simplified version, the car was produced from 1942 to 1946 at the factory named after Stalin and at the Ural Automobile Plant (Ural-VMS) until 1963."
+        },
+        "slug": "72105-zis-5v",
+        "article": "72105",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "end6oeey7wejrnmacp1g.jpg",
+        "boxImageSmall": "sekxnzlblgls56sysncn.jpg",
+        "bucketOfImages": ["ig3bhpxuvgrmbtfabd64.jpg", "maqeoc2zjzmpmxtgssgp.jpg", "lmxxxbri30pif46uhrjm.jpg"],
+        "sortOrder": 15
+    },
+    {
+        "name": {"ru": "Санитарный автомобиль ЗИС-44", "en": "ZiS-44 Ambulance"},
+        "title": {"ru": "Санитарный автомобиль ЗИС-44","en": "ZiS-44 Ambulance"},
+        "description": {"ru": "Санитарный автомобиль ЗИС-44 в масштабе 1/72", "en": "1/72 scale model ZiS-44 Ambulance"},
+        "text": {
+            "ru": "ЗИС-44 - санитарный автомобиль, выпускавшийся на базе ЗИС-5В. Вместо обычной грузовой площадки на шасси устанавливался деревянный кузов-фургон. Поризводство автомобиля началось в середине 1942 года. Автомобиль служил для перевозки 7 больных на носилках или 18 сидячих раненых. Всего за два неполных года было выпущено 517 санитарных автомобилей ЗИС-44.",
+            "en": "ZIS-44 ambulance was based on ZIS-5V truck. The wooden box body was installed instead of the conventional load body. The ambulance production began in mid-1942. The car was used for transportation of 7 patients on stretchers or 18 seated casualties. 517 ambulances ZIS-44 were made within two years of production."
+        },
+        "slug": "72106-zis-44",
+        "article": "72106",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "n8sjnlx8qje62mj23yyc.jpg",
+        "boxImageSmall": "pptrpwssnxwfqhetna7r.jpg",
+        "bucketOfImages": ["vuvyvpcniugztvk4e9a5.jpg", "pyzyd8imqzc1nplmquah.jpg", "wpbio4dchzcza9imbhuh.jpg"],
+        "sortOrder": 16
+    },
+    {
+        "name": {"ru": "Полугусеничный автомобиль ЗИС-22М", "en": "ZIS-22M half-truck"},
+        "title": {"ru": "Полугусеничный автомобиль ЗИС-22М","en": "ZIS-22M half-truck"},
+        "description": {"ru": "Полугусеничный автомобиль ЗИС-22М в масштабе 1/72", "en": "1/72 scale model ZIS-22M half-truck"},
+        "text": {
+            "ru": "В сентябре 1940 года на испытания был представлен полугусеничный грузовой автомобиль ЗИС-22-52, который был создан на базе массового грузового двухосного автомобиля ЗИС-5. По результатам испытаний было принято решение начать серийное производство этого автомобиля после незначительной доработки под  маркой ЗИС-22М. Выпуск автомобиля  освоили к лету 1941 года, но  до эвакуации завода в октябре 1941 года успели изготовить только 61 машину.",
+            "en": "The tests of ZiS-22-52 half-truck began in September 1940. The design of this vehicle was based on mass-production cargo ZiS-5. According to the test results it was decided to begin mass production of this car after a minor revision under ZIS-22M mark. The issue of track began in summer 1941. But only 61 vehicle was produced before evacuation of the ZIS plant in October 1941."
+        },
+        "slug": "72107-zis-22m",
+        "article": "72107",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "ebmgaef5mjaxnyp1p9dp.jpg",
+        "boxImageSmall": "ay6chxjmprss7g3xf4na.jpg",
+        "bucketOfImages": ["pliswiofrnfdct8rum68.gif", "uehmmce40q4eumc89w98.gif", "t3salllyv4kdic1ioahp.jpg", "dyjgcbc7wcwzsb31uipy.jpg", "z2k0z5mpxqew1nfnpnvc.jpg", "wpt3ahstadah4uce0jrf.jpg", "gwyyyd3v2tybkfoekbbc.jpg", "pdgjhcvzpowgzrfi8uqg.jpg"],
+        "sortOrder": 17
+    },
+    {
+        "name": {"ru": "Штабной автомобиль РККА", "en": "Red Army Staff Car"},
+        "title": {"ru": "Штабной автомобиль РККА","en": "Red Army Staff Car"},
+        "description": {"ru": "Штабной автомобиль РККА в масштабе 1/72", "en": "1/72 scale model Red Army Staff Car"},
+        "text": {
+            "ru": "Серийный выпуск первого массового советского автомобиля был организован в Нижнем Новгороде в конце 1932 года. Автомобиль был точной копией американского Ford-A Standart Phaeton 35В и внешне отличался от него отсутствием накапотных фар, иной эмблемой и другой формой радиаторной решетки. Автомобиль оснащался двигателем ГАЗ-А мощностью 40 л.с., который позволял ему развивать скорость 95 км/ч. Помимо народного хозяйства, автомобиль в больших количествах поставлялся в Красную Армию. На 1 января 1941 года в частях находилось 2757 автомобилей данной марки. Всего в период с 1932 по 1936 год было выпущено 41387 автомобилей марки \"А\".",
+            "en": "The serial production of the first mass  Soviet car was organized in Nizhny Novgorod in late 1932. The car was a replica of the US Ford-A Standart Phaeton 35B and looks different from it in lack of cowl lights, another logo and a different form of the front coat. The car was equipped with the GAZ-A engine at power of 40 hp, which allowed it to reach the speed of 95 km/h. The model \"A\" was delivered not only to the civil enterprices and institutions but to Red Army too. The Red Army had  2757 model \"A\" cars at the begining of 1941. There were issued 41387 model \"A\" cars for the period from 1932 to 1936."
+        },
+        "slug": "72108-gaz-a",
+        "article": "72108",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "cvaz6oo4wgufpuo2rism.jpg",
+        "boxImage": "xl5ogcbjtxujtlpjjtwu.jpg",
+        "boxImageSmall": "aoqekwpkw5aiz2itx04l.jpg",
+        "bucketOfImages": ["jd5m8od2syonalnbnnm7.jpg", "ebwwkklnam1qwpuzdzrh.jpg", "agkh2qsigucxy8npgjxm.jpg", "jznljoalwvkqdjnf8kpi.jpg"],
+        "sortOrder": 18
+    },
+    {
+        "name": {"ru": "Американский автомобиль модели А", "en": "Model A American Car"},
+        "title": {"ru": "Американский автомобиль модели А","en": "Model A American Car"},
+        "description": {"ru": "Американский автомобиль модели А в масштабе 1/72", "en": "1/72 scale model Model A American Car"},
+        "text": {
+            "ru": "Форд модель А был вторым громадным успехом компании после ее предшественницы, модели Т. Эта модель А имела обозначение модели 1928 года и была доступна в 4 цветах. Варианты кузовов простирались от Tudor (серого, зеленого или черного цвета) за 500$ до Town Car за 1200$. Производство модели А прекратилось в марте 1934 года после выпуска 4 858 644 автомобилей. Помимо США, модель А собиралась на заводах в Аргентине, Канаде, Дании, Франции,  Германии, Японии, Великобритании и Советском Союзе. В 1932 лицензионное производство Ford-A Standart Phaeton 35В началось на советском заводе ГАЗ. Всего в Горьком было выпущено 41 387 советских ГАЗ-А.",
+            "en": "The Ford Model A was the second huge success for the Ford Motor Company, after its predecessor, the Model T. This new Model A was designated a 1928 model and was available in four standard colors. The range of body styles  ran from the Tudor at US$500 (in grey, green, or black) to the Town Car at US$1200. Model A production ended in March, 1932, after 4,858,644 had been made in all body styles. In addition to the United States, Ford made the Model A in plants in Argentina,  Canada, Denmark, France, Germany, Japan,United Kingdom and Soviet Union. In 1932 the Soviet GAZ plant began the production of Ford-A Standart Phaeton 35B under licence. In total 41387 Soviet GAZ-A were issued in Gorkiy."
+        },
+        "slug": "72109-ford-a",
+        "article": "72109",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "k0npca5edlglq6fq21wd.jpg",
+        "boxImage": "lu2uhecwwmxotsklik6b.jpg",
+        "boxImageSmall": "pkschnzhdaboqyetip5c.jpg",
+        "bucketOfImages": ["awjs8tzztzyu7obnaunz.jpg", "tgwwmospez41gxtdoqtw.jpg", "wezspqfnraj8cpotclhn.jpg"],
+        "sortOrder": 19
+    },
+    {
+        "name": {"ru": "Советский автобус ЗИС-8", "en": "ZiS-8 Soviet Bus"},
+        "title": {"ru": "Советский автобус ЗИС-8","en": "ZiS-8 Soviet Bus"},
+        "description": {"ru": "Советский автобус ЗИС-8 в масштабе 1/72", "en": "1/72 scale model ZiS-8 Soviet Bus"},
+        "text": {
+            "ru": "Городской пассажирский автобус ЗИС-8 выпускался в Москве на автозаводе имени Сталина. Машина производилась с 1934 по 1936 год. За это время завод ЗИС выпустил около 550 автобусов. Автобус имел деревянный кузов, устанавливавшийся на длиннобазном  шасси ЗИС-8, и вмещавший 29 пассажиров. На дорогах СССР автобусы ЗИС-8 встречались вплоть до 50-х годов XX века.",
+            "en": "The Soviet city bus ZiS-8 was produced in Moscow on car plant named after Stalin. The machine was produced from 1934  to 1936. During this time the ZIS plant produced about 550 buses. The bus had a wooden body mounted on a long-based chassis ZiS-8, and can trasport 29 passengers. They could meet ZiS-8 buses on the roads of Soviet Union up to 50-th years of  XX century."
+        },
+        "slug": "72110-zis-8",
+        "article": "72110",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "nh3pxuwpsjghh9np7qvq.jpg",
+        "boxImage": "pnxqeff2owgwihgwfe5o.jpg",
+        "boxImageSmall": "hn2agsbk2z0zawpseaio.jpg",
+        "bucketOfImages": ["ell8fwsezv0osfrxdaol.jpg", "b0suwiexuqxos8ftk3eg.jpg", "kunl9a7gi9jssqvq2wuf.jpg", "pgfv61bmwjjzgxfos4if.jpg", "va6s9uephqzk7ndpqcbz.jpg", "asrobxopeewkr7tjzcje.jpg", "axngxnyg8xa37cjlovjs.jpg", "gl9qol5a3pe5gngaqraj.jpg", "vjsdi76crbpavzbn11dy.jpg"],
+        "sortOrder": 20
+    },
+    {
+        "name": {"ru": "Грузовой автомобиль ГАЗ АА", "en": "Gaz AA Truck"},
+        "title": {"ru": "Грузовой автомобиль ГАЗ АА","en": "Gaz AA Truck"},
+        "description": {"ru": "Грузовой автомобиль ГАЗ АА в масштабе 1/72", "en": "1/72 scale model Gaz AA Truck"},
+        "text": {
+            "ru": "Легендарная полуторка ГАЗ-АА была в предвоенные годы самым массовым советским грузовиком. Эта лицензионная копия Ford-AA мод. 1929 г выпускалась заводом ГАЗ в Нижнем Новгороде и им. КИМ в Москве и в Ростове-на-Дону с 1930 г во все возрастающих  количествах, так что на 20 июня 1941 г только в Красной Армии числилось 151 100 таких  машин. Кроме обычных бортовых грузовиков в войсках применялись машины с зенитными  установками 25-мм пушек и счетверенными пулеметами максим, бензозаправщики, мобильные радиостанции и т.д. Широко были распространены санитарные автобусы ГАЗ-55 и переоборудованные автобусы ГАЗ-03-30. Автомобиль производили серийно до 1950 года. Всего было произведено более 1 000 000 экземпляров.",
+            "en": "The legendary “polutorka” GAZ-AA was the most widely spread type of the truck in pre-war USSR. This licensed copy of Ford-AA mod. 1929 was produced by factories GAZ in Nizhni Novgorod and KIM in Moscow and in Rostov-on-Don since  1930 in all increasing quantities, so on June 20, 1941 only in Red Army were registered 151 100 cars of this type. Besides the usual cargo trucks, the cars with antiaircraft mounts of 25-mm guns and with the quadruple 7.62 mm “maxim” machine guns, fuel trucks, mobile radio station and etc. were used in troops.  The ambulance GAZ-55 and converted to ambulance buses GAZ-03-30 were also  widespread. The car was manufactured serially till 1950. The total production exceeded 1 000 000 exemplars."
+        },
+        "slug": "72112-gaz-aa",
+        "article": "72112",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "wgpayekckt6x7lgbmaeo.jpg",
+        "boxImage": "pvspceshsddqtyqarjuf.jpg",
+        "boxImageSmall": "pnc0kh5tpeeosa7jnwnn.jpg",
+        "bucketOfImages": ["g34rkklzmaqwmp97crft.jpg", "niedfnfqhybc5qudbcgt.jpg"],
+        "sortOrder": 21
+    },
+    {
+        "name": {"ru": "Зенитная САУ Вермахта", "en": "Wehrmacht AA SPG"},
+        "title": {"ru": "Зенитная САУ Вермахта","en": "Wehrmacht AA SPG"},
+        "description": {"ru": "Зенитная САУ Вермахта в масштабе 1/72", "en": "1/72 scale model Wehrmacht AA SPG"},
+        "text": {
+            "ru": "В 30-е годы XX века в Германии большое внимание уделялось созданию стандартизированного военного 3-осного автомобиля грузоподъемностью 2,5 т с дизельным двигателем. Усилиями немецких инженеров эта задача была выполнена и автомобиль, получивший название Einheitz-Diesel (Единый дизельный грузовой автомобиль) был запущен в производство в 1937г. сразу на 7 предприятиях. Автомобиль имел дизельный двигатель мощностью 80 л.с., металлическую конструкцию и полный привод всех колес. В 1940 г. с началом активных боевых действий немецкая армия была вынуждена отказаться от этой модели в пользу более дешевых автомобилей. Всего с 1937 по 1940 гг. усилиями фирм МАН, Хеншель, Магирус, Бюссинг-НАГ, Боргвард, Крупп и Фаун было изготовлено около 12000 автомобилей. Помимо своего базового назначения, Einheitz-Diesel использовался как тягач для артиллерийских орудий, база для различного оборудования и установка зенитного вооружения, в т.ч. 20-мм пушек Flak.30 и Flak.38.",
+            "en": "In Germany in the middle of the 30-th years of XX century much attention was paid to design a standard military truck with a Diesel engine. The German engineers got a success in solving this tusk and a new truck named Einheits-Diesel was put to production at 7 enterprices simultaneously. The car had a diesel engine with a power of 80 hp, metal construction and full drive of all wheels. After beginning of WWII the Wehrmacht was forced to abandon the issue of Einheits-Diesel in favor of more cheapest trucks.There were issued about 12000 trucks at MAN, Henschel, FAUN, Magirus, Bussing-NAG, Borgward and Krupp concerns."
+        },
+        "slug": "72115-wehrmacht-aa-spg",
+        "article": "72115",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "hbhy99bhr7kvzsopv0bd.jpg",
+        "boxImage": "t4oloim6iieqna3ndsda.jpg",
+        "boxImageSmall": "hyqkts5oaypfozs5nonw.jpg",
+        "bucketOfImages": ["ayt8rg44bkfsdx8o9vv6.jpg", "triknpxceymvc2ln2wdv.jpg"],
+        "sortOrder": 22
+    },
+    {
+        "name": {"ru": "ГАЗ-4 Первый пикап РККА", "en": "GAZ-4 Red Army First Pick-Up"},
+        "title": {"ru": "ГАЗ-4 Первый пикап РККА","en": "GAZ-4 Red Army First Pick-Up"},
+        "description": {"ru": "ГАЗ-4 Первый пикап РККА в масштабе 1/72", "en": "1/72 scale model GAZ-4 Red Army First Pick-Up"},
+        "text": {
+            "ru": "Пикап ГАЗ-4 был создан в 1933 году на базе кабины \"Полуторки\" ГАЗ-АА (модель 72112) и шасси ГАЗ-А (модель 72108). Автомобиль имел грузоподъемность 500 кг. Серийно выпускался в 1933-1937гг. Всего было выпущено около 10,5 тысяч машин. Основная масса автомобилей поступала в Красную Армию, где они использовались как по прямому назначению, так и в качестве носителей оружия. На 1 июня 1941 г. в Красной Армии насчитывалось 545 пикапов ГАЗ-4.",
+            "en": "The GAZ-4 pick-up truck was designed in 1933 on the basis of the GAZ-AA \"Polutorka\" (kit 72112) cab and the GAZ-A chassis (kit 72108). The car had a carrying capacity 500 kg. The pick-up was produced in 1933 - 1937 years. There were produced about 10.5 thousand machines in total. Most cars were delivered to the Red Army, where they were used both in direct purpose, and as carriers of weapons. There were 545 GAZ-4 pickup trucks in the Red Army on June 1, 1941."
+        },
+        "slug": "72117-gaz-4",
+        "article": "72117",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "slczuo4zf9ny1uun6ww5.jpg",
+        "boxImageSmall": "urn1hfdrewmerfvoylqv.jpg",
+        "bucketOfImages": ["q1xh7vhmn7odlpl4vwht.jpg", "ywbaugp06ox9agdf1znf.jpg", "yxuaeufrxuxslwr3ogni.jpg", "hboaaxqa6sj4uyncch1c.jpg"],
+        "sortOrder": 23
+    },
+    {
+        "name": {"ru": "25-мм пушка 72-К (1943 г.)", "en": "72-K Soviet 25-mm AA Gun (late)"},
+        "title": {"ru": "25-мм пушка 72-К (1943 г.)","en": "72-K Soviet 25-mm AA Gun (late)"},
+        "description": {"ru": "25-мм пушка 72-К (1943 г.) в масштабе 1/72", "en": "1/72 scale model 72-K Soviet 25-mm AA Gun (late)"},
+        "text": {
+            "ru": "25-мм зенитная автоматическая пушка 72-К была разработана в 1939 г. в Свердловске в КБ Машиностроительного завода имени Калинина. В 1940 г. пушка прошла испытания и была принята на вооружение Красной Армии. Серийно пушка производилась с 1941 по 1945 год. Было изготовлено 4560 орудий. С учетом опыта использования пушки для стрельбы по наземным целям начиная с 1943 года пушка выпускалась с щитовым прикрытием, предохранявшим расчет и материальную часть пушки от поражения пулями и осколками снарядов.",
+            "en": "25-mm anti-aircraft automatic gun 72-K was designed in 1939 in Sverdlovsk in Design Department of Machine-Building Plant named after Kalinin. In 1940 the gun was tested and accepted by the Red Army. The gun was issued from 1941 to 1945. There were 4560 guns produced. In order to protect the crew and the gun while fighting with ground targets the armor shield appeared in 1943."
+        },
+        "slug": "72118-72-k-1943",
+        "article": "72118",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "vvcpvjlbrqrg8ducg5pn.jpg",
+        "boxImage": "vxii7ul9ejraip3vaqwd.jpg",
+        "boxImageSmall": "bfpc1dbi1vuokltyinzv.jpg",
+        "bucketOfImages": ["nnmyamut2yhkl1mvi9yq.jpg", "p77j2tlai1cmicivtczg.jpg", "gflzvg3llg7gjopokmkw.jpg"],
+        "sortOrder": 24
+    },
+    {
+        "name": {"ru": "ГАЗ-ААА", "en": "GAZ-AAA"},
+        "title": {"ru": "ГАЗ-ААА","en": "GAZ-AAA"},
+        "description": {"ru": "ГАЗ-ААА в масштабе 1/72", "en": "1/72 scale model GAZ-AAA"},
+        "text": {
+            "ru": "",
+            "en": "At the end of 1934 the first serial GAZ-AAA truck has left the assembly line of GAZ factory. It was the first serial Soviet (6x4) truck. The weight-lifting capacity of new truck has increased up to 2 tons at the highway (on a ground - 1.5 tons) the engine GAZ-AA of 40 h.p. (since 1938 GAZ-M of 50 h.p.) allowed to achieve maximum speed of 40.6 mph. The car became reliable and rather unexpressive. It was used as a base for construction of the bus GAZ-05-193, fuel trucks BZ-38 and BZ-38-U, ground starters AS-2 and AS-3, field repair workshop PM-3, radar station RUS-2 etc. With beginning of WWII the bus GAZ-05-193 was used as a staff one and an ambulance."
+        },
+        "slug": "72119-gaz-aaa",
+        "article": "72119",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "yl2b70rc0pfzap7aygtn.jpg",
+        "boxImage": "ut2gdtznkaxy7xjxypfm.jpg",
+        "boxImageSmall": "ahga4imvd0g1a42l0ntp.jpg",
+        "bucketOfImages": ["dfplfngf2yxgs5vql6ks.jpg", "huyndd7eshmjwqdfhtyz.jpg", "ssuwebrwccclze30gih0.jpg"],
+        "sortOrder": 25
+    },
+    {
+        "name": {
+            "ru": "ФАИ",
+            "en": "FAI"
+        },
+        "title": {
+            "ru": "ФАИ",
+            "en": "FAI"
+        },
+        "description": {
+            "ru": "ФАИ в масштабе 1/72",
+            "en": "1/72 scale model FAI"
+        },
+        "text": {
+            "ru": "",
+            "en": ""
+        },
+        "slug": "FUTURE-FAI",
+        "article": "FUTURE-FAI",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "coming",
+        "scale": "1/72",
+        "newsImage": "umgdfkjla16l8hgy0agl.jpg",
+        "boxImage": "",
+        "boxImageSmall": "",
+        "bucketOfImages": [],
+        "sortOrder": 26
+    },
+    {
+        "name": {
+            "ru": "Д-8",
+            "en": "D-8"
+        },
+        "title": {
+            "ru": "Д-8",
+            "en": "D-8"
+        },
+        "description": {
+            "ru": "Д-8 в масштабе 1/72",
+            "en": "1/72 scale model D-8"
+        },
+        "text": {
+            "ru": "",
+            "en": ""
+        },
+        "slug": "FUTURE-D-8",
+        "article": "FUTURE-D-8",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "coming",
+        "scale": "1/72",
+        "newsImage": "z3blrhdpv3g027rnogen.jpg",
+        "boxImage": "",
+        "boxImageSmall": "",
+        "bucketOfImages": [],
+        "sortOrder": 27
+    },
+    {
+        "name": {
+            "ru": "Тяжелая САУ КВ-6",
+            "en": "KV-6 Soviet Heavy SPG"
+        },
+        "title": {
+            "ru": "Тяжелая САУ КВ-6",
+            "en": "KV-6 Soviet Heavy SPG"
+        },
+        "description": {
+            "ru": "Тяжелая САУ КВ-6 в масштабе 1/72",
+            "en": "1/72 scale model KV-6 Soviet Heavy SPG"
+        },
+        "text": {
+            "ru": "Тяжелая самоходная артиллерийская установка КВ-6 была создана на базе серийного тяжелого танка КВ-1 в декабре 1941 г. Вооружение состояло из двух 45-мм и одной 76-мм пушек и двух пулеметов. В качестве дополнительного вооружения применялись 2 пулемета ДТ. Испытания показали недостаточную мощность артиллерийского огня для сопровождения танков.",
+            "en": "Heavy self-propelled artillery gun KV-6 was established on the basis of serial heavy tank KV-1 in December 1941. Its armament consisted of two 45-mm and one 76-mm cannons. As an additional weapons used 2 machine guns DT. Tests showed a lack of power of artillery fire for supporting of tanks."
+        },
+        "slug": "72004-kv-6",
+        "article": "72004",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 1,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "yyld2thly4gtgjrcv5dk.jpg",
+        "boxImageSmall": "hxhkhi07spexjqimtow9.jpg",
+        "bucketOfImages": [
+            "xk2lum5xbouyyrvpqrqs.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Тяжелая САУ КВ-7",
+            "en": "KV-7 Soviet Heavy SPG"
+        },
+        "title": {
+            "ru": "Тяжелая САУ КВ-7",
+            "en": "KV-7 Soviet Heavy SPG"
+        },
+        "description": {
+            "ru": "Тяжелая САУ КВ-7 в масштабе 1/72",
+            "en": "1/72 scale model KV-7 Soviet Heavy SPG"
+        },
+        "text": {
+            "ru": "Тяжелая самоходная артиллерийская установка КВ-7 была создана на базе серийного тяжелого танка КВ-1 в апреле 1942 года и являлась двухорудийным вариантом опытной САУ КВ-6. Основное вооружение состояло из двух 76-мм пушек ЗиС-5. Дополнительное вооружение сотояло из двух пулеметов ДТ. Поскольку калибра пушек в 76 мм было недостаточно для борьбы с новыми немецкими тяжелыми танками, в серийное производство САУ не передавадась.",
+            "en": "Heavy self-propelled artillery gun KV-7 was based on serial heavy tank KV-1. It was issued in April 1942 and was a 2-barrel version of KV-6 SPG. The main armament consisted of two 76-mm guns ZIS-5. Additional weapons were the two DT machine guns. Because the caliber of guns in the 76 mm was not enough to combat the new German heavy tanks, KV-7 SPG did not have mass production."
+        },
+        "slug": "72005-kv-7",
+        "article": "72005",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 2,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "r146bhml6nke83nsezpr.jpg",
+        "boxImageSmall": "ylk1io6juc08kdgrdbzq.jpg",
+        "bucketOfImages": [
+            "g8sp8w2shwmncmeu08v2.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Грузовой автомобиль ЯГ-10",
+            "en": "YAG-10 Soviet Army truck"
+        },
+        "title": {
+            "ru": "Грузовой автомобиль ЯГ-10",
+            "en": "YAG-10 Soviet Army truck"
+        },
+        "description": {
+            "ru": "Грузовой автомобиль ЯГ-10 в масштабе 1/72",
+            "en": "1/72 scale model YAG-10 Soviet Army truck"
+        },
+        "text": {
+            "ru": "Первый экземпляр трехосного восьмитонного грузовика ЯГ-10 был построен 7 ноября 1931 года на ярославском автозаводе. Впоследствии автомобиль выпускался мелкими сериями на протяжении 8 лет и являлся первым советским серийным трехосным автомобилем. Ограниченность выпуска объяснялась отсутствием необходимого отечественного двигателя, а поставки импортных 96-сильных Hercules YXC были нерегулярными. Практически все автомобили этого типа направлялись в Красную Армию. На базе грузового ЯГ-10 выпускались фургоны, автоцистерны емкостью 8000 л, пожарные автомобили и автобус ЯА-2 (на удлиненном шасси). Выпуск ЯГ-10 завершили в 1940 году, произведя 333 автомобиля.",
+            "en": "The first specimen of a 6x4 truck YaG-10 was built by November 7, 1931 at the Yaroslavl Motor Works. Subsequently, the car was produced in small quantaties for 8 years and it was the first Soviet serial three-axle vehicle. Limited release was due to lack of an adequate domestic engine, while supplies of the imported 96hp. Herkules YXC were irregular. Virtually, all trucks of that type were supplied to the Red Army. Different shelters, tanks with capacity of 8000 l, fire trucks and a bus YaA-2 (extended chassis) were produced on a basis of YaG-10 trucks. Production of the YaG-10 ended in 1940 with a total of 333 vehicles."
+        },
+        "slug": "72006-yag-10",
+        "article": "72006",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 3,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "miz3d66dnrcvpoy0yw08.jpg",
+        "boxImageSmall": "jnzsskzdxtag2johvdjw.jpg",
+        "bucketOfImages": [
+            "oxmlc4m3dl1p3xro1ns6.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Тяжелый танк КВ-1.Первый опытный экземпляр",
+            "en": "KV-1 Heavy Tank Pilot #1"
+        },
+        "title": {
+            "ru": "Тяжелый танк КВ-1.Первый опытный экземпляр",
+            "en": "KV-1 Heavy Tank Pilot #1"
+        },
+        "description": {
+            "ru": "Тяжелый танк КВ-1.Первый опытный экземпляр в масштабе 1/72",
+            "en": "1/72 scale model KV-1 Heavy Tank Pilot #1"
+        },
+        "text": {
+            "ru": "Проектирование тяжелого танка КВ-1 под руководством Ж.Я. Котина началось на Ленинградском Кировском заводе 1 февраля 1939 года. Первый пробег нового танка состоялся 1 сентября 1939 года. Танк имел противоснарядное бронирование и был вооружен 2 пулеметами ДТ и 2 пушками - 45-мм 20-К и 76-мм  K-11. В связи с началом Финской войны заводские испытания были прерваны и танк был отправлен на фронт, где зарекомендовал себя очень хорошо. Для удобства работы экипажа 45-мм орудие было снято, и в серию танк пошел с одной пушкой калибра 76 мм.",
+            "en": "The designing works of heavy tank KV-1 started at the Leningrad Kirov factory on Feb. 1, 1939 under the leadership of J. Kotin. The first tests of the new tank were held on September 1, 1939. The tank had an anti-shell armour and was armed with two machine guns DT and 2 guns - 45-mm 20-K and 76 mm L-11. Because of the beginning of the Finnish War factory tests were interrupted and the tank was sent to the front, where proved to be very good. For the convenience of the crew the 45-mm gun was removed, and series tanks were armed with one gun, 76 mm."
+        },
+        "slug": "72009-kv-1-pilot-1",
+        "article": "72009",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 4,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "qogunkl5rjooikvska2u.jpg",
+        "boxImageSmall": "qxtb9w0wlkyguhp8viai.jpg",
+        "bucketOfImages": [
+            "lrnthfz3wlonh2ktmhlp.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Средний танк Т-54-1 (1948)",
+            "en": "T-54-1 (1948) Soviet Medium Tank"
+        },
+        "title": {
+            "ru": "Средний танк T-54-1 (1948)",
+            "en": "T-54-1 1(1948) Soviet Medium Tank"
+        },
+        "description": {
+            "ru": "Средний танк T-54-1 (1948) в масштабе 1/72",
+            "en": "1/72 scale model T-54-1 1(1948) Soviet Medium Tank"
+        },
+        "text": {
+            "ru": "",
+            "en": "The designing works of heavy tank KV-1 started at the Leningrad Kirov factory on Feb. 1, 1939 under the leadership of J. Kotin. The first tests of the new tank were held on September 1, 1939. The tank had an anti-shell armour and was armed with two machine guns DT and 2 guns - 45-mm 20-K and 76 mm L-11. Because of the beginning of the Finnish War factory tests were interrupted and the tank was sent to the front, where proved to be very good. For the convenience of the crew the 45-mm gun was removed, and series tanks were armed with one gun, 76 mm."
+        },
+        "slug": "72011-t-54-1",
+        "article": "72011",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 5,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "i5iw5koynn8qftkrmvj8.jpg",
+        "boxImageSmall": "reb38wmulaw3rfunnuxk.jpg",
+        "bucketOfImages": [
+            "dd1ggtgotnvhfiwj91xh.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Тяжелая САУ СУ-152 (КВ-14)",
+            "en": "SU-152 Soviet Heavy SPG"
+        },
+        "title": {
+            "ru": "Тяжелая САУ СУ-152 (КВ-14)",
+            "en": "SU-152 Soviet Heavy SPG"
+        },
+        "description": {
+            "ru": "Тяжелая САУ СУ-152 (КВ-14) в масштабе 1/72",
+            "en": "1/72 scale model SU-152 Soviet Heavy SPG"
+        },
+        "text": {
+            "ru": "",
+            "en": "Heavy SPG SU-152 (KV-14) was established in January 1943 on the basis of the heavy tank KV-1S. The new SPG was tested in February 1943, and then was immediately put into service. 152mm cannon ML-20, model 1937 was installed in the SPG. KV-14 power allowed to fight against any enemy armored targets. Serial production of the SU-152 continued until December 1943. 670 self-propelled guns were produced."
+        },
+        "slug": "72016-su-152",
+        "article": "72016",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 6,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "dlpgxslafbum4xjs16nq.jpg",
+        "boxImageSmall": "fegtvlymj2hcfmnhiivt.jpg",
+        "bucketOfImages": [
+            "beqizpkjxq0hcjegyokq.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Зенитная САУ 29-К",
+            "en": "29-K Soviet AA SPG"
+        },
+        "title": {
+            "ru": "Зенитная САУ 29-К",
+            "en": "29-K Soviet AA SPG"
+        },
+        "description": {
+            "ru": "Зенитная САУ 29-К в масштабе 1/72",
+            "en": "1/72 scale model 29-K Soviet AA SPG"
+        },
+        "text": {
+            "ru": "В 1933г. была изготовлена САУ на базе грузового автомобиля ЯГ-10, с использованием 76-ти мм. зенитного орудия 3-К, образца 1931. Автомобиль производился на Ярославском автозаводе. САУ 29-К выпускали до 1934г. Войска получили 61 установку. К началу Великой Отечественной Войны машины входили в состав частей Московского военного округа.",
+            "en": "The 29-K anti-aircraft self-propelled Gun was made in 1933 on a base of YaG-10 truck using 76-mm anti-aircraft gun 3-K m.1931. The truck was produced at the Yaroslavl Motor Works. 61 SPG of that type were produced up to 1934. All of them were delivered to the AA troops of Moscow Military District. That gun was used at the beginning of World War II in a battle around Moscow."
+        },
+        "slug": "72017-29-K",
+        "article": "72017",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 7,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "trqznyyu4wn387ocqv19.jpg",
+        "boxImageSmall": "myrlch57fckfccck5vqs.jpg",
+        "bucketOfImages": []
+    },
+    {
+        "name": {
+            "ru": "Грузовой автомобиль ЯГ-6",
+            "en": "YAG-6 Soviet Army Truck"
+        },
+        "title": {
+            "ru": "Грузовой автомобиль ЯГ-6",
+            "en": "YAG-6 Soviet Army Truck"
+        },
+        "description": {
+            "ru": "Грузовой автомобиль ЯГ-6 в масштабе 1/72",
+            "en": "1/72 scale model YAG-6 Soviet Army Truck"
+        },
+        "text": {
+            "ru": "",
+            "en": "Yaroslavl State Automobile Plant (YAGAZ) started the production program in the 30s of the 20th century. In 1936 the plant started producing a five-ton truck YaG-6. YaG-6 was the most widely spread five-ton truck in the Red Army, the production of which continued after the start of the Great Patriotic War. ZIS-5 engine was installed in YaG-6, but 15 YaG -6A had more powerful ZIS-16 engines. In the Red Army YaG-6 was used as a prime mover for heavy guns, and (as the base) - for a variety of special-purpose vehicles. 6 765 YaG-6 and 15 vehicles of YaG-6A were produced."
+        },
+        "slug": "72031-yag-6",
+        "article": "72031",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 8,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "n9t7fwirmuiqvqggev0z.jpg",
+        "boxImageSmall": "ohxjxfet9dkwbmnenwcc.jpg",
+        "bucketOfImages": [
+            "sorzgiojdzzpmfexvgtt.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Средний танк Т-44М",
+            "en": "T-44M Soviet Medium Tank"
+        },
+        "title": {
+            "ru": "Средний танк Т-44М",
+            "en": "Т-44M Soviet Medium Tank"
+        },
+        "description": {
+            "ru": "Средний танк Т-44М в масштабе 1/72",
+            "en": "1/72 scale model Т-44M Soviet Medium Tank"
+        },
+        "text": {
+            "ru": "Танк Т-44 был выпущен в 1944-1946 г.г. в количестве около 2000 штук. В 1961 году танк прошел модернизацию. В результате модернизации танк получил агрегаты силовой установки, силовой передачи, топливной системы и ходовой части от танка Т-54. Корпус, башня и вооружение остались без существенных изменений.",
+            "en": "In 1961, all the tanks T-44 were found in parts of the deep modernization tank-repair factories of the country. A modernized tank was designated as T-44M and differed from the base vehicle in replacing the standard chassis, engine and fuel system similar to the T-54. In addition, the tank ammunition was increased and night device for a driver and a commander was installed."
+        },
+        "slug": "72067-t-44m",
+        "article": "72067",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 9,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "nwfcqzc3krfksur4ul7b.jpg",
+        "boxImageSmall": "jj3wreyujybagedwd8mv.jpg",
+        "bucketOfImages": [
+            "tbx3xuitkmk359exhmxj.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Средний танк Т-54-2",
+            "en": "T-54-2 Soviet Medium Tank"
+        },
+        "title": {
+            "ru": "Средний танк Т-54-2",
+            "en": "Т-54-2 Soviet Medium Tank"
+        },
+        "description": {
+            "ru": "Средний танк Т-54-2 в масштабе 1/72",
+            "en": "1/72 scale model Т-54-2 Soviet Medium Tank"
+        },
+        "text": {
+            "ru": "",
+            "en": "Medium Tank T-54-2 (object 137) is the second version of the T-54 and was adopted in 1949. The tank differs from the previous version of the vehicle by other turret design with an improved form of its front part and the gun installation in a narrow embrasure. Also the tank track width was greater than in the previous embodiment. Subsequently, the tank was repeatedly upgraded and was in service with the Soviet Army up to 80’s of the 20th century. The tank was in production from 1949 to 1951."
+        },
+        "slug": "72068-t-54-2",
+        "article": "72068",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 10,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "asgrxdfo7pqfkwcja6nc.jpg",
+        "boxImageSmall": "sj9ylrmfaxd9rvtk7ane.jpg",
+        "bucketOfImages": [
+            "tqzsfwlmojotbqxhjitv.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Средний танк Т-44",
+            "en": "T-44 Soviet Medium Tank"
+        },
+        "title": {
+            "ru": "Средний танк Т-44",
+            "en": "Т-44 Soviet Medium Tank"
+        },
+        "description": {
+            "ru": "Средний танк Т-44 в масштабе 1/72",
+            "en": "1/72 scale model Т-44 Soviet Medium Tank"
+        },
+        "text": {
+            "ru": "Танк Т-44 был создан в 1943-1944 годах конструкторским бюро Уралвагонзавода под руководством А. А. Морозова и предназначался для замены Т-34. Т-44 являлся представителем качественно нового поколения танков, к которому относился и послевоенный Т-54. Серийное производство Т-44 началось в 1944 году. После войны производство Т-44 продолжалось до 1947 года, всего было выпущено 1823 танка этого типа. Т-44, неоднократно модернизируясь, оставался на вооружении Советской Армии вплоть до 1970-х годов.",
+            "en": "Medium Tank T-54-2 (object 137) is the second version of the T-54 and was adopted in 1949. The tank differs from the previous version of the vehicle by other turret design with an improved form of its front part and the gun installation in a narrow embrasure. Also the tank track width was greater than in the previous embodiment. Subsequently, the tank was repeatedly upgraded and was in service with the Soviet Army up to 80’s of the 20th century. The tank was in production from 1949 to 1951."
+        },
+        "slug": "72071-t-44",
+        "article": "72071",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 11,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "wvzlblh1qccsjfbhguux.jpg",
+        "boxImageSmall": "soxnfhvoqp5y6hh2j9is.jpg",
+        "bucketOfImages": [
+            "yryx8dksrdxkwel2mdph.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Тяжелый танк КВ-3",
+            "en": "KV-3 Heavy Tank"
+        },
+        "title": {
+            "ru": "Тяжелый танк КВ-3",
+            "en": "KV-3 Heavy Tank"
+        },
+        "description": {
+            "ru": "Тяжелый танк КВ-3 в масштабе 1/72",
+            "en": "1/72 scale model KV-3 Heavy Tank"
+        },
+        "text": {
+            "ru": "",
+            "en": "In order to increase firepower, as well as armor thickness of KV tanks, tank KV-3 was designed. The increased chassis of the base vehicle was expected to set the conical turret with great armor thickness, armored with 107 mm gun ZIS-6 designed by Grabin V.G. The hull of the new tank with a mounted turret of serial KV-1 participated in the battles at Leningrad. Due to the war beginning, the work on the tank was stopped."
+        },
+        "slug": "SEA004-kv-3",
+        "article": "SEA004",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 12,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "f85vvqyvfvb77vtixkov.jpg",
+        "boxImageSmall": "i9bsy89fi6gf34xjd6n6.jpg",
+        "bucketOfImages": [
+            "yocfg0ateirtsjrhwy8s.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Ракетный танк КВ-1К",
+            "en": "КV-1K Rocket Heavy Tank"
+        },
+        "title": {
+            "ru": "Ракетный танк КВ-1К",
+            "en": "КV-1К Rocket Heavy Tank"
+        },
+        "description": {
+            "ru": "Ракетный танк КВ-1К в масштабе 1/72",
+            "en": "1/72 scale model КV-1К Rocket Heavy Tank"
+        },
+        "text": {
+            "ru": "",
+            "en": "Tank KV-1K was designed in June 1942. Model KV-1K differed from the base tank by installing the KARST system, which was a multiple rocket launcher mounted on the fender of the tank (for 4 rocket launchers per side). Testing of the KV-1K passed in August 1942, - the tank was not taken to the bulk production."
+        },
+        "slug": "SEA005-kv-1k",
+        "article": "SEA005",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 13,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "xpub3tldz1kkscgi8wjb.jpg",
+        "boxImageSmall": "ugadnxyilqnuhrreklsl.jpg",
+        "bucketOfImages": [
+            "tuug3rmyxskjv7ywe5xb.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Тяжелый танк КВ-1С-152",
+            "en": "KV-1S-152 Heavy Tank"
+        },
+        "title": {
+            "ru": "Тяжелый танк КВ-1С-152",
+            "en": "KV-1S-152 Heavy Tank"
+        },
+        "description": {
+            "ru": "Тяжелый танк КВ-1С-152 в масштабе 1/72",
+            "en": "1/72 scale model KV-1S-152 Heavy Tank"
+        },
+        "text": {
+            "ru": "",
+            "en": "By the order of comrade Stalin S-41 Howitzer 152 mm caliber was designed in 1943 as an attempt to increase the firepower of tanks. That howitzer was installed in the turret of the tank KV-1S. Tests of the new tank passed in 1942. All the work on the tank was stopped in connection with entering into service of SPG SU-152 and ISU-152."
+        },
+        "slug": "SEA009-kv-1s-152",
+        "article": "SEA009",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 14,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "gykxy0bzyu3bttf6sf20.jpg",
+        "boxImageSmall": "oigqreqstm3yevqhvvf4.jpg",
+        "bucketOfImages": [
+            "otzwmjy09hspc3dtltyy.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "БТ-7А с пушкой Л-11",
+            "en": "BT-7A with L-11 Gun"
+        },
+        "title": {
+            "ru": "БТ-7А с пушкой Л-11",
+            "en": "BT-7A with L-11 Gun"
+        },
+        "description": {
+            "ru": "БТ-7А с пушкой Л-11 в масштабе 1/72",
+            "en": "1/72 scale model BT-7A with L-11 Gun"
+        },
+        "text": {
+            "ru": "",
+            "en": "In order to test the new artillery system, in 1939 the L-11 gun was set in the turret of the tank BT-7A. The tests were successful, but with the results, engineers had come to the conclusion that the gun L-11 was not suitable for use in BT tanks. BT-7/L-11 was released only in one sample."
+        },
+        "slug": "SEA012-bt-7a-l-11",
+        "article": "SEA012",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 15,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "efrj8hsclakblpci7g81.jpg",
+        "boxImageSmall": "pkdanwaqoyeousahcam0.jpg",
+        "bucketOfImages": [
+            "fcnjeptycqkhwdieqrdj.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "БТ-7А с пушкой Ф-32",
+            "en": "BT-7A with F-32 Gun"
+        },
+        "title": {
+            "ru": "БТ-7А с пушкой Ф-32",
+            "en": "BT-7A with F-32 Gun"
+        },
+        "description": {
+            "ru": "БТ-7А с пушкой Ф-32 в масштабе 1/72",
+            "en": "1/72 scale model BT-7A with F-32 Gun"
+        },
+        "text": {
+            "ru": "",
+            "en": "In order to test the new artillery system, in 1939 the L-11 gun was set in the turret of the tank BT-7A. The tests were successful, but with the results, engineers had come to the conclusion that the gun L-11 was not suitable for use in BT tanks. BT-7/L-11 was released only in one sample."
+        },
+        "slug": "SEA014-bt-7a-f-32",
+        "article": "SEA014",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 16,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "nonqqs6idmqelbltkqu0.jpg",
+        "boxImageSmall": "h7cdn2wmxlagaxsmkzl0.jpg",
+        "bucketOfImages": [
+            "jvacn7vehsk02vlmyf5c.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Тяжелый танк КВ-2. Первый опытный экземпляр",
+            "en": "KV-2 Heavy Tank. Pilot #1 (U-0)"
+        },
+        "title": {
+            "ru": "Тяжелый танк КВ-2. Первый опытный экземпляр",
+            "en": "KV-2 Heavy Tank. Pilot #1 (U-0)"
+        },
+        "description": {
+            "ru": "Тяжелый танк КВ-2. Первый опытный экземпляр в масштабе 1/72",
+            "en": "1/72 scale model KV-2 Heavy Tank. Pilot #1 (U-0)"
+        },
+        "text": {
+            "ru": "",
+            "en": "After the troubles the Soviet Army faced during the Winter War with Finland, while overcoming the \"Mannerheim Line\", it was decided to design a tank with a 152 mm caliber weapon. In the short term (2 weeks), a team of engineers from the Kirov plant designed the turret with installation of the M-10 howitzer for the KV tank. The new artillery system had a shorted barrel and was designated as MT-1."
+        },
+        "slug": "SEA015-kv-2-pilot-1",
+        "article": "SEA015",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 17,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "idhwb1ddu7pr9dokh9y9.jpg",
+        "boxImageSmall": "nokzv7c3cdmdp5bz4oao.jpg",
+        "bucketOfImages": [
+            "k6dksyk2dulimkto8hhq.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Тяжелая САУ Объект 212",
+            "en": "KV-2 Heavy Tank. Pilot #1 (U-0)"
+        },
+        "title": {
+            "ru": "Тяжелая САУ Объект 212",
+            "en": "KV-2 Heavy Tank. Pilot #1 (U-0)"
+        },
+        "description": {
+            "ru": "Тяжелая САУ Объект 212 в масштабе 1/72",
+            "en": "1/72 scale model Object 212 Heavy SPG"
+        },
+        "text": {
+            "ru": "После анализа боевых действий по окончании Зимней войны, было принято решение о необходимости иметь на вооружении Красной Армии тяжелую САУ, вооруженную 152-мм пушкой, для борьбы с ДОТами. В результате ГАБТУ КА поручило КБ Кировского завода разработать  тяжелый артсамоход, вооруженный пушкой Бр-2. В качестве основы для машины был принят танк Объект 220 (КВ-220). Проектирование САУ было закончено в сжатые сроки, однако начавшаяся Великая Отечественная война не позволила закончить изготовление опытного экземпляра самоходки.",
+            "en": "According to the decision of the Committee of Defense in 17.07.1940, it was entrusted to Leningrad Kirovsky Plant to design and construct the self-propelled installation armed with 152mm gun BR-2. The T-220 tank had to stay as the base for that SPG. During the design process it was supposed to consider the experience got during the winter war. Production of Object-212 began at Kirovsky plant in 1941, however, from the beginning of war operations the production of that prototype model was stopped, and subsequently it was sorted."
+        },
+        "slug": "SEA023-object-212",
+        "article": "SEA023",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 18,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "wxlydulhfs0lrkizsvdh.jpg",
+        "boxImageSmall": "uzrnboujlhqkhfhjxblu.jpg",
+        "bucketOfImages": [
+            "ekmrlfio05e452l84ysc.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Тяжелый танк КВ-5",
+            "en": "KV-5 Heavy Tank"
+        },
+        "title": {
+            "ru": "Тяжелый танк КВ-5",
+            "en": "KV-5 Heavy Tank"
+        },
+        "description": {
+            "ru": "Тяжелый танк КВ-5 в масштабе 1/72",
+            "en": "1/72 scale model KV-5 Heavy Tank"
+        },
+        "text": {
+            "ru": "Танк КВ-5 разрабатывался как сверхтяжелый танк прорыва, вооруженный мощным 107-мм орудием ЗиС-6. Экипаж танка составлял 6 человек, боевая масса около 100 т, толщина брони 150 - 180 мм.  Работы по танку велись на Кировском заводе в 1941 году. С началом войны прроцесс изготовления  танка был приостановлен, а с эвакуацией танкового производсьва в Челябинск и вовсе прекращен.",
+            "en": "KV-5 was designed as a super-heavy breakthrough tank, armed with a powerful 107-mm gun ZIS-6. The crew of tank consisted of 6 men, the fighting weight was of about 100 tons, the armor thickness was between 150 - 180 mm. The project works on the tank were began at the Kirov plant in 1941. The outbreak of war stopped the manufacturing of tank and the evacuation op plant to Chelyabinsk closed the project at all."
+        },
+        "slug": "SEA025-kv-5",
+        "article": "SEA025",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 19,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "o1jm5wrcoaaau867ppsg.jpg",
+        "boxImageSmall": "uqlforoelqdg9pfdm3tv.jpg",
+        "bucketOfImages": [
+            "lo2lbcwfhuqcqb0um8kr.jpg",
+            "yhcxplvgzxfjudfxho0c.jpg",
+            "xsux58ondz7wmoop6wnt.jpg",
+            "t5rwzdmzcdd1ug3zbpoh.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Легкий танк БТ-7. Второй опытный вариант",
+            "en": "BT-7 Light Tank. Pilot #2"
+        },
+        "title": {
+            "ru": "Легкий танк БТ-7. Второй опытный вариант",
+            "en": "BT-7 Light Tank. Pilot #2"
+        },
+        "description": {
+            "ru": "Легкий танк БТ-7. Второй опытный вариант в масштабе 1/72",
+            "en": "1/72 scale model BT-7 Light Tank. Pilot #2"
+        },
+        "text": {
+            "ru": "Рзработка нового танка БТ-7 началась в начале 30-х годов. Было принято решение о том, что 50% танков БТ-7 должны были быть вооружены 76-мм пушкой. Установка  нового вооружения потребовала изменения конструкции корпуса танка. Носовая часть корпуса была расширена, рядом с местом механика-водителя устанавливался курсовой пулемет. На корпус устанавливалась  новая башня с 76,2-мм орудием обр. 1927 г.  Танк был построен к 1 мая 1934 года и отправлен на испытания.  Поскольку испытания показали недостаточную отработку конструкции установки 76,2-мм орудия,  в башню установили 45-мм танковую пушку обр. 1932 г. Новый вариант танка был построен к 7 ноября  1934 гда и отправлен на испытания. Однако, в серию танк пошел с башней от танка БТ-5.",
+            "en": "The project works of the new tank BT-7 began in the early 30s. It was decided that 50% of tanks BT-7 have to be armed with a 76mm cannon. Installation of new weapons require the redesign of the tank’s hull. The front of the hull was extended, the machine gun was installed beside the driver. The new tower with 76.2 mm gun mod. 1927 was installed. The tank was built by May 1, 1934 and sent to the tests. The test have shown a lack of design of 76.2 mm gun installation. So 45 mm tank gun mod. 1932 was installed in the tank’s tower. The new version of the tank was built by November 7, 1934 and was sent for testing. However, the series BT-7 tanks was armed with the tower of previous BT-5 tanks."
+        },
+        "slug": "SEA027-bt-7-pilot-2",
+        "article": "SEA027",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 20,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "vxjw2059phcjali7u57f.jpg",
+        "boxImageSmall": "rbegomnoqr4m7acqqsw0.jpg",
+        "bucketOfImages": [
+            "ascey7dzmfnyn5acnwub.jpg",
+            "gb5uvapjcuhsyhuxecnh.jpg",
+            "m9o2zuvfcaavtkvjpadi.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Легкая САУ СУ-1",
+            "en": "SU-1 Light SPG"
+        },
+        "title": {
+            "ru": "Легкая САУ СУ-1",
+            "en": "SU-1 Light SPG"
+        },
+        "description": {
+            "ru": "Легкая САУ СУ-1 в масштабе 1/72",
+            "en": "1/72 scale model SU-1 Light SPG"
+        },
+        "text": {
+            "ru": "Легкая САУ СУ-1 была разработана в Ленинграде на базе легкого танка Т-26. Самоходка была вооружена 76-мм полковой пушкой образца 1927 года, которая устанавливалась в неподвижной рубке. Боекомплект составлял 35 выстрелов.  Толщина брони 6 - 13 мм. САУ прошла испытания в конце 1931 года, однако  дальнейшие работы по ней были прекращены в связи с началом работ над артиллерийским танком Т-26-4.",
+            "en": "The light SPG SU-1 was designed in Leningrad on the basis of a light tank T-26. The self-propelled gun was armed with 76 mm regimental gun M1927, which was placed in a stationary tower. The ammunition was 35 shells. The thickness of the armor was 6 - 13 mm. SPG has been tested at the end of 1931, however, the farther works on it were stopped due to the beginning of design of the artillery tank T-26-4."
+        },
+        "slug": "SEA028-su-1",
+        "article": "SEA028",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 21,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "iy0dcueb4e5g0dmo2ggr.jpg",
+        "boxImageSmall": "mqvaevcmg5b2fzua8rtl.jpg",
+        "bucketOfImages": [
+            "z12gwhynhdznfixluusj.jpg",
+            "okehw5yel1nc8lwvdefp.jpg",
+            "ut3rhjnibphepysempbj.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Средний танк КВ-13",
+            "en": "KV-13 Medium Tank"
+        },
+        "title": {
+            "ru": "Средний танк КВ-13",
+            "en": "KV-13 Medium Tank"
+        },
+        "description": {
+            "ru": "Средний танк КВ-13 в масштабе 1/72",
+            "en": "1/72 scale model KV-13 Medium Tank"
+        },
+        "text": {
+            "ru": "КВ-13 был создан в 1942 г. группой конструкторов СКБ-2 Челябинского Кировского завода под руководством Н.В.Цейца. КВ-13 результат желания конструкторов совместить в одной  боевой машине тяжелое бронирование танков КВ и высокую  подвижность танков Т-34. Новая машина долго испытывалась,  к ней применялись гусеницы КВ и Т-34. В результате от идеи универсального танка отказались в пользу среднего Т-34-85 и тяжелого ИС.",
+            "en": "KV-13 was created in 1942 by a group of designers SKB-2 Chelyabinsk Kirov Plant under the leadership of N.V.Tsets. KV-13 is a result of the desire  to combine in one combat vehicle heavy armor of KV tanks  and high mobility of T-34 tanks. The new machine was tested for a long time with the tracks of KV and T-34. As a result the idea of the universal tank was abandoned in favor of the medium T-34-85 and heavy IS tanks."
+        },
+        "slug": "SEA029-kv-13",
+        "article": "SEA029",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 22,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "reb5hecpntpsxdrczphu.jpg",
+        "boxImageSmall": "natefovwyyjuxxwmqzzn.jpg",
+        "bucketOfImages": [
+            "yizfc6zzz3jzvhjqhl8h.jpg",
+            "zpi7lv9cdlrcf6c3xtvf.jpg",
+            "okbhzrlazcmgqzbq054n.jpg",
+            "bwlraslgnjne6jvdhyus.jpg",
+            "ebqt4xbvzi6eahqbqwqh.jpg",
+            "lobrplf3ozu0vepbntza.jpg",
+            "ou7wu9g3t4quuopxqvdx.jpg",
+            "epbby6tn10idrfkkbyp9.jpg",
+            "ckrubsc3lbb7qhf4vfjr.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Тяжелая САУ С-51",
+            "en": "S-51 Heavy SPG"
+        },
+        "title": {
+            "ru": "Тяжелая САУ С-51",
+            "en": "S-51 Heavy SPG"
+        },
+        "description": {
+            "ru": "Тяжелая САУ С-51 в масштабе 1/72",
+            "en": "1/72 scale model S-51 Heavy SPG"
+        },
+        "text": {
+            "ru": "Тяжелая САУ С-51 была создана в конце 1943 г. в ЦАКБ под руководством  В.Г. Грабина. С целью получить мощное подвижное огневое средство, конструкторы установили 203-мм гаубицу Б-4 на корпус тяжелого танка КВ-1С. Результат оказался не очень удачным и после испытаний в начале 1944 года проект закрыли.",
+            "en": "The heavy C-51 SPG was designed at the end of 1943 at the CADB under the leadership of V.G.Grabin. In order to obtain a powerful mobile fire weapon, the designers installed a 203-mm howitzer B-4 on the body of a heavy tank KV-1S. The result was not very successful and after the tests in early 1944 the project was closed."
+        },
+        "slug": "SEA030-s-51",
+        "article": "SEA030",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 23,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "lyxjkak6fz8j5blrxyje.jpg",
+        "boxImageSmall": "l4b8i3axvfl97kc9pvzx.jpg",
+        "bucketOfImages": [
+            "pbzrxdzudt8cay4n7uo4.jpg",
+            "oqxx3v1ggimflnpfrwvq.jpg",
+            "vgmegl6tfxlyfq6vdp2n.jpg",
+            "vthqspfloqdjzlz3uljj.jpg",
+            "orqjbvsuaxvpobekhnxw.jpg",
+            "bfnyb0tjgntlzywh9ezx.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Танк Лебеденко",
+            "en": "Lebedenko Tank"
+        },
+        "title": {
+            "ru": "Танк Лебеденко",
+            "en": "Lebedenko Tank"
+        },
+        "description": {
+            "ru": "Танк Лебеденко в масштабе 1/72",
+            "en": "1/72 scale model Lebedenko Tank"
+        },
+        "text": {
+            "ru": "",
+            "en": ""
+        },
+        "slug": "SEA031-lebedenko-tank",
+        "article": "SEA031",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 24,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "dj693yz1enex3jokkgph.jpg",
+        "boxImage": "sea031-box.jpg",
+        "boxImageSmall": "sea031-box-sm.jpg",
+        "bucketOfImages": [
+            "sea031-1.jpg",
+            "sea031-2.jpg",
+            "sea031-3.jpg",
+            "sea031-4.jpg",
+            "sea031-5.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Пикап РККА с установкой 4М",
+            "en": "Red Army Pick-Up with 4M Gun"
+        },
+        "title": {
+            "ru": "Пикап РККА с установкой 4М",
+            "en": "Red Army Pick-Up with 4M Gun"
+        },
+        "description": {
+            "ru": "Пикап РККА с установкой 4М в масштабе 1/72",
+            "en": "1/72 scale model Red Army Pick-Up with 4M Gun"
+        },
+        "text": {
+            "ru": "Пикап ГАЗ-4 был создан в 1933 году на базе кабины \"Полуторки\" ГАЗ-АА  (модель 72112) и шасси ГАЗ-А (модель 72108). Автомобиль имел грузоподъемность 500 кг. Серийно выпускался в 1933 - 1937 годах. Всего было выпущено около 10,5 тысяч машин. Основная масса автомобилей поступала в Красную Армию, где они использовались как по прямому назначению, так и в качестве носителей оружия. Одним из вариантов была установка в кузове счетверенной установки пулеметов Максим 4М.",
+            "en": "The GAZ-4 pick-up truck was designed in 1933 on the basis of the GAZ-AA \"Polutorka\"  (kit 72112) cab and the GAZ-A chassis (kit 72108). The car had a carrying capacity 500 kg. The pick-up was produced in 1933 - 1937 years. There were produced about 10.5 thousand machines in total. Most cars were delivered to the Red Army, where they were used both in direct purpose, and as carriers of weapons. One of variants was the installation of Maxim 4M Anti-Aircraft Gun."
+        },
+        "slug": "72033-gaz-4-4m",
+        "article": "72033",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 25,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "dvmc3gxoimjakmfmmx8m.jpg",
+        "boxImage": "xpvrlg9tkpofijhqwwzh.jpg",
+        "boxImageSmall": "g4sfau5rlkcqnyert9me.jpg",
+        "bucketOfImages": [
+            "otuvpac0fz57nvhrqvt0.jpg",
+            "uupnmybuhkhluxyyzusd.jpg",
+            "qadjsgcqafadt7fpbwax.jpg",
+            "y2ki9k3s3nyvspa7ghro.jpg",
+            "yy6sjthhkulwzzdjx7by.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Бронеавтомобиль Humber Mk.IV",
+            "en": "Humber Armoured Car Mk.IV"
+        },
+        "title": {
+            "ru": "Бронеавтомобиль Humber Mk.IV",
+            "en": "Humber Armoured Car Mk.IV"
+        },
+        "description": {
+            "ru": "Бронеавтомобиль Humber Mk.IV в масштабе 1/72",
+            "en": "1/72 scale model Humber Armoured Car Mk.IV"
+        },
+        "text": {
+            "ru": "Британский средний бронеавтомобиль «Хамбер» был разработан фирмой Rootes в 1939 году на шасси артиллерийского тягача КТ4 с использованием конструкции бронеавтомобиля Guy. Серийное производство было начато в 1941 году, а с 1943 года развернулось производство самой многочисленной модификации Mk.IV. В отличие от предыдущих модификаций Mk.IV имел на вооружение 37-мм противотанковую пушку. С 1943 по 1945 гг. было выпущено около 2000 Хамберов данной модифкации.",
+            "en": "British medium armored car Humber was developed by Rootes in 1939 on the chassis of an artillery tractor KT4 using the design of the armored car Guy. Serial production was started in 1941, and since 1943 the production of the most numerous modification of Mk.IV has developed. Unlike the previous modifications, the Mk.IV was equipped with a 37 mm anti-tank gun. From 1943 to 1945. was released about 2000 Humbers of this modification."
+        },
+        "slug": "72035-humber-mk4",
+        "article": "72035",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 26,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "z72035-news.jpg",
+        "boxImage": "z72035-box.jpg",
+        "boxImageSmall": "z72035-sm-box.jpg",
+        "bucketOfImages": [
+            "z72035-1.jpg",
+            "z72035-2.jpg",
+            "z72035-3.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Английский бронеавтомобиль AEC Mk.III",
+            "en": "AEC Mk.III British Armored Car"
+        },
+        "title": {
+            "ru": "Английский бронеавтомобиль AEC Mk.III",
+            "en": "AEC Mk.III British Armored Car"
+        },
+        "description": {
+            "ru": "Английский бронеавтомобиль AEC Mk.III в масштабе 1/72",
+            "en": "1/72 scale model AEC Mk.III British Armored Car"
+        },
+        "text": {
+            "ru": "Тяжелый бронеавтомобиль (колесный танк) АЕС был создан на базе артиллерийского тягача «Матадор» хорошо зарекомендовавшего себя в частях.  Третья модификация бронеавтомобиля отличалась установкой в башне американской 75-мм танковой пушки М3. Бронеавтомобиль оснащался 58-сиьным дизелем АЕС А-197 и имел массу 12,7 т. В 1942-1943 гг. было выпущено 629 бронеавтомобилей АЕС всех модификаций.",
+            "en": "Heavy armored car (wheeled tank) AEC was created on the basis of the artillery tractor \"Matador\", which proved itself well in the units. The third modification of the armored car was distinguished by the installation of an American 75 mm M3 tank gun in the turret. The armored car was equipped with 58 h.p. diesel AEC A-197 diesel and had a mass of 12.7 tons. In 1942-1943, 629 armored cars AES of all modifications were produced."
+        },
+        "slug": "72036-aec-mk3",
+        "article": "72036",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 27,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "z72036-news.jpg",
+        "boxImage": "z72036-box.jpg",
+        "boxImageSmall": "z72036-sm-box.jpg",
+        "bucketOfImages": [
+            "z72036-1.jpg",
+            "z72036-2.jpg",
+            "z72036-3.jpg"
+        ]
+    },
+    {"sortOrder": 1, "name": {"ru": "Советская САУ СУ-76М", "en": "Soviet SPG SU-76M"}, "slug": "Z100001-su-76m", "article": "Z100001", "visible": true, "subsection": "armor-resin-kits-1-100", "type": "armor", "lifeCycleState": "on", "scale": "1/100", "boxImage": "Z100001.jpg","boxImageSmall": "Z100001.jpg"},
+    {"sortOrder": 2, "name": {"ru": "Hanomag Sdkfz. 251/1D", "en": "Hanomag Sdkfz. 251/1D"}, "slug": "Z100002-sdkfz-251-1d", "article": "Z100002", "visible": true, "subsection": "armor-resin-kits-1-100", "type": "armor", "lifeCycleState": "on", "scale": "1/100", "boxImage": "Z100002.jpg","boxImageSmall": "Z100002.jpg"},
+    {"sortOrder": 3, "name": {"ru": "Т-34 обр. 1941", "en": "T-34 mod. 1941"}, "slug": "Z100003-t-34-1941", "article": "Z100003", "visible": true, "subsection": "armor-resin-kits-1-100", "type": "armor", "lifeCycleState": "on", "scale": "1/100", "boxImage": "Z100003-2.jpg","boxImageSmall": "Z100003-2.jpg"},
+    {"sortOrder": 4, "name": {"ru": "Немецкая САУ Hetzer", "en": "German SPG Hetzer"}, "slug": "Z100004-hetzer", "article": "Z100004", "visible": true, "subsection": "armor-resin-kits-1-100", "type": "armor", "lifeCycleState": "on", "scale": "1/100", "boxImage": "Z100004.jpg","boxImageSmall": "Z100004.jpg"},
+    {"sortOrder": 5, "name": {"ru": "Humber Mk.IV", "en": "Humber Mk.IV"}, "slug": "Z100008-humber-mk-4", "article": "Z100008", "visible": true, "subsection": "armor-resin-kits-1-100", "type": "armor", "lifeCycleState": "on", "scale": "1/100", "boxImage": "Z100008.jpg","boxImageSmall": "Z100008.jpg"},
+    {"sortOrder": 6, "name": {"ru": "StuG 10.5 cm Hetzer", "en": "StuG 10.5 cm Hetzer"}, "slug": "Z100008-hetzer-105", "article": "Z100009", "visible": true, "subsection": "armor-resin-kits-1-100", "type": "armor", "lifeCycleState": "on", "scale": "1/100", "boxImage": "Z100009.jpg","boxImageSmall": "Z100009.jpg"},
+    {"soerOrder": 1, "name": {"ru": "Расчет установки 4М", "en": "4M Machine Gun Crew"}, "slug": "Z72008", "article": "Z72008", "visible": true, "subsection": "figures-1-72", "type": "figures", "lifeCycleState": "on", "scale": "1/72", "boxImage": "vzfaghashkmmv92mzwlo.jpg", "boxImageSmall": "tdinjkmqyytetms7g5sj.jpg"},
+    {"soerOrder": 2, "name": {"ru": "Советский танковый экипаж 1944", "en": "Soviet Tank Crew 1944"}, "slug": "Z72010", "article": "Z72010", "visible": true, "subsection": "figures-1-72", "type": "figures", "lifeCycleState": "on", "scale": "1/72", "boxImage": "jqx6vhdndblwalsr12s0.jpg", "boxImageSmall": "u749v4wfmvrb4kaohwow.jpg"},
+    {"soerOrder": 3, "name": {"ru": "Немецкий танковый экипаж 1944", "en": "German Tank Crew 1944"}, "slug": "Z72012", "article": "Z72012", "visible": true, "subsection": "figures-1-72", "type": "figures", "lifeCycleState": "on", "scale": "1/72", "boxImage": "f94upbplhvsq5osgsnif.jpg", "boxImageSmall": "yjo8smave8uoi6pn1mrc.jpg"},
+    {"soerOrder": 4, "name": {"ru": "Расчет зенитной пушки 61-К. Часть 1", "en": "61-K AA Gun Crew. Part 1"}, "slug": "Z72013", "article": "Z72013", "visible": true, "subsection": "figures-1-72", "type": "figures", "lifeCycleState": "on", "scale": "1/72", "boxImage": "kyh6gxlctt2zzxvkbnfb.jpg", "boxImageSmall": "yo89ga6zrozuipnblmjs.jpg"},
+    {"soerOrder": 5, "name": {"ru": "Советские летчики", "en": "Soviet Pilots"}, "slug": "Z72014", "article": "Z72014", "visible": true, "subsection": "figures-1-72", "type": "figures", "lifeCycleState": "on", "scale": "1/72", "boxImage": "p8n7a7fboo7btnmiauwu.jpg", "boxImageSmall": "eeg8itmqk843m136u35s.jpg"},
+    {"soerOrder": 6, "name": {"ru": "Расчет зенитной пушки. Часть 2", "en": "61-K AA Gun Crew. Part 2"}, "slug": "Z72019", "article": "Z72019", "visible": true, "subsection": "figures-1-72", "type": "figures", "lifeCycleState": "on", "scale": "1/72", "boxImage": "vdk2exdp1k3fni7wfzsn.jpg", "boxImageSmall": "ggzbuktziejgjuh4is75.jpg"},
+    {"soerOrder": 7, "name": {"ru": "Установка 4М с расчетом", "en": "4M Machine Gun with Crew"}, "slug": "Z72023", "article": "Z72023", "visible": true, "subsection": "figures-1-72", "type": "figures", "lifeCycleState": "on", "scale": "1/72", "boxImage": "jz93lgdmyb0iqzt2y2hg.jpg", "boxImageSmall": "svoxwzxavwyfm65mp0fw.jpg"},
+    {"soerOrder": 8, "name": {"ru": "Советская танковая команда", "en": "Soviet tank Crew"}, "slug": "Z72027", "article": "Z72027", "visible": true, "subsection": "figures-1-72", "type": "figures", "lifeCycleState": "on", "scale": "1/72", "boxImage": "axtab72hqalrubkat0et.jpg", "boxImageSmall": "pxhjesccs7gxrjktasmg.jpg"},
+    {"soerOrder": 9, "name": {"ru": "Расчет зенитной пушки 72-К", "en": "72-K AA Gun Crew"}, "slug": "Z72029", "article": "Z72029", "visible": true, "subsection": "figures-1-72", "type": "figures", "lifeCycleState": "on", "scale": "1/72", "boxImage": "rqt9mvnsflxjspkrxdqm.jpg", "boxImageSmall": "gddp9xso2efygtvamdlo.jpg"},
+    {"sortOrder": 1, "name": {"ru": "Дорогой товарищ №1", "en": "Dear Comrade #1"}, "slug": "ZF43001", "article": "ZF43001", "visible": true, "subsection": "figures-1-43", "type": "figures", "lifeCycleState": "on", "scale": "1/43", "boxImage": "jkyxmvjeanzbajpufk5w.jpg", "boxImageSmall": "cawmwfmsnvmwkiyec6c0.jpg"},
+    {"sortOrder": 2, "name": {"ru": "Медсестра", "en": "Nurse"}, "slug": "ZF43002", "article": "ZF43002", "visible": true, "subsection": "figures-1-43", "type": "figures", "lifeCycleState": "on", "scale": "1/43", "boxImage": "jffw9n5xwaitehmkcmx0.jpg", "boxImageSmall": "tw1pcxus0ihbsyvbhymc.jpg"},
+    {"sortOrder": 3, "name": {"ru": "Дорогой товарищ №2", "en": "Dear Comrade #2"}, "slug": "ZF43003", "article": "ZF43003", "visible": true, "subsection": "figures-1-43", "type": "figures", "lifeCycleState": "on", "scale": "1/43", "boxImage": "c0qfw33tgwlbw1wmtwei.jpg", "boxImageSmall": "yljh6esxq4w1ke9hpqa6.jpg"},
+    {"sortOrder": 4, "name": {"ru": "Дорогой товарищ №3", "en": "Dear Comrade #3"}, "slug": "ZF43004", "article": "ZF43004", "visible": true, "subsection": "figures-1-43", "type": "figures", "lifeCycleState": "on", "scale": "1/43", "boxImage": "ZF43004.jpg", "boxImageSmall": "sd5heuqdphjfez2i7tyv.jpg"},
+    {"sortOrder": 5, "name": {"ru": "Пожарный", "en": "Fireman"}, "slug": "ZF43005", "article": "ZF43005", "visible": true, "subsection": "figures-1-43", "type": "figures", "lifeCycleState": "on", "scale": "1/43", "boxImage": "narf78qthtg1dnefmno9.jpg", "boxImageSmall": "y5m4imr4xt9yud3akzmz.jpg"},
+    {"sortOrder": 6, "name": {"ru": "Сотрудник ОРУД", "en": "Road Police Officer"}, "slug": "ZF43006", "article": "ZF43006", "visible": true, "subsection": "figures-1-43", "type": "figures", "lifeCycleState": "on", "scale": "1/43", "boxImage": "rld8sfqs0gyshfobtsdx.jpg", "boxImageSmall": "auc28hfkgd9fz4j6y4t0.jpg"},
+    {"sortOrder": 7, "name": {"ru": "Дорогой товарищ №4", "en": "Dear Comrade #4"}, "slug": "ZF43007", "article": "ZF43007", "visible": true, "subsection": "figures-1-43", "type": "figures", "lifeCycleState": "on", "scale": "1/43", "boxImage": "pfe2nnamdguhlvhcw7zw.jpg", "boxImageSmall": "lbs7cxggwsbstgm5kmmj.jpg"},
+    {"sortOrder": 8, "name": {"ru": "Дорогой товарищ №5", "en": "Dear Comrade #5"}, "slug": "ZF43008", "article": "ZF43008", "visible": true, "subsection": "figures-1-43", "type": "figures", "lifeCycleState": "on", "scale": "1/43", "boxImage": "wt674dmear7ubbo5ueb7.jpg", "boxImageSmall": "oggly0ivisto8o5z52q9.jpg"},
+    {"sortOrder": 9, "name": {"ru": "Инженер", "en": "Engineer"}, "slug": "ZF43009", "article": "ZF43009", "visible": true, "subsection": "figures-1-43", "type": "figures", "lifeCycleState": "on", "scale": "1/43", "boxImage": "vl3mdeagroo1palaesqs.jpg", "boxImageSmall": "gkdzz9zip7iltaiwznyi.jpg"},
+    {"sortOrder": 10, "name": {"ru": "Конструкторы", "en": "Designers"}, "slug": "ZF43010", "article": "ZF43010", "visible": true, "subsection": "figures-1-43", "type": "figures", "lifeCycleState": "on", "scale": "1/43", "boxImage": "yofsi1pf0dztea3wg6pf.jpg", "boxImageSmall": "auchddoestwou7m2fycj.jpg"},
+    {"sortOrder": 11, "name": {"ru": "Военврач", "en": "Army Doctor"}, "slug": "ZF43011", "article": "ZF43011", "visible": true, "subsection": "figures-1-43", "type": "figures", "lifeCycleState": "on", "scale": "1/43", "boxImage": "t3zln1gfdpmhnudgaqqx.jpg", "boxImageSmall": "rk862uo8fjmz7cdletit.jpg"},
+    {"sortOrder": 12, "name": {"ru": "Командующий парадом", "en": "Military Parade Commander"}, "slug": "ZF43012", "article": "ZF43012", "visible": true, "subsection": "figures-1-43", "type": "figures", "lifeCycleState": "on", "scale": "1/43", "boxImage": "nwy4eefxrs1tbmiawdto.jpg", "boxImageSmall": "nsxhudb5pwti3qt2m2ic.jpg"},
+    {"sortOrder": 13, "name": {"ru": "Председатель колхоза", "en": "Collective Farm Leader"}, "slug": "ZF43013", "article": "ZF43013", "visible": true, "subsection": "figures-1-43", "type": "figures", "lifeCycleState": "on", "scale": "1/43", "boxImage": "wn32accwsajxaz7i8hpb.jpg", "boxImageSmall": "es1oqhpjmbx2u3ziyodp.jpg"},
+    {"sortOrder": 14, "name": {"ru": "Секретарь райкома", "en": "Communist Regional Leader"}, "slug": "ZF43014", "article": "ZF43014", "visible": true, "subsection": "figures-1-43", "type": "figures", "lifeCycleState": "on", "scale": "1/43", "boxImage": "rehd3ajngcbcqaczukyy.jpg", "boxImageSmall": "n4frda7bjugyimodnvtg.jpg"},
+    {"sortOrder": 15, "name": {"ru": "Секретарь райкома", "en": "Communist Regional Leader"}, "slug": "ZF43015", "article": "ZF43015", "visible": true, "subsection": "figures-1-43", "type": "figures", "lifeCycleState": "on", "scale": "1/43", "boxImage": "sxf6rrp7xn288dh7bujj.jpg", "boxImageSmall": "ryjngwjr2biriu7do0pl.jpg"},
+    {"sortOrder": 16, "name": {"ru": "Дорогой товарищ №6", "en": "Dear Comrade #6"}, "slug": "ZF43016", "article": "ZF43016", "visible": true, "subsection": "figures-1-43", "type": "figures", "lifeCycleState": "on", "scale": "1/43", "boxImage": "xt5jgryf4hwsthq4xrld.jpg", "boxImageSmall": "p8w3gvyu4d8ybtseibri.jpg"},
+    {"sortOrder": 17, "name": {"ru": "Максим Максимович Исаев", "en": "Max von Shtirlits"}, "slug": "ZF43017", "article": "ZF43017", "visible": true, "subsection": "figures-1-43", "type": "figures", "lifeCycleState": "on", "scale": "1/43", "boxImage": "j2icdm4jwfzcmhiwfmve.jpg", "boxImageSmall": "ui84blcue1cfhzhnoeqt.jpg"},
+    {"sortOrder": 18, "name": {"ru": "Скауты", "en": "The Scouts"}, "slug": "ZF43018", "article": "ZF43018", "visible": true, "subsection": "figures-1-43", "type": "figures", "lifeCycleState": "on", "scale": "1/43", "boxImage": "k6wkgkdbihbqnhemyzhi.jpg", "boxImageSmall": "ch0fe6f9xcw8ogyhtkdj.jpg"},
+    {"sortOrder": 19, "name": {"ru": "Дорогой товарищ №7", "en": "Dear Comrade #7"}, "slug": "ZF43019", "article": "ZF43019", "visible": true, "subsection": "figures-1-43", "type": "figures", "lifeCycleState": "on", "scale": "1/43", "boxImage": "rbqjrq4vztrqrpfyseux.jpg", "boxImageSmall": "bgyt47jxsrmj8odxgfqr.jpg"},
+    {"sortOrder": 20, "name": {"ru": "Девушка", "en": "The Girl"}, "slug": "ZF43020", "article": "ZF43020", "visible": true, "subsection": "figures-1-43", "type": "figures", "lifeCycleState": "on", "scale": "1/43", "boxImage": "spsoqymb9raqplccxmah.jpg", "boxImageSmall": "zmw3fdc57skp1l5mqtqk.jpg"},
+    {"sortOrder": 21, "name": {"ru": "Засада", "en": "The Trouble"}, "slug": "ZF43021", "article": "ZF43021", "visible": true, "subsection": "figures-1-43", "type": "figures", "lifeCycleState": "on", "scale": "1/43", "boxImage": "nxpxb7hmbykyy2slusom.jpg", "boxImageSmall": "tfgjpl2ymmonlbcc4pvv.jpg"},
+    {"sortOrder": 22, "name": {"ru": "Танкист", "en": "The Trooper"}, "slug": "ZF43022", "article": "ZF43022", "visible": true, "subsection": "figures-1-43", "type": "figures", "lifeCycleState": "on", "scale": "1/43", "boxImage": "u3ziauzmsvanylxrcpfs.jpg", "boxImageSmall": "ye5xvo6iftbnovpjiqdt.jpg"},
+    {"sortOrder": 1, "name": {"ru": "Австрийский Лейтенант", "en": "Austrian Lieutenant, 1916"}, "slug": "ZF35001", "article": "ZF35001", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "kffdvptqbrgr3ashmcvm.jpg", "boxImageSmall": "mkal4acohexfqewnuqzs.jpg"},
+    {"sortOrder": 2, "name": {"ru": "Австро-Венгерский пехотинец, 1916", "en": "Austrian Infantryman, 1916"}, "slug": "ZF35002", "article": "ZF35002", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "xqcyhbuypfhzpgsknooa.jpg", "boxImageSmall": "bpcbrpf1fyggf7jjzbp4.jpg"},
+    {"sortOrder": 3, "name": {"ru": "Австро-Венгерский пехотинец, 1916", "en": "Austrian Infantryman, 1916"}, "slug": "ZF35003", "article": "ZF35003", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "grqguh9jipknczgz9blf.jpg", "boxImageSmall": "h2yu5zbkqruubznsh9lr.jpg"},
+    {"sortOrder": 4, "name": {"ru": "Падающий эсэсовец", "en": "Falling German SS-Soldier"}, "slug": "ZF35004", "article": "ZF35004", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "pcwmdfayrah6hxlxtlnn.jpg", "boxImageSmall": "ncr29ohzph8l4hyzcqfb.jpg"},
+    {"sortOrder": 5, "name": {"ru": "Повар РККА, 1942", "en": "Soviet Cook, 1942"}, "slug": "ZF35005", "article": "ZF35005", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "qz52veganta3psnfstx5.jpg", "boxImageSmall": "rkdkyycaegi6jx0o8yeo.jpg"},
+    {"sortOrder": 6, "name": {"ru": "Немецкий летчик, 1942", "en": "German Landing Pilot, 1942"}, "slug": "ZF35006", "article": "ZF35006", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "qiuxfr5vsbdcgmfklc1b.jpg", "boxImageSmall": "kpzxmn0dyk52v3rxfoxb.jpg"},
+    {"sortOrder": 7, "name": {"ru": "Немецкий танкист, 1942", "en": "German Tank Crewman, 1942"}, "slug": "ZF35007", "article": "ZF35007", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "r8jv9jhqssh6nxyf4hw5.jpg", "boxImageSmall": "mixfrybt3ghaup28xeba.jpg"},
+    {"sortOrder": 8, "name": {"ru": "Немецкий мародер, 1941", "en": "German Soldier in Russia, 1941"}, "slug": "ZF35013", "article": "ZF35013", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "yehkeey2dsn00944yr1c.jpg", "boxImageSmall": "byimj9vjotzgix40gjpo.jpg"},
+    {"sortOrder": 9, "name": {"ru": "Немецкий мародер, 1941", "en": "German Soldier in Russia, 1941"}, "slug": "ZF35014", "article": "ZF35014", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "ekhrdpgcexdpwd9l0sbv.jpg", "boxImageSmall": "q2ezzxlvo0kmgz1zki5m.jpg"},
+    {"sortOrder": 10, "name": {"ru": "Немецкий мародер, 1941", "en": "German Soldier in Russia, 1941"}, "slug": "ZF35015", "article": "ZF35015", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "ahefx8yzgdzrokavtjvs.jpg", "boxImageSmall": "mkdgmdycoezze66zpm0f.jpg"},
+    {"sortOrder": 11, "name": {"ru": "Расчет РПГ-7", "en": "RPG-7 Crew"}, "slug": "ZF35016", "article": "ZF35016", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "q0kr9vbr2u0zyocswgjl.jpg", "boxImageSmall": "gibszbmhdmbcey213l3u.jpg"},
+    {"sortOrder": 12, "name": {"ru": "Боец ШИСБр, 1945", "en": "Soviet Assault Soldier, 1945"}, "slug": "ZF35017", "article": "ZF35017", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "bchykyoue7tqppky5bxe.jpg", "boxImageSmall": "iisssrrsgafxjs8u7niq.jpg"},
+    {"sortOrder": 13, "name": {"ru": "Последняя граната, 1941", "en": "The Last Grenade, 1941"}, "slug": "ZF35018", "article": "ZF35018", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "gbirixgtrr7qvjoy77lf.jpg", "boxImageSmall": "gvau8hzhfhwkehely8qd.jpg"},
+    {"sortOrder": 14, "name": {"ru": "Сестричка", "en": "Sister"}, "slug": "ZF35019", "article": "ZF35019", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "ibcmcs8prgwkyyenb5bf.jpg", "boxImageSmall": "ie9z5brfq6bhqujh38oz.jpg"},
+    {"sortOrder": 15, "name": {"ru": "Сверхчеловек", "en": "Superman.Stalingrad.Winter, 1942"}, "slug": "ZF35020", "article": "ZF35020", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "amuldm32ekeknzjlo0xj.jpg", "boxImageSmall": "riljostbyqomb5bqpf4q.jpg"},
+    {"sortOrder": 16, "name": {"ru": "Бойцы РККА, 1935", "en": "Red Army Soldiers, 1935"}, "slug": "ZF35021", "article": "ZF35021", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "iwtnzvba6vndy39bctve.jpg", "boxImageSmall": "rhpi8zsk3bcnuswm7eme.jpg"},
+    {"sortOrder": 17, "name": {"ru": "Кайзеровский генерал", "en": "German Kaiser General"}, "slug": "ZF35022", "article": "ZF35022", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "tlauihmkqjocaneyubwz.jpg", "boxImageSmall": "qdsjeoyyvjlcnoqoxalq.jpg"},
+    {"sortOrder": 18, "name": {"ru": "Дама с собачкой", "en": "Lady with the Puppy"}, "slug": "ZF35023", "article": "ZF35023", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "obthbgn6ualqjle0ts7q.jpg", "boxImageSmall": "bwtrpvofshvrtdfn7gh7.jpg"},
+    {"sortOrder": 19, "name": {"ru": "Свободная Франция. Часть 1", "en": "Free France. Part 1"}, "slug": "ZF35024", "article": "ZF35024", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "kmcwuvgobitpga6tnjg8.jpg", "boxImageSmall": "d1h04645uwuqhszohmvk.jpg"},
+    {"sortOrder": 20, "name": {"ru": "Свободная Франция. Часть 2", "en": "Free France. Part 2"}, "slug": "ZF35025", "article": "ZF35025", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "own9gldkrf1t2bwcfaik.jpg", "boxImageSmall": "zied4onyig0edoy77fcf.jpg"},
+    {"sortOrder": 21, "name": {"ru": "Противостояние", "en": "Confrontation"}, "slug": "ZF35026", "article": "ZF35026", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "z6zjojtohk4afjvzusbf.jpg", "boxImageSmall": "zcmgnxngwwl0ryov3v32.jpg"},
+    {"sortOrder": 22, "name": {"ru": "Кто с мечом придет", "en": "The One Who Came with the Sword"}, "slug": "ZF35027", "article": "ZF35027", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "vodosbmuc4dpnjayjqss.jpg", "boxImageSmall": "bcps3ug0guclni2arwt3.jpg"},
+    {"sortOrder": 23, "name": {"ru": "Батальон \\\"Восток\\\"", "en": "Battalion \\\"East\\\""}, "slug": "ZF35028", "article": "ZF35028", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "ela1gcau14eevzi9uzzz.jpg", "boxImageSmall": "wkcwr0twrdqgtcinqxqu.jpg"},
+    {"sortOrder": 24, "name": {"ru": "Возвратился из боя", "en": "Return from battle"}, "slug": "ZF35029", "article": "ZF35029", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "osbxhxuoyocy1ubylh3t.jpg", "boxImageSmall": "sbosrof6hjqthbxi0phu.jpg"},
+    {"sortOrder": 25, "name": {"ru": "Атакующий красноармеец. Зима, 1940", "en": "Red Army Infantryman in attack. Winter, 1940"}, "slug": "ZF35030", "article": "ZF35030", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "wona2efn7f877tr6jzht.jpg", "boxImageSmall": "npgovo8btvavihskgika.jpg"},
+    {"sortOrder": 26, "name": {"ru": "Сигары, виски и никакого спорта!", "en": "Cigars, whisky, no sports!"}, "slug": "ZF35032", "article": "ZF35032", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "qe7vjsria1lku8vfl3ze.jpg", "boxImageSmall": "ydrxpmewuz7xdp491exj.jpg"},
+    {"sortOrder": 27, "name": {"ru": "Итальянский карабинер. Африка, 1940-1943", "en": "Italian Carabineri. Africa, 1940-1943"}, "slug": "ZF35034", "article": "ZF35034", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "qtkw4juobb1eyexae597.jpg", "boxImageSmall": "ine8frfothin0wi4w8a0.jpg"},
+    {"sortOrder": 28, "name": {"ru": "Итальянский летчик", "en": "Italian Pilot"}, "slug": "ZF35035", "article": "ZF35035", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "falchdjqzkzgwgeins5i.jpg", "boxImageSmall": "qsictb1fvxrbt02bz98q.jpg"},
+    {"sortOrder": 29, "name": {"ru": "Немецкий парашютист", "en": "German Paratrooper"}, "slug": "ZF35036", "article": "ZF35036", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "ahqkmx95g3ezho5qibif.jpg", "boxImageSmall": "wy4uiwngkkppcqcbuhvy.jpg"},
+    {"sortOrder": 30, "name": {"ru": "Итальянский морской пехотинец", "en": "Italian Navy"}, "slug": "ZF35037", "article": "ZF35037", "visible": true, "subsection": "figures-1-35", "type": "figures", "lifeCycleState": "on", "scale": "1/35", "boxImage": "lco4pk28qszfgw0pvn0l.jpg", "boxImageSmall": "nd2xfipw36feylkuorlz.jpg"},
+    {"sortOrder": 1, "name": {"ru": "Конверсионный набор КВ-2 (МТ-1)", "en": "KV-2 (MT-1) Conversion kit"}, "slug": "ZA72032", "article": "ZA72032", "visible": true, "subsection": "accessories-1-72", "type": "accessories", "lifeCycleState": "on", "scale": "1/72", "boxImage": "y4hg0o6piy5rlt6qkwmm.jpg", "boxImageSmall": "dyxbdpkjmdj515dlxsnb.jpg"},
+    {"sortOrder": 2, "name": {"ru": "Колеса для вертолета Ми-6", "en": "Wheels for helicopter Mil Mi-6"}, "slug": "ZA72201", "article": "ZA72201", "visible": true, "subsection": "accessories-1-72", "type": "accessories", "lifeCycleState": "on", "scale": "1/72", "boxImage": "ttiimek9uiojfcqwmfy7.jpg", "boxImageSmall": "wec7xb8qkaalhc081fwy.jpg"},
+    {"sortOrder": 3, "name": {"ru": "Заглушки воздухозаборников F-4 Phantom II", "en": "F-4 Fantom II F.O.D."}, "slug": "ZA72202", "article": "ZA72202", "visible": true, "subsection": "accessories-1-72", "type": "accessories", "lifeCycleState": "on", "scale": "1/72", "boxImage": "stgmik4rouxtbo6jqdcq.jpg", "boxImageSmall": "gti8mjeiux2gqk7ztwg9.jpg"},
+    {"sortOrder": 4, "name": {"ru": "Ящик для цинков с патронами, 6шт", "en": "Ammo box for catriges, 6pc"}, "slug": "ZA72204", "article": "ZA72204", "visible": true, "subsection": "accessories-1-72", "type": "accessories", "lifeCycleState": "on", "scale": "1/72", "boxImage": "fq1b0zrsg0y6a5cj0882.jpg", "boxImageSmall": "jjlhe2mwyuzjshzyogmt.jpg"},
+    {"sortOrder": 5, "name": {"ru": "Ящик для снарядов 30 мм, 6шт", "en": "Ammunition box 30mm, 6pc"}, "slug": "ZA72205", "article": "ZA72205", "visible": true, "subsection": "accessories-1-72", "type": "accessories", "lifeCycleState": "on", "scale": "1/72", "boxImage": "yxo8trnxcp64t260gpzj.jpg", "boxImageSmall": "zt9dumrtxnbahqrxdian.jpg"},
+    {"sortOrder": 6, "name": {"ru": "Носовой обтекатель PANAVIA Tornado IDS, EKT, Gr.I", "en": "Panavia Tornado IDS, EKT, GR.I"}, "slug": "ZA72206", "article": "ZA72206", "visible": true, "subsection": "accessories-1-72", "type": "accessories", "lifeCycleState": "on", "scale": "1/72", "boxImage": "pf1rlhs0plawn9pmws2v.jpg", "boxImageSmall": "pdhcg5fpzthvi6zjfizc.jpg"},
+    {"sortOrder": 7, "name": {"ru": "Ящик для выстрелов 37 мм (США), 6шт", "en": "Ammo box for catriges 37mm USA, 6pc"}, "slug": "ZA72207", "article": "ZA72207", "visible": true, "subsection": "accessories-1-72", "type": "accessories", "lifeCycleState": "on", "scale": "1/72", "boxImage": "jbdh2cnvadd8o4y6upfh.jpg", "boxImageSmall": "bpcohklewm73swfjgopf.jpg"},
+    {"sortOrder": 1, "name": {"ru": "Головы №1", "en": "Heads #1"}, "slug": "ZF35008", "article": "ZF35008", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "citrygxsdx2zbkkzncwc.jpg", "boxImageSmall": "jsx0rsejd9tirb1vmjlx.jpg"},
+    {"sortOrder": 2, "name": {"ru": "Советские головы №1", "en": "Soviet heads #1"}, "slug": "ZF35010", "article": "ZF35010", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "elawkctxzqxbpnyv4zc2.jpg", "boxImageSmall": "aybffkd6ceogljfkfrn9.jpg"},
+    {"sortOrder": 3, "name": {"ru": "Советские головы №2", "en": "Soviet heads #2"}, "slug": "ZF35011", "article": "ZF35011", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "yqjum5yhvsytslu76ajg.jpg", "boxImageSmall": "izufvnkivnqgxi9njq95.jpg"},
+    {"sortOrder": 4, "name": {"ru": "Советские головы №3", "en": "Soviet heads #3"}, "slug": "ZF35031", "article": "ZF35031", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "bjkp5tfogesiwon3gigg.jpg", "boxImageSmall": "o8mhue49a4mir5epl6qg.jpg"},
+    {"sortOrder": 5, "name": {"ru": "Колючая проволока 1000мм (металл)", "en": "Barbed wire 1000 mm (metall)"}, "slug": "ZA35101", "article": "ZA35101", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "rgfdeqrmfgaylmmft7ls.jpg", "boxImageSmall": "a5sn3o0xptdwwgcfbvoe.jpg"},
+    {"sortOrder": 6, "name": {"ru": "Кирпичи, 50шт", "en": "Bricks, 50px"}, "slug": "ZA35103", "article": "ZA35103", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "lkxph7ugibgbplr7cy2k.jpg", "boxImageSmall": "woifmrqiz6szu4s4yt6y.jpg"},
+    {"sortOrder": 7, "name": {"ru": "Ключая проволока 250мм (металл)", "en": "Barbed wire 250mm (metall)"}, "slug": "ZA35105", "article": "ZA35105", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "eyqvpoydexkaozyqknq3.jpg", "boxImageSmall": "ay2gmtnvv6tij0i0bwq6.jpg"},
+    {"sortOrder": 8, "name": {"ru": "\"Кирпичи, 100шт", "en": "Bricks, 100pc"}, "slug": "ZA35107", "article": "ZA35107", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "xnaqc49iikmsctrgai6n.jpg", "boxImageSmall": "u5wuexxmwhlsgmr7sbd0.jpg"},
+    {"sortOrder": 9, "name": {"ru": "Плита бетонная тротуарная 6К 100шт", "en": "Concrete footway bar 6K, 100pc"}, "slug": "ZA35108", "article": "ZA35108", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "mt6lkgqyvrfaqw41tojj.jpg", "boxImageSmall": "qzkwcavc7v5adcnofa5y.jpg"},
+    {"sortOrder": 10, "name": {"ru": "Бордюрный камень 10шт", "en": "Border stone, 10pc"}, "slug": "ZA35109", "article": "ZA35109", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "gug3zc3udjajdibyyj84.jpg", "boxImageSmall": "nxyhqcuxqryy7drew35w.jpg"},
+    {"sortOrder": 11, "name": {"ru": "Ведро металлическое, 4шт", "en": "Metall bucket, 4pc"}, "slug": "ZA35110", "article": "ZA35110", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "yixyrmwydaipgmlys1nh.jpg", "boxImageSmall": "ubrdpl9iduoobbblt5gf.jpg"},
+    {"sortOrder": 12, "name": {"ru": "Брусчатка", "en": "Paving stone"}, "slug": "ZA35111", "article": "ZA35111", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "m1cqt4dytrgbfsncma4q.jpg", "boxImageSmall": "iqibp41tbmumdxv0xziu.jpg"},
+    {"sortOrder": 13, "name": {"ru": "Бетонные блоки, 2 шт", "en": "Concrete blocks, 2pc"}, "slug": "ZA35113", "article": "ZA35113", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "mvfcgiql9j1kebneqf3e.jpg", "boxImageSmall": "jdt3oitk8v6a39wosmff.jpg"},
+    {"sortOrder": 14, "name": {"ru": "Фактура кирпичной кладки (белая) 10х15 см", "en": "Brickwork`s texture (white)10x15sm"}, "slug": "ZA35114", "article": "ZA35114", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "krjawz8khtvl90soh37u.jpg", "boxImageSmall": "xm826ugonyufn6kijq64.jpg"},
+    {"sortOrder": 15, "name": {"ru": "Фактура кирпичной кладки (белая) 15х20 см", "en": "Brickwork`s texture (white) 15х20 sm"}, "slug": "ZA35115", "article": "ZA35115", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "xchksymcphyxikiufmkr.jpg", "boxImageSmall": "upuzgfmgtmib6obwrbqs.jpg"},
+    {"sortOrder": 16, "name": {"ru": "Фактура кирпичной кладки (белая) 20х30 см", "en": "Brickwork`s texture (white) 20х30 sm"}, "slug": "ZA35116", "article": "ZA35116", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "vhtiueso5ohhjgf9t8gm.jpg", "boxImageSmall": "vlftt6jdguqllzwljt7t.jpg"},
+    {"sortOrder": 17, "name": {"ru": "Фактура кирпичной кладки (красная) 15х20 см", "en": "Brickwork`s texture (red) 15х20 sm"}, "slug": "ZA35118", "article": "ZA35118", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "tuuslsfyrzqbsiewqktq.jpg", "boxImageSmall": "f4sgoouuahh008ajb2sq.jpg"},
+    {"sortOrder": 18, "name": {"ru": "Фактура кирпичной кладки (красная) 10х15 см", "en": "Brickwork`s texture (red) 10x15 sm"}, "slug": "ZA35117", "article": "ZA35117", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "nncgw9gizbnja8i5b6gk.jpg", "boxImageSmall": "k6vtnozc8o5oxjseijm5.jpg"},
+    {"sortOrder": 19, "name": {"ru": "Фактура кирпичной кладки (красная) 20х30 см", "en": "Brickwork`s texture (red) 20х30 sm"}, "slug": "ZA35119", "article": "ZA35119", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "hscb37hknynagpoctg16.jpg", "boxImageSmall": "mxsbmz5pmwuplp6j1ffl.jpg"},
+    {"sortOrder": 20, "name": {"ru": "Паллета, 2шт. (дерево)", "en": "Pallet, 2pcs. (wood)"}, "slug": "ZA35120", "article": "ZA35120", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "r8imhvl2fdkbsvmnofok.jpg", "boxImageSmall": "dbamdjkqgkdynekhhxxk.jpg"},
+    {"sortOrder": 21, "name": {"ru": "Фактура брусчатой мостовой №1 10х15 см", "en": "Pavement stone texture №1 10x15 sm"}, "slug": "ZA35121", "article": "ZA35121", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "p6ivrceqynody0g3uw2h.jpg", "boxImageSmall": "j4mu04qrjxulsukrjdqh.jpg"},
+    {"sortOrder": 22, "name": {"ru": "Фактура брусчатой мостовой №1 15х20 см", "en": "Pavement stone texture №1 15х20 sm"}, "slug": "ZA35122", "article": "ZA35122", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "fxwm8xzwpgx6sa8vk1zv.jpg", "boxImageSmall": "rlbbjw2docaykgnrojwu.jpg"},
+    {"sortOrder": 23, "name": {"ru": "Фактура брусчатой мостовой №1 20х30 см", "en": "Pavement stone texture №1 20х30 sm"}, "slug": "ZA35123", "article": "ZA35123", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "qir7k8hl2zmktpczrllm.jpg", "boxImageSmall": "uh40ravfh4qlkkohztzd.jpg"},
+    {"sortOrder": 24, "name": {"ru": "Конверсионный набор для Т-44", "en": "T-44 conversion kit"}, "slug": "ZA35200", "article": "ZA35200", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "hljc2mscigyfhu8cjqfl.jpg", "boxImageSmall": "yaemc1ykiccfakqbifn9.jpg"},
+    {"sortOrder": 25, "name": {"ru": "Пистолет-пулемет ППС-43, 6 шт", "en": "PPS-43 Soviet Machine Gun, 6 pc"}, "slug": "ZA35201", "article": "ZA35201", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "izbgofqznc2y17bmmjug.jpg", "boxImageSmall": "yka3gwztii0haopdknr6.jpg"},
+    {"sortOrder": 26, "name": {"ru": "Советский вещмешок обр. 1938г, 6 шт", "en": "Soviet duffle bag m.1938, 6 pc"}, "slug": "ZA35203", "article": "ZA35203", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "jwdcgrqrblxms0uqo5ai.jpg", "boxImageSmall": "z8vxliaak3zd39ipnxso.jpg"},
+    {"sortOrder": 27, "name": {"ru": "Советское снаряжение №1", "en": "Soviet ammunition #1"}, "slug": "ZA35204", "article": "ZA35204", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "goypdolqmjuytlmtwcbf.jpg", "boxImageSmall": "z6cn2bcsltxbgoor6iwh.jpg"},
+    {"sortOrder": 28, "name": {"ru": "Немецкие канистры, 6 шт", "en": "German gerry-cans, 6 pc"}, "slug": "ZA35206", "article": "ZA35206", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "sh54kfp44ovhzxkjzd9k.jpg", "boxImageSmall": "qczosq8wxtkw9tg6q593.jpg"},
+    {"sortOrder": 29, "name": {"ru": "Ручной пулемет ДП-27, 3 шт", "en": "Soviet light machine gun DP-27, 3 pc"}, "slug": "ZA35207", "article": "ZA35207", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "mat3qtyqr6gkdllw7udj.jpg", "boxImageSmall": "bol7mthxgbeqddo6hheo.jpg"},
+    {"sortOrder": 30, "name": {"ru": "Пистолет-пулемет ППШ-41 (поздняя версия), 6 шт", "en": "PPSh-41 (late version) Soviet machine gun, 6 pc"}, "slug": "ZA35208", "article": "ZA35208", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "cfyi8tsj2ygneroi4vtk.jpg", "boxImageSmall": "dotmc1xhuchnalz2s9ex.jpg"},
+    {"sortOrder": 31, "name": {"ru": "Гранатомет Panzerfaust 30M Klein, 6 шт", "en": "Panzerfaust 30M Klein, 6 pc"}, "slug": "ZA35209", "article": "ZA35209", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "yhr2quqo90aowpadlfuc.jpg", "boxImageSmall": "sbbh7wso899sboo6j21c.jpg"},
+    {"sortOrder": 32, "name": {"ru": "Карабин Mauser k98, 6 шт", "en": "Mauser k98, 6 pc"}, "slug": "ZA35212", "article": "ZA35212", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "jn2pk5fgdmvfpmzg0qhv.jpg", "boxImageSmall": "qcnij38c5revg8mi8jos.jpg"},
+    {"sortOrder": 33, "name": {"ru": "Штурмовая винтовка Stg.44, 6 шт", "en": "Sturmgewer Stg.44, 6 pc"}, "slug": "ZA35213", "article": "ZA35213", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "irry5izsgezrrmtsbdsg.jpg", "boxImageSmall": "wfpmkmq4gjojvgymaycc.jpg"},
+    {"sortOrder": 34, "name": {"ru": "Самозарядная винтовка G.43, 6 шт", "en": "G.43 German automatic rifle, 6 pc"}, "slug": "ZA35214", "article": "ZA35214", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "cbbunnv4thkfcbnim7io.jpg", "boxImageSmall": "y9vui9awkgcqfthnnpf0.jpg"},
+    {"sortOrder": 35, "name": {"ru": "Противотанковый гранатомет Panzerfaust 60M, 6шт", "en": "Panzerfaust 60M, 6 pc"}, "slug": "ZA35215", "article": "ZA35215", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "bljyqvflxkpvxwebtykw.jpg", "boxImageSmall": "qxjesuyi4nx8xbfhox2e.jpg"},
+    {"sortOrder": 36, "name": {"ru": "Автомат АКМС, 6 шт", "en": "AKMS Soviet Machine Gun, 6 pc"}, "slug": "ZA35217", "article": "ZA35217", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "dszrwespdoschvznmf5f.jpg", "boxImageSmall": "vknwn1gwnttv7tngfkut.jpg"},
+    {"sortOrder": 37, "name": {"ru": "Укупорка для выстрелов 125 мм, 3 шт", "en": "Ammunition box for  30-mm shells, 3 pc"}, "slug": "ZA35218", "article": "ZA35218", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "gezsrocubdf9e1qt68kp.jpg", "boxImageSmall": "gdmuiunaq1hwos7qxwts.jpg"},
+    {"sortOrder": 38, "name": {"ru": "Ящик для снарядов 30 мм, 3 шт", "en": "Ammunition box for 125-mm shells, 3 pc"}, "slug": "ZA35219", "article": "ZA35219", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "i3efq3oght9enswy29ax.jpg", "boxImageSmall": "g8x5kcu8231n98qfxj4f.jpg"},
+    {"sortOrder": 39, "name": {"ru": "Пистолет-пулемет СР-2М Вереск, 6 шт", "en": "СР-2М Veresk Russian machine gun, 6 pc"}, "slug": "ZA35221", "article": "ZA35221", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "opss06dco8qy7gdkkrka.jpg", "boxImageSmall": "swpajreazxg9oupf7blr.jpg"},
+    {"sortOrder": 40, "name": {"ru": "Рюкзак Alice Pack, 6 шт", "en": "Alice Pack, 6 pc"}, "slug": "ZA35222", "article": "ZA35222", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "xdbmyzbzr11804hxmacl.jpg", "boxImageSmall": "va5ypsmhil5hpck85y9v.jpg"},
+    {"sortOrder": 41, "name": {"ru": "Пулеметная лента 7,62 мм, 6 шт", "en": "Machine gun band 7,62 mm, 6 pc"}, "slug": "ZA35223", "article": "ZA35223", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "yyjnzxi9pblcxjnxpjyl.jpg", "boxImageSmall": "lw3fhuuckqrvtia30qus.jpg"},
+    {"sortOrder": 42, "name": {"ru": "Ствол пулемета Hotchkis Mle 1914, 6 шт", "en": "Hotchkis Mle 1914 barrel, 6 pc"}, "slug": "ZA35224", "article": "ZA35224", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "rcfyhtr3vg4onzxnn0ny.jpg", "boxImageSmall": "x2xygkzpy2pwcogs0gxd.jpg"},
+    {"sortOrder": 43, "name": {"ru": "Browning 12,7мм M2 c люлюкой V23, 1 шт", "en": "Browning 12,7mm M2 with V23, 1 pc"}, "slug": "ZA35225", "article": "ZA35225", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "eurhg8sdtattiqetlmab.jpg", "boxImageSmall": "bxapta2ng7vnijbqzb5j.jpg"},
+    {"sortOrder": 44, "name": {"ru": "Пулеметная лента 12,7 мм, 6 шт", "en": "Machine gun band 12,7 mm, 6 pc"}, "slug": "ZA35226", "article": "ZA35226", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "bz76bxsouzxobcwxva3a.jpg", "boxImageSmall": "glzw7ft54rmre5ehy9lc.jpg"},
+    {"sortOrder": 45, "name": {"ru": "Короб для пулеметной ленты 12,7 мм (США), 3 шт", "en": "Ammunition box for machine gun band 12,7 mm (USA), 6 pc"}, "slug": "ZA35227", "article": "ZA35227", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "hajc4yecn89d39flolhb.jpg", "boxImageSmall": "qghvijmmaytuj1z3fa74.jpg"},
+    {"sortOrder": 46, "name": {"ru": "Скатки: тент Т-54/55 и брезент", "en": "Rolls: tent T-54/55 & canvas"}, "slug": "ZA35228", "article": "ZA35228", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "tzbopmrsdsjgjczdcgxz.jpg", "boxImageSmall": "vfguvoqk3z9w3lljicqa.jpg"},
+    {"sortOrder": 47, "name": {"ru": "Сухарные сумки, 6шт", "en": "Brotbeutel 31, 6 pc"}, "slug": "ZA35230", "article": "ZA35230", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "dfkgnsbcvp3tez6mgjns.jpg", "boxImageSmall": "wgkb7qadm5y9ht1dhrze.jpg"},
+    {"sortOrder": 48, "name": {"ru": "Выстрелы для 8,8см пушек Kw.K.36/Fla.K.36, 6 шт", "en": "Rounds for 8,8cm guns Kw.K.36/Fla.K.36, 6 pc"}, "slug": "ZA35231", "article": "ZA35231", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "rzynbvogxadwot3kkml9.jpg", "boxImageSmall": "zggjxga5tvddmanip4iu.jpg"},
+    {"sortOrder": 49, "name": {"ru": "Выстрел для 8,8см пушек Kw.K.43/Pa.K.43, 6шт", "en": "Round for 8,8cm guns Kw.K.43/Pa.K.43, 6 pc"}, "slug": "ZA35232", "article": "ZA35232", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "xge91lvimeaodzaf5elx.jpg", "boxImageSmall": "m9skymtlx0akw4hpkmu6.jpg"},
+    {"sortOrder": 50, "name": {"ru": "Выстрел для 12,8см пушек Kw.K.44/Pa.K.44, 3 шт", "en": "Round for 12,8cm guns Kw.K.44/Pa.K.44, 3 pc"}, "slug": "ZA35233", "article": "ZA35233", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "bylljtxut3v798wva8vn.jpg", "boxImageSmall": "wws4sy999sk3wukoavlv.jpg"},
+    {"sortOrder": 51, "name": {"ru": "Гильза для 8,8см пушек Kw.K.36/Fla.K.36, 6шт", "en": "Shell for 8,8сm guns Kw.K.36/Fla.K.36, 6 pc"}, "slug": "ZA35234", "article": "ZA35234", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "hqlhujyzlqmthncn6fxu.jpg", "boxImageSmall": "mqdfgofldsidyut9d27y.jpg"},
+    {"sortOrder": 52, "name": {"ru": "Автомат АС \"Вал\", 6 шт", "en": "Assault rifle AS \"Val\", 6 pc"}, "slug": "ZA35236", "article": "ZA35236", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "jrrgtdq5h7wicnb9hfil.jpg", "boxImageSmall": "e4nbayq0th2t8j5sot62.jpg"},
+    {"sortOrder": 53, "name": {"ru": "Скатки: брезент, 2 шт", "en": "Rolls: canvas, 2 pc"}, "slug": "ZA35238", "article": "ZA35238", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "jaqmafpjkgupwnc0wh3a.jpg", "boxImageSmall": "h1kwfgiue6enumcq4dae.jpg"},
+    {"sortOrder": 54, "name": {"ru": "Короб для пулеметной ленты 12,7 мм (США современный), 6 шт", "en": "Ammunition box for machine gun band 12,7 mm (US modern), 6 pc"}, "slug": "ZA35239", "article": "ZA35239", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "b0k1ryllntavtv20pzwq.jpg", "boxImageSmall": "blshslnwttd0osv71ad7.jpg"},
+    {"sortOrder": 55, "name": {"ru": "Осколочная граната Mk.II (CША)", "en": "Fragmentation grenade Mk.II (US)"}, "slug": "ZA35240", "article": "ZA35240", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "ejutq4p2emkyx0gj2fwn.jpg", "boxImageSmall": "ti6ubujmqr5gyjpyn1ki.jpg"},
+    {"sortOrder": 56, "name": {"ru": "Короб для пулеметной ленты 7,62 мм (США), 6 шт", "en": "Ammunition box for machine gun band 7,62 mm (US), 6 pc"}, "slug": "ZA35241", "article": "ZA35241", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "rtxhs9m173y4j8kvciza.jpg", "boxImageSmall": "jaad1eonvhgiigdqb5jy.jpg"},
+    {"sortOrder": 57, "name": {"ru": "Патронный ящик М548 (США), 6 шт", "en": "Ammunition box M548 (US), 6 pc"}, "slug": "ZA35242", "article": "ZA35242", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "oo4ro00gkltih5gn3xt6.jpg", "boxImageSmall": "zd8ruosg7f0trkz8emoz.jpg"},
+    {"sortOrder": 58, "name": {"ru": "Пулемет MG-08, 6шт", "en": "Machine gun MG-08, 6pc"}, "slug": "ZA35243", "article": "ZA35243", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "ad25smopcdk2pd0nkjg3.jpg", "boxImageSmall": "e6hyexvbpeg35tk94caz.jpg"},
+    {"sortOrder": 59, "name": {"ru": "Гранатомёт РПГ-7, 6шт", "en": "Grenade launcher RPG-7, 6pc"}, "slug": "ZA35244", "article": "ZA35244", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "idc5hxqtdf1aptbf95ze.jpg", "boxImageSmall": "mozirqe9hhrab0n3kens.jpg"},
+    {"sortOrder": 60, "name": {"ru": "Рюкзаки РД-54, 6шт", "en": "Backpacks RD-54, 6pc"}, "slug": "ZA35245", "article": "ZA35245", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "qmedod4xex0caidvfpre.jpg", "boxImageSmall": "zymlb8zwo1trzavo1fl1.jpg"},
+    {"sortOrder": 61, "name": {"ru": "Снайперская винтовка СВД, 6шт", "en": "Sniper rifle SVD, 6pc"}, "slug": "ZA35246", "article": "ZA35246", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "kqbdxn1f8qc2tl9iahjp.jpg", "boxImageSmall": "slboj1bj0rhjuwoe8bha.jpg"},
+    {"sortOrder": 62, "name": {"ru": "Американская пластиковая канистра, 6шт", "en": "US plastic tank, 6pc"}, "slug": "ZA35247", "article": "ZA35247", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "ismu5zjnzmln8ruvdow4.jpg", "boxImageSmall": "y12nzxgjt8uxmub0mbmz.jpg"},
+    {"sortOrder": 63, "name": {"ru": "Реактивный огнемёт РПО \"Шмель\", 6шт", "en": "Rocket flamethrower RPO \"Shmel\", 6pc"}, "slug": "ZA35248", "article": "ZA35248", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "bsnpy7kct9fibg8aalvi.jpg", "boxImageSmall": "xqlgmxyabjclcnfoz0jo.jpg"},
+    {"sortOrder": 64, "name": {"ru": "Штык-нож для АКМ, 12шт", "en": "Bayonet for AKM, 24pc"}, "slug": "ZA35249", "article": "ZA35249", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "iyxrg1y17eklfupgasep.jpg", "boxImageSmall": "k2tilykthdcmsrtpnaaw.jpg"},
+    {"sortOrder": 65, "name": {"ru": "Диски опорных катков танков КВ, 12шт", "en": "KV tanks road wheels disks (up to 1940), 12pc"}, "slug": "ZA35250", "article": "ZA35250", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "l3ezo5kkerw1jknymxxq.jpg", "boxImageSmall": "x1ltfaou5ri2komxcv1l.jpg"},
+    {"sortOrder": 66, "name": {"ru": "Антенный ввод для советской бронетехники (Р-123), 12шт", "en": "Antenna input for soviet armour (R-123), 12pc"}, "slug": "ZA35251", "article": "ZA35251", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "hsy1bwb3wcjzyfpdypm5.jpg", "boxImageSmall": "b1dxwxhfnc8lieyrbxmy.jpg"},
+    {"sortOrder": 67, "name": {"ru": "Набор катков для Pz.III/StuG.III", "en": "Wheels set for Pz.III/StuG.III"}, "slug": "ZA35252", "article": "ZA35252", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "jf6jglq164cbgbtq2nza.jpg", "boxImageSmall": "rwly8dxqnfsjxuxmmsm9.jpg"},
+    {"sortOrder": 68, "name": {"ru": "Нож НА-40, 24 шт", "en": "Khife NA-40, 24 pc"}, "slug": "ZA35253", "article": "ZA35253", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "xei28cf1xrrpt7nehan1.jpg", "boxImageSmall": "ajlqchqyfsbwfkssqzzw.jpg"},
+    {"sortOrder": 69, "name": {"ru": "Пистолет-пулемёт ППД-34, 6 шт", "en": "Submachine gun PPD-34, 6 pc"}, "slug": "ZA35255", "article": "ZA35255", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "me1vhvacz3pqjaygyk0a.jpg", "boxImageSmall": "f8ulv7lietlmwvdnzigq.jpg"},
+    {"sortOrder": 70, "name": {"ru": "125-мм выстрел ЗВБМ17, 3шт", "en": "125-mm round ZVBM17, 3pc"}, "slug": "ZA35256", "article": "ZA35256", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "vj6fkevc1kqkgynackdl.jpg", "boxImageSmall": "pghgohnx4qos5udibtin.jpg"},
+    {"sortOrder": 71, "name": {"ru": "Update set for preseries KV tanks", "en": "Update set for preseries KV tanks"}, "slug": "ZA35257", "article": "ZA35257", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "nmlasfvqvx1yv4wrz8vy.jpg", "boxImageSmall": "g21rievwqkujuaz5clsj.jpg"},
+    {"sortOrder": 72, "name": {"ru": "Снайперская винтовка ВСС \"Винторез\", 6шт", "en": "VSS Vintorez sniper rifle, 6pc"}, "slug": "ZA35258", "article": "ZA35258", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "d01xjeuhwywbxwm8bbbu.jpg", "boxImageSmall": "wpilr0jz6dm8niyzd6hw.jpg"},
+    {"sortOrder": 73, "name": {"ru": "Снайперская винтовка ВСС \"Винторез\" с прицелом НСПУ-3, 6шт", "en": "VSS Vintorez sniper rifle w. NSPU-3 scope, 6pc"}, "slug": "ZA35259", "article": "ZA35259", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "nsbhcs82zhnx9njegt2i.jpg", "boxImageSmall": "ly7pdy97qqz898lugbxm.jpg"},
+    {"sortOrder": 74, "name": {"ru": "Снайперская винтовка СВДН, 6шт", "en": "SVDN sniper rifle, 6pc"}, "slug": "ZA35260", "article": "ZA35260", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "d3zlw6v9bm7o6xqwmucw.jpg", "boxImageSmall": "mxa6uq0sbcsq4ixoic4z.jpg"},
+    {"sortOrder": 75, "name": {"ru": "Граната ВОГ-25, 24шт", "en": "VOG-25 grenade, 24pc"}, "slug": "ZA35262", "article": "ZA35262", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "jr2r0dbgw1ozekhgxl7d.jpg", "boxImageSmall": "ifowo1dk66te5fcybkpn.jpg"},
+    {"sortOrder": 76, "name": {"ru": "Автоматическая винтовка АВС-36, 6шт", "en": "AVS-36 automatic rifle, 6pc"}, "slug": "ZA35263", "article": "ZA35263", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "ullmde8ejrbsuewfkcgy.jpg", "boxImageSmall": "pefhbtj2fbpwwyemh9ut.jpg"},
+    {"sortOrder": 77, "name": {"ru": "Пистолет-пулемёт ППД-40, 6шт", "en": "PPD-40 submachine gun, 6pc"}, "slug": "ZA35264", "article": "ZA35264", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "n8t8dcpmvipamc8wict7.jpg", "boxImageSmall": "cmtphghopukvzc4vvejp.jpg"},
+    {"sortOrder": 78, "name": {"ru": "Набор обрезиненных поддерживающих катков танков КВ с шестиугольной крышкой", "en": "Bandaged support rollers set for KV tanks (Hexagonal cover)"}, "slug": "ZA35265", "article": "ZA35265", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "vitv7jsnfg0edlmudptt.jpg", "boxImageSmall": "bxvgalufxlsj9vegnxdk.jpg"},
+    {"sortOrder": 79, "name": {"ru": "Набор обрезиненных поддерживающих катков танков КВ (с круглой крышкой)", "en": "Bandaged support rollers set for KV tanks (Circle cover)"}, "slug": "ZA35266", "article": "ZA35266", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "maglottnbtiyty3zutkm.jpg", "boxImageSmall": "lt1um0ocgheqhkdfhvci.jpg"},
+    {"sortOrder": 80, "name": {"ru": "Коректировочный набор для Trumpeter #01561 Russian KV-1 Model 1939", "en": "Correction set for Trumpeter kit #01561 Russian KV-1 Model 1939"}, "slug": "ZA35267", "article": "ZA35267", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "jocc75kw4w9oz5cronks.jpg", "boxImageSmall": "umbfz6c4cidbhfntnz2k.jpg"},
+    {"sortOrder": 81, "name": {"ru": "Траки для танков Merkava Mk.IID, Magach 6B Gal/Batash, Magach 7C", "en": "Tracks forMerkava Mk.IID, Magach 6B Gal/Batash, Magach 7C tanks"}, "slug": "ZA35268", "article": "ZA35268", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "nojutdwc9j9msmfwpvlu.jpg", "boxImageSmall": "ob41q04btqv0gm64htpn.jpg"},
+    {"sortOrder": 82, "name": {"ru": "Грязеочистители танков КВ (поздние), 2 пары", "en": "KV tanks Mud Bumps (late), 2 pairs"}, "slug": "ZA35269", "article": "ZA35269", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "jwq76yfmyrxh6gipyi1n.jpg", "boxImageSmall": "okmqebkv8x7qpiq2wxwd.jpg"},
+    {"sortOrder": 83, "name": {"ru": "Ведущая звёздочка для танка Pz.Kpfw. II Ausf A, 2шт (Для траков MasterClub)", "en": "Pz.Kpfw. II Ausf A Drive Sprocket, 2pc (For MasterClub's tracks)"}, "slug": "ZA35270", "article": "ZA35270", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "skctyugu0zsqdbuvwaxk.jpg", "boxImageSmall": "pr0z23bzxhdiaisgwr3e.jpg"},
+    {"sortOrder": 84, "name": {"ru": "Ведущая звёздочка для танка Pz.Kpfw. II Ausf B, C, F 2 шт. (Для траков MasterClub)", "en": "Pz.Kpfw. II Ausf B, C, F Drive Sprocket, 2 pc (For MasterClub's tracks)"}, "slug": "ZA35271", "article": "ZA35271", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "euilboxjtsgg4csujx8e.png", "boxImageSmall": "p0ek0czlehqh5rgtn3po.jpg"},
+    {"sortOrder": 85, "name": {"ru": "Ресивер 40 л для советских грузовиков, 5шт", "en": "40l Air balloons for soviet tracks, 5pc"}, "slug": "ZA35272", "article": "ZA35272", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "brooslvz2fdtcg2ddtii.jpg", "boxImageSmall": "jx6st8gc7i8ncilg5k4d.jpg"},
+    {"sortOrder": 86, "name": {"ru": "Ресивер 20 л для грузовиков КАМАЗ (5 точек подключения), 6шт", "en": "20l Air balloons for KAMAZ tracks (5 connection spots), 6pc"}, "slug": "ZA35273", "article": "ZA35273", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "fonhdq6kcd4g5qsh2sgf.jpg", "boxImageSmall": "mghtf8wxbtbzfkgzcrxg.jpg"},
+    {"sortOrder": 87, "name": {"ru": "Ресивер 20 л для грузовиков КАМАЗ (3 точки подключения), 6шт", "en": "20l Air balloons for KAMAZ tracks (3 connection spots), 6pc"}, "slug": "ZA35274", "article": "ZA35274", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "qqkdei4xinl5gupidkam.jpg", "boxImageSmall": "a88o3lbl9c6mxunnnvlv.jpg"},
+    {"sortOrder": 88, "name": {"ru": "Набор опорных катков танков КВ (до 1940)", "en": "Ground wheels set for KV tanks (up to 1940)"}, "slug": "ZA35275", "article": "ZA35275", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "w4kbcjhgbpfbsxmegiwd.jpg", "boxImageSmall": "dprirl134hlnkvwrh8pb.jpg"},
+    {"sortOrder": 89, "name": {"ru": "Набор поддерживающих катков танка Т-26 (поздние)", "en": "T-26 tank support rollers set (Late)"}, "slug": "ZA35276", "article": "ZA35276", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "iwer9kd0h8x7vkuxu6os.jpg", "boxImageSmall": "nffxo2br3t0xzmitxt9c.jpg"},
+    {"sortOrder": 90, "name": {"ru": "Американская канистра (6шт)", "en": "US Jerry can"}, "slug": "ZA35277", "article": "ZA35277", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "wz4pesplonoqltn1fd6h.jpg", "boxImageSmall": "gorqokjnlrqstwshljeh.jpg"},
+    {"sortOrder": 91, "name": {"ru": "Набор опорных катков КВ-85, СУ-152", "en": "Ground wheels set for KV-85, SU-152"}, "slug": "ZA35278", "article": "ZA35278", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "lvcdnb73pkak5ech02za.jpg", "boxImageSmall": "qm2qj5sth0wfs1cejcbm.jpg"},
+    {"sortOrder": 92, "name": {"ru": "Набор опорных катков танка Т-35", "en": "Ground wheels set for T-35 tank"}, "slug": "ZA35279", "article": "ZA35279", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "p0uzyd19t4vzhijxndvh.jpg", "boxImageSmall": "ici1m3abridjjs1q0qka.jpg"},
+    {"sortOrder": 93, "name": {"ru": "Выстрелы гранатомёта РПГ-7", "en": "Rounds for RPG-7 grenade launcher"}, "slug": "ZA35280", "article": "ZA35280", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "ivebn4fgngimjhsljoq1.jpg", "boxImageSmall": "hmh8lkqmtiznaxih9dus.jpg"},
+    {"sortOrder": 94, "name": {"ru": "Дымовая шашка БДШ-5 (4шт)", "en": "Smoke barrel BDSh-5 (4pc)"}, "slug": "ZA35281", "article": "ZA35281", "visible": true, "subsection": "accessories-1-35", "type": "accessories", "lifeCycleState": "on", "scale": "1/35", "boxImage": "yoxgqbegtjf4su0j8g3d.jpg", "boxImageSmall": "wjimfax7zdvkun07qc8c.jpg"}
+]

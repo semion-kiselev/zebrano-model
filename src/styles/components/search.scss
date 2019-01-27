@@ -1,0 +1,45 @@
+$search-height: 40px;
+
+.search {
+    position: relative;
+    height: $search-height;
+
+    &__input {
+        display: block;
+        width: 100%;
+        height: $search-height;
+        padding: 0 40px 0 20px;
+        border: 1px solid #999999;
+        border-radius: 2px;
+        line-height: 48px;
+        background: #f3f3f3;
+        color: #333;
+        font-size: inherit;
+        outline: none;
+
+        &:focus {
+            border-color: $link-color-active;
+			box-shadow: inset 0 0 0 1px $link-color-active;
+        }
+    }
+
+    &__icon {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+
+        &:hover {
+            color: $link-color-hover;
+        }
+    }
+
+    &--error {
+        .search__input {
+            border-color: red;
+        }
+    }
+}

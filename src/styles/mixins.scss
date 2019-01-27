@@ -1,0 +1,11 @@
+@mixin clearfix {
+    &:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+@mixin text-color-transition {
+	transition: color .2s ease, border-bottom .2s ease;
+} 

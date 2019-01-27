@@ -1,0 +1,42 @@
+.about-us {
+	margin: 0 50px;
+	padding: 30px 60px;
+	border: 10px solid $link-color-active;
+
+
+    &__title {
+        margin: 0 0 15px;
+        font-size: 24px;
+    }
+
+    &__block {
+        line-height: 1.5;
+        font-size: 14px;
+    }
+
+	&__link {
+		border-bottom: 1px solid $link-border-color;
+		color: $link-color;
+		line-height: 0.9;
+		text-decoration: none;
+
+		@include text-color-transition;
+
+		&:hover {
+			border-bottom: 1px solid $link-color-hover;
+			color: $link-color-hover;
+		}
+	}
+}
+
+@media screen and (max-width: $tablet-medium-breakpoint) {
+	.about-us {
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: $phone-breakpoint) {
+	.about-us {
+		padding: 20px 20px;
+	}
+}

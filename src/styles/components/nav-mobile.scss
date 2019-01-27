@@ -1,0 +1,99 @@
+.nav-mobile {
+    position: relative;
+	line-height: 1;
+
+    &__icon {
+        height: 20px;
+        width: 40px;
+		color: #fff;
+        cursor: pointer;
+
+		@include text-color-transition;
+
+		&:hover,
+        &--active {
+            color: $link-color-active;
+        }
+    }
+
+	&__body {
+		position: absolute;
+		top: 40px;
+		right: 0;
+		width: 300px;
+		padding: 30px 30px 40px;
+		background: #f9f9f2;
+		box-shadow: 1px 5px 10px 2px rgba(0, 0, 0, .4);
+		z-index: 1;
+	}
+
+    &__list {
+
+    }
+
+    &__item {
+        margin-top: 30px;
+
+		@include text-color-transition;
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        &:hover,
+        &--opened,
+        &--active {
+            color: $link-color-active;
+        }
+
+		&--with-children {
+			color: #888;
+
+			.nav-mobile__trigger {
+				font-size: 12px;
+				cursor: default;
+			}
+
+			&:hover,
+			&--opened {
+				color: #888;
+			}
+		}
+    }
+
+    &__link,
+    &__trigger {
+        text-decoration: none;
+        color: inherit;
+        text-transform: uppercase;
+        font-size: 14px;
+		font-weight: bold;
+        cursor: pointer;
+    }
+
+    &__sublist {
+        padding-left: 15px;
+    }
+
+    &__subitem {
+        margin-top: 12px;
+        white-space: nowrap;
+        color: #333;
+        font-size: 14px;
+		text-transform: uppercase;
+
+		@include text-color-transition;
+
+        &--active,
+        &:hover {
+            color: $link-color-active;
+        }
+    }
+
+    &__sublink {
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+		font-weight: bold;
+    }
+}

@@ -1,0 +1,38 @@
+.where-to-buy {
+	&__wholesale {
+		margin-bottom: 20px;
+		font-size: 15px;
+	}
+
+	&__retail {
+		margin-bottom: 10px;
+		font-size: 15px;
+	}
+
+    &__list {
+
+    }
+
+    &__item {
+        margin-top: 15px;
+		font-size: 15px;
+
+		&:first-child {
+			margin-top: 0;
+		}
+    }
+
+    &__link {
+		border-bottom: 1px solid $link-border-color;
+		color: $link-color;
+		line-height: 0.9;
+		text-decoration: none;
+
+		@include text-color-transition;
+
+		&:hover {
+			border-bottom: 1px solid $link-color-hover;
+			color: $link-color-hover;
+		}
+    }
+}

@@ -1,0 +1,68 @@
+.card {
+
+    &--figures {
+        .card__name,
+        .card__article {
+            display: none;
+        }
+    }
+
+    &__image-link {
+        display: block;
+    }
+
+    &__thumbnail {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        border: 1px solid #aaa;
+    }
+
+    &__name {
+        margin-top: 12px;
+		font-size: 16px;
+        text-align: left;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    &__link {
+		display: inline-block;
+		border-bottom: 1px solid $link-border-color;
+		font-size: 15px;
+        color: $link-color;
+		text-decoration: none;
+		line-height: 0.9;
+
+		@include text-color-transition;
+
+        &:hover {
+            color: $link-color-hover;
+			border-color: $link-color-hover;
+        }
+    }
+
+	&__article {
+		margin-top: 3px;
+		text-transform: uppercase;
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: $phone-breakpoint) {
+    .card {
+        &__image-link {
+            cursor: default;
+        }
+
+        &__name {
+            white-space: normal;
+        }
+
+		&__link {
+			display: inline;
+		}
+    }
+}

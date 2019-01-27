@@ -1,0 +1,83 @@
+.section-links {
+    @include clearfix;
+
+    &__col {
+        float: left;
+        width: 25%;
+        padding: 10px;
+
+        &--full {
+            width: 100%;
+        }
+    }
+
+    &__item {
+		padding: 20px 15px 40px;
+		background: #fff;
+    }
+
+	&__item-image {
+		display: block;
+		width: 100%;
+		max-width: 100%;
+		height: auto;
+	}
+
+    &__item-title {
+		margin: 15px 0;
+        text-align: center;
+        font-size: 18px;
+		font-weight: bold;
+    }
+
+	&__item-description {
+		height: 40px;
+		font-size: 15px;
+		text-align: center;
+	}
+
+    &__list {
+		margin-top: 20px;
+		text-align: center;
+    }
+
+    &__list-item {
+        display: inline-block;
+		margin-left: 18px;
+
+		&:first-child {
+			margin-left: 0;
+		}
+    }
+
+    &__link {
+		border-bottom: 1px solid $link-border-color;
+        font-size: 15px;
+		color: $link-color;
+		text-decoration: none;
+		line-height: 0.9;
+
+		@include text-color-transition;
+
+		&:hover {
+			color: $link-color-hover;
+			border-color: $link-color-hover;
+		}
+    }
+}
+
+@media screen and (max-width: $tablet-large-breakpoint) {
+	.section-links {
+		&__col {
+			width: 50%;
+		}
+	}
+}
+
+@media screen and (max-width: $phone-breakpoint) {
+    .section-links {
+        &__col {
+            width: 100%;
+        }
+    }
+}

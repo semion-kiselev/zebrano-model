@@ -1,0 +1,80 @@
+.nav {
+    &__list {
+        @include clearfix;
+    }
+
+    &__item {
+        position: relative;
+        float: left;
+        margin-left: 20px;
+		font-weight: bold;
+		color: $menu-item-color;
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        &:hover,
+        &--opened,
+        &--active {
+            color: $menu-item-color-active;
+        }
+
+    }
+
+    &__link,
+    &__trigger {
+        text-decoration: none;
+		color: inherit;
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+
+    &__trigger {
+        cursor: pointer;
+    }
+
+    &__sublist-wrapper {
+
+    }
+
+    &__sublist {
+		display: none;
+		box-sizing: border-box;
+		overflow: hidden;
+		position: absolute;
+		left: 50%;
+		top: 25px;
+		padding: 24px 18px 12px;
+		background: $menu-item-color-active;
+		transform: translateX(-50%);
+		z-index: 1;
+    }
+
+    &__subitem {
+		display: inline-block;
+		margin-top: 10px;
+        white-space: nowrap;
+        color: #fff;
+        font-size: 14px;
+		font-weight: normal;
+		border-bottom: 1px solid transparent;
+		line-height: 0.9;
+		transition: border-bottom-color 0.2s ease;
+
+        &:hover,
+        &--active {
+            border-bottom-color: #fff;
+        }
+
+		&:first-child {
+			margin-top: 0;
+		}
+    }
+
+    &__sublink {
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+    }
+}

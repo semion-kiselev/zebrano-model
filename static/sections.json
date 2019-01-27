@@ -1,0 +1,5 @@
+[
+  {"name": {"ru": "Техника", "en": "Armour"}, "slug": "armor", "visible": true},
+  {"name": {"ru": "Фигуры", "en": "Figures"}, "slug": "figures", "visible": true},
+  {"name": {"ru": "Аксессуары", "en": "Accessories"}, "slug": "accessories", "visible": true}
+]
