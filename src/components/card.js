@@ -42,7 +42,7 @@ class Card extends PureComponent {
                             ? (
                                 <Link
                                     className="card__link"
-                                    to={`/${locale}/${subsectionSlug}/${item.slug}`}
+                                    to={`/${locale}/${subsectionSlug}/${item.slug}/`}
                                 >
                                     {item.name[locale]}
                                 </Link>

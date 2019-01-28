@@ -51,7 +51,7 @@ class Item extends PureComponent {
                         </h1>
                         <div className="item-content__subsection">
                             <Link
-                                to={`/${locale}/${item.subsection}`}
+                                to={`/${locale}/${item.subsection}/`}
                                 className="item-content__subsection-link"
                             >
                                 {subsection.name[locale]}

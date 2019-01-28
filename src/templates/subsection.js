@@ -37,7 +37,7 @@ class Subsection extends PureComponent {
         const pageData = navData
             .filter(navItem => Boolean(navItem.children))
             .filter(navItem => navItem.children.some(child => child.pageName === subsection.slug))[0];
-        const url = `${locale}/${subsection.slug}`;
+        const url = `${locale}/${subsection.slug}/`;
         const pages = getPagesArray(numPages);
 
         return (
@@ -92,7 +92,7 @@ class Subsection extends PureComponent {
                                             className={cn('paginator__link', {
                                                 'paginator__link--active': page === currentPage
                                             })}
-                                            to={page === 1 ? url : `${url}/${page}`}
+                                            to={page === 1 ? url : `${url}/${page}/`}
                                         >
                                             {page}
                                         </Link>

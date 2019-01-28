@@ -44,7 +44,7 @@ class SearchCard extends PureComponent {
                                 ? (
                                     <Link
                                         className="search-card__link"
-                                        to={`/${locale}/${item.subsection}/${item.slug}`}
+                                        to={`/${locale}/${item.subsection}/${item.slug}/`}
                                     >
                                         {item.name[locale]}
                                     </Link>
@@ -61,7 +61,7 @@ class SearchCard extends PureComponent {
                     })}>
                         <Link
                             className="search-card__subsection-link"
-                            to={`/${locale}/${item.subsection}`}
+                            to={`/${locale}/${item.subsection}/`}
                         >
                             {subsection.name[locale]}
                         </Link>

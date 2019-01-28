@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04e1e17f-40df-460e-9b48-61962a7a7dd1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/card.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/search-card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/search-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/search-card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/utils.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/utils.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/content-layouts/item-content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/content-layouts/item-content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/templates/subsection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/subsection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/where-to-buy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/where-to-buy.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,20 +36,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="_redirects" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="js" value="92" />
+          <entry key="js" value="97" />
           <entry key="json" value="18" />
           <entry key="scss" value="32" />
           <entry key="ts" value="1" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="18" />
-          <entry key="JavaScript" value="92" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JavaScript" value="97" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="SCSS" value="32" />
           <entry key="TypeScript" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -64,29 +64,50 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="_redirects" value="2" />
           <entry key="gitignore" value="7" />
-          <entry key="js" value="8835" />
+          <entry key="js" value="8846" />
           <entry key="json" value="464" />
           <entry key="scss" value="332" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="464" />
-          <entry key="JavaScript" value="8835" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="JavaScript" value="8846" />
+          <entry key="PLAIN_TEXT" value="9" />
           <entry key="SCSS" value="332" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/utils.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/nav-mobile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+            <state relative-caret-position="7">
+              <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/section-links.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gatsby-config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -121,6 +142,9 @@
       <find>imageIsLoaded</find>
       <find>onLoupe</find>
       <find>handleLoupe</find>
+      <find>&lt;a</find>
+      <find>&lt;Link</find>
+      <find>to=</find>
     </findStrings>
     <dirStrings>
       <dir>C:\sites\zebrano-model</dir>
@@ -141,7 +165,6 @@
         <option value="$PROJECT_DIR$/src/components/nav.js" />
         <option value="$PROJECT_DIR$/src/styles/components/slider.scss" />
         <option value="$PROJECT_DIR$/src/components/slider.js" />
-        <option value="$PROJECT_DIR$/src/templates/where-to-buy.js" />
         <option value="$PROJECT_DIR$/src/lang/index.js" />
         <option value="$PROJECT_DIR$/gatsby-node.js" />
         <option value="$PROJECT_DIR$/src/templates/index.js" />
@@ -164,6 +187,10 @@
         <option value="$PROJECT_DIR$/src/styles/components/search-card.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/utils.scss" />
         <option value="$PROJECT_DIR$/src/components/utils.js" />
+        <option value="$PROJECT_DIR$/static/_redirects" />
+        <option value="$PROJECT_DIR$/src/templates/where-to-buy.js" />
+        <option value="$PROJECT_DIR$/static/sitemap.xml" />
+        <option value="$PROJECT_DIR$/gatsby-config.js" />
       </list>
     </option>
   </component>
@@ -183,7 +210,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="295" />
     <option name="y" value="9" />
     <option name="width" value="1877" />
@@ -206,45 +233,12 @@
             <path>
               <item name="zebrano-model" type="b2602c69:ProjectViewProjectNode" />
               <item name="zebrano-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zebrano-model" type="b2602c69:ProjectViewProjectNode" />
               <item name="zebrano-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zebrano-model" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zebrano-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zebrano-model" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zebrano-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zebrano-model" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zebrano-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zebrano-model" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zebrano-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zebrano-model" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zebrano-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -267,6 +261,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\sites\zebrano-model\static" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -300,18 +299,18 @@
       <workItem from="1548521483149" duration="1962000" />
       <workItem from="1548585126772" duration="12422000" />
       <workItem from="1548682793939" duration="271000" />
-      <workItem from="1548695415398" duration="1687000" />
+      <workItem from="1548695415398" duration="2816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50271000" />
+    <option name="totallyTimeSpent" value="51400000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="295" y="9" width="1877" height="1020" extended-state="0" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20693451" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14944357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -329,7 +328,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.28838745" />
+      <window_info anchor="right" id="Terminal" order="3" visible="true" weight="0.2082671" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,13 +349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="32" column="14" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/section-links.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="62" column="47" lean-forward="true" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -391,13 +383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/where-to-buy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/layout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -417,13 +402,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="121" column="13" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/subsections.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -600,17 +578,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/nav-mobile.js">
+    <entry file="file://$PROJECT_DIR$/src/components/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="118" column="28" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="28" />
+        <state relative-caret-position="374">
+          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/utils.js">
+    <entry file="file://$PROJECT_DIR$/static/_redirects">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+        <state relative-caret-position="34">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/where-to-buy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="57" column="49" lean-forward="true" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nav-mobile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/section-links.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1299">
+          <caret line="14" column="132" lean-forward="true" selection-start-line="14" selection-start-column="132" selection-end-line="14" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
         </state>
       </provider>
     </entry>

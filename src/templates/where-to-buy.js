@@ -45,6 +45,8 @@ class WhereToBuy extends PureComponent {
                                                         <a
                                                             href={`${shopInfo.link[locale]}`}
                                                             className="where-to-buy__link"
+                                                            target="_blank"
+                                                            rel="noopener noreferrer"
                                                         >
                                                             {shopInfo.name[locale]}
                                                         </a>

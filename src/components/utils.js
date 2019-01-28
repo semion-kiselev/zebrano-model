@@ -49,7 +49,7 @@ class Utils extends PureComponent {
                                 </i>
                                 <Link
                                     className="utils__search-link"
-                                    to={`/${locale}/${pageLinks.search}`}
+                                    to={`/${locale}/${pageLinks.search}/`}
                                 >
                                     {trans.SEARCH_SEARCH[locale]}
                                 </Link>
