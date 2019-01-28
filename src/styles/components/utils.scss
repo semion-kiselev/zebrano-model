@@ -51,6 +51,11 @@
 			font-weight: bold;
 			color: #333;
 
+			&:hover,
+			&--active {
+				color: $menu-item-color-active;
+			}
+
 			&:not(:first-child) {
 				margin-left: 0;
 			}

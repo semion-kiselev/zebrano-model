@@ -52,6 +52,14 @@
 	}
 }
 
+@media screen and (max-width: $tablet-medium-breakpoint) {
+    .card {
+        &__thumbnail {
+            cursor: default;
+        }
+    }
+}
+
 @media screen and (max-width: $phone-breakpoint) {
     .card {
         &__image-link {

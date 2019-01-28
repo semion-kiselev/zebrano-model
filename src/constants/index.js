@@ -37,6 +37,8 @@ export const pageLinks = {
     'search': 'search'
 };
 
+export const TABLET_MEDIUM_BREAKPOINT = 768;
+
 export const NETLIFY_LOCALE_COOKIE_NAME = 'nf_lang';
 
 export const shops = [

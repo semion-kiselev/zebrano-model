@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import {graphql} from 'gatsby';
 import debounce from 'lodash.debounce';
 import Layout from '../components/layout';
+import LightBox from '../components/light-box';
 import SearchCard from '../components/search-card';
 import trans from '../lang';
 import {
@@ -21,13 +22,24 @@ class Search extends PureComponent {
         this.state = {
             query: '',
             error: null,
-            items: []
+            items: [],
+            viewedImage: undefined
         };
 
         this.input = createRef();
         this.handleQuery = this.handleQuery.bind(this);
         this.handleQuerySuccess = this.handleQuerySuccess.bind(this);
         this.handleQueryError = this.handleQueryError.bind(this);
+        this.handleLoupe = this.handleLoupe.bind(this);
+        this.clearViewedImage = this.clearViewedImage.bind(this);
+    }
+
+    handleLoupe(image) {
+        this.setState({viewedImage: image});
+    }
+
+    clearViewedImage() {
+        this.setState({viewedImage: undefined});
     }
 
     requestItems = debounce(
@@ -90,7 +102,7 @@ class Search extends PureComponent {
     render() {
         const {locale} = this.props.pageContext;
         const {data} = this.props;
-        const {query, items, error} = this.state;
+        const {query, items, error, viewedImage} = this.state;
         const newsItems = getNormalizedData(data.newsItems);
         const subsecions = getNormalizedData(data.subsections);
         const subsectionsMap = subsecions.reduce((acc, subsection) => {
@@ -133,6 +145,7 @@ class Search extends PureComponent {
                                                 locale={locale}
                                                 item={item}
                                                 subsection={subsectionsMap[item.subsection]}
+                                                onLoupe={this.handleLoupe}
                                             />
                                         </div>
                                     ))}
@@ -140,6 +153,11 @@ class Search extends PureComponent {
                             )
                             : <div className="search-content__no-results">{trans.SEARCH_NO_RESULTS[locale]}</div>
                     }
+                    <LightBox
+                        onRequestClose={this.clearViewedImage}
+                        isVisible={Boolean(viewedImage)}
+                        image={viewedImage}
+                    />
                 </div>
             </Layout>
         );

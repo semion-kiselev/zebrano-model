@@ -19,6 +19,7 @@
         max-width: 100%;
         width: 100%;
         height: auto;
+        cursor: pointer;
     }
 
     &__main {
@@ -74,6 +75,14 @@
 			border-color: $link-color-hover;
 		}
 	}
+}
+
+@media screen and (max-width: $tablet-medium-breakpoint) {
+    .search-card {
+        &__thumbnail {
+            cursor: default;
+        }
+    }
 }
 
 @media screen and (max-width: $phone-breakpoint) {

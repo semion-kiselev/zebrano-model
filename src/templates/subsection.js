@@ -20,7 +20,6 @@ class Subsection extends PureComponent {
     }
 
     handleLoupe(image) {
-        // todo: check for screen width
         this.setState({viewedImage: image});
     }
 

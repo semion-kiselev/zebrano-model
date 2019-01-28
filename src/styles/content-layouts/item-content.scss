@@ -2,7 +2,7 @@
     padding: 30px 20px 20px;
 
     &__title {
-		
+
     }
 
     &__name {
@@ -15,7 +15,7 @@
         font-size: 15px;
 		color: #9c9c9c;
     }
-	
+
 	&__subsection-link {
 		border-bottom: 1px solid $link-border-color;
 		color: $link-color;
@@ -23,7 +23,7 @@
 		text-decoration: none;
 
 		@include text-color-transition;
-		
+
 		&:hover {
 			color: $link-color-hover;
 			border-color: $link-color-hover;
@@ -54,6 +54,7 @@
         height: auto;
         margin-top: 10px;
         border: 1px solid #aaa;
+        cursor: pointer;
     }
 }
 
@@ -62,8 +63,8 @@
         &__images {
             columns: 2;
         }
-		
-		&__image-big {
+
+		&__image {
 			cursor: default;
 		}
     }

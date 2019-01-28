@@ -2,13 +2,38 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import {graphql, Link} from 'gatsby';
 import Layout from '../components/layout';
+import LightBox from '../components/light-box';
 import {getNormalizedData} from '../utils';
-import {IMAGE_URL, BUCKET_IMAGE} from '../constants';
+import {IMAGE_URL, BUCKET_IMAGE, TABLET_MEDIUM_BREAKPOINT} from '../constants';
 
 class Item extends PureComponent {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            viewedImage: undefined
+        };
+
+        this.handleLoupe = this.handleLoupe.bind(this);
+        this.clearViewedImage = this.clearViewedImage.bind(this);
+    }
+
+    handleLoupe(image) {
+        return () => {
+            if (window.innerWidth >= TABLET_MEDIUM_BREAKPOINT) {
+                this.setState({viewedImage: image});
+            }
+        }
+    }
+
+    clearViewedImage() {
+        this.setState({viewedImage: undefined});
+    }
+
     render() {
         const {locale, subsection, item} = this.props.pageContext;
         const {data} = this.props;
+        const {viewedImage} = this.state;
         const newsItems = getNormalizedData(data.newsItems);
 
         return (
@@ -44,11 +69,17 @@ class Item extends PureComponent {
                                         className="item-content__image"
                                         src={`${IMAGE_URL}/${BUCKET_IMAGE}/${imageUrl}`}
                                         alt={`${imageUrl}`}
+                                        onClick={this.handleLoupe(`${IMAGE_URL}/${BUCKET_IMAGE}/${imageUrl}`)}
                                     />
                                 </span>
                             ))
                         }
                     </div>
+                    <LightBox
+                        onRequestClose={this.clearViewedImage}
+                        isVisible={Boolean(viewedImage)}
+                        image={viewedImage}
+                    />
                 </div>
             </Layout>
         );

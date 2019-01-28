@@ -2,11 +2,25 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import cn from 'classnames';
 import {Link} from 'gatsby';
-import {IMAGE_URL, BOX_IMAGE, SMALL_IMAGE, itemTypes} from '../constants';
+import {TABLET_MEDIUM_BREAKPOINT, IMAGE_URL, BOX_IMAGE, SMALL_IMAGE, itemTypes} from '../constants';
 
 class Card extends PureComponent {
+    constructor(props) {
+        super(props);
+
+        this.handleLoupe = this.handleLoupe.bind(this);
+    }
+
+    handleLoupe(image) {
+        return () => {
+            if (window.innerWidth >= TABLET_MEDIUM_BREAKPOINT) {
+                this.props.onLoupe(image);
+            }
+        }
+    }
+
     render() {
-        const {locale, subsectionSlug, item, onLoupe} = this.props;
+        const {locale, subsectionSlug, item} = this.props;
 
         return (
             <div className={cn('card', {
@@ -15,7 +29,7 @@ class Card extends PureComponent {
             })}>
                 <img
                     className="card__thumbnail"
-                    onClick={() => onLoupe(`${IMAGE_URL}/${BOX_IMAGE}/${item.boxImage}`)}
+                    onClick={this.handleLoupe(`${IMAGE_URL}/${BOX_IMAGE}/${item.boxImage}`)}
                     src={`${IMAGE_URL}/${BOX_IMAGE}/${SMALL_IMAGE}/${item.boxImageSmall}`}
                     alt={`${item.name[locale]}`}
                 />
