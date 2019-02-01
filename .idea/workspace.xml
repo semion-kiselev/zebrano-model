@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="04e1e17f-40df-460e-9b48-61962a7a7dd1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/loupe.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/_redirects" beforeDir="false" afterPath="$PROJECT_DIR$/static/_redirects" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,24 +31,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="_redirects" value="2" />
+          <entry key="_redirects" value="3" />
           <entry key="gitignore" value="1" />
           <entry key="js" value="100" />
           <entry key="json" value="19" />
           <entry key="scss" value="35" />
           <entry key="ts" value="1" />
-          <entry key="txt" value="2" />
-          <entry key="xml" value="3" />
+          <entry key="txt" value="3" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="19" />
           <entry key="JavaScript" value="100" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="PLAIN_TEXT" value="7" />
           <entry key="SCSS" value="35" />
           <entry key="TypeScript" value="1" />
-          <entry key="XML" value="3" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -61,7 +59,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="_redirects" value="2" />
+          <entry key="_redirects" value="5" />
           <entry key="gitignore" value="7" />
           <entry key="js" value="8846" />
           <entry key="json" value="464" />
@@ -73,7 +71,7 @@
         <counts>
           <entry key="JSON" value="464" />
           <entry key="JavaScript" value="8846" />
-          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="PLAIN_TEXT" value="12" />
           <entry key="SCSS" value="335" />
           <entry key="XML" value="1" />
         </counts>
@@ -82,11 +80,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/nav.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
               <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/_redirects">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -165,12 +172,12 @@
         <option value="$PROJECT_DIR$/src/styles/components/search-card.scss" />
         <option value="$PROJECT_DIR$/src/styles/components/utils.scss" />
         <option value="$PROJECT_DIR$/src/components/utils.js" />
-        <option value="$PROJECT_DIR$/static/_redirects" />
         <option value="$PROJECT_DIR$/src/templates/where-to-buy.js" />
         <option value="$PROJECT_DIR$/static/sitemap.xml" />
         <option value="$PROJECT_DIR$/gatsby-config.js" />
         <option value="$PROJECT_DIR$/src/styles/index.scss" />
         <option value="$PROJECT_DIR$/src/components/nav.js" />
+        <option value="$PROJECT_DIR$/static/_redirects" />
       </list>
     </option>
   </component>
@@ -214,6 +221,11 @@
               <item name="zebrano-model" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="zebrano-model" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zebrano-model" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -224,7 +236,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.5.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sovietarmour" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -276,12 +288,12 @@
       <workItem from="1548682793939" duration="271000" />
       <workItem from="1548695415398" duration="4065000" />
       <workItem from="1548828347168" duration="23000" />
-      <workItem from="1549037954608" duration="1126000" />
+      <workItem from="1549037954608" duration="2515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53798000" />
+    <option name="totallyTimeSpent" value="55187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="408" y="21" width="1877" height="1020" extended-state="0" />
@@ -533,13 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/_redirects">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lang/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-570">
@@ -579,20 +584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/robots.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/sitemap.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="132" lean-forward="true" selection-start-line="14" selection-start-column="132" selection-end-line="14" selection-end-column="132" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/subsections.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -604,6 +595,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="108" selection-start-line="10" selection-start-column="102" selection-end-line="10" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/_redirects">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
