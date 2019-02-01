@@ -39,7 +39,6 @@ class Nav extends PureComponent {
 
     handleTriggerClick(id) {
         return () => {
-            console.log('trigger click');
             const {activeMenuItemId} = this.state;
             if (id === activeMenuItemId) {
                 this.clearActiveMenuItem();
