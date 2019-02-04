@@ -16,9 +16,9 @@ class Layout extends PureComponent {
         return (
             <>
                 <Helmet
-                    title={title[locale]}
+                    title={title}
                     meta={[
-                        {name: 'description', content: description[locale]}
+                        {name: 'description', content: description}
                     ]}
                 >
                     <html
