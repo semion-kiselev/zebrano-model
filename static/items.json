@@ -420,6 +420,27 @@
         "sortOrder": 20
     },
     {
+        "name": {"ru": "Пожарный автомобиль ПМГ-1", "en": "PMG-1 Soviet Fire Engine"},
+        "title": {"ru": "Пожарный автомобиль ПМГ-1","en": "PMG-1 Soviet Fire Engine"},
+        "description": {"ru": "Пожарный автомобиль ПМГ-1 в масштабе 1/72", "en": "1/72 scale model PMG-1 Soviet Fire Engine"},
+        "text": {
+            "ru": "Пожарный автомобиль ПМГ-1 начали производить в 1933 г. сначала в Москве, а затем и в Ленинграде. В результате переоборудования базовое шасси ГАЗ-АА получало водяной бак объемом 146 литров и большое количество пожарного оборудования. 6 членов пожарного расчета располагались на скамейках вдоль бака, а командир и водитель в кабине. Автомобиль простоял на службе пожарных частей до 60-х годов ХХ века.",
+            "en": "The PMG-1 fire engine began to be produced in 1933, first in Moscow and then in Leningrad. As a result of conversion, the base chassis of the GAZ-AA received a water tank of 146 liters and a large number of fire fighting equipment. Six members of the fire brigade were located on benches along the tank, and the commander and driver were in the cab. The fire engine stood in the service of fire departments until the 60s of the ХХ century."
+        },
+        "slug": "72111-pmg-1",
+        "article": "72111",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "72111.jpg",
+        "boxImage": "72111.jpg",
+        "boxImageSmall": "72111.jpg",
+        "bucketOfImages": ["72111-1.jpg", "72111-2.jpg", "72111-3.jpg", "72111-4.jpg"],
+        "sortOrder": 21
+    },
+    {
         "name": {"ru": "Грузовой автомобиль ГАЗ АА", "en": "Gaz AA Truck"},
         "title": {"ru": "Грузовой автомобиль ГАЗ АА","en": "Gaz AA Truck"},
         "description": {"ru": "Грузовой автомобиль ГАЗ АА в масштабе 1/72", "en": "1/72 scale model Gaz AA Truck"},
@@ -438,7 +459,7 @@
         "boxImage": "pvspceshsddqtyqarjuf.jpg",
         "boxImageSmall": "pnc0kh5tpeeosa7jnwnn.jpg",
         "bucketOfImages": ["g34rkklzmaqwmp97crft.jpg", "niedfnfqhybc5qudbcgt.jpg"],
-        "sortOrder": 21
+        "sortOrder": 22
     },
     {
         "name": {"ru": "Зенитная САУ Вермахта", "en": "Wehrmacht AA SPG"},
@@ -459,7 +480,7 @@
         "boxImage": "t4oloim6iieqna3ndsda.jpg",
         "boxImageSmall": "hyqkts5oaypfozs5nonw.jpg",
         "bucketOfImages": ["ayt8rg44bkfsdx8o9vv6.jpg", "triknpxceymvc2ln2wdv.jpg"],
-        "sortOrder": 22
+        "sortOrder": 23
     },
     {
         "name": {"ru": "ГАЗ-4 Первый пикап РККА", "en": "GAZ-4 Red Army First Pick-Up"},
@@ -480,7 +501,7 @@
         "boxImage": "slczuo4zf9ny1uun6ww5.jpg",
         "boxImageSmall": "urn1hfdrewmerfvoylqv.jpg",
         "bucketOfImages": ["q1xh7vhmn7odlpl4vwht.jpg", "ywbaugp06ox9agdf1znf.jpg", "yxuaeufrxuxslwr3ogni.jpg", "hboaaxqa6sj4uyncch1c.jpg"],
-        "sortOrder": 23
+        "sortOrder": 24
     },
     {
         "name": {"ru": "25-мм пушка 72-К (1943 г.)", "en": "72-K Soviet 25-mm AA Gun (late)"},
@@ -501,7 +522,7 @@
         "boxImage": "vxii7ul9ejraip3vaqwd.jpg",
         "boxImageSmall": "bfpc1dbi1vuokltyinzv.jpg",
         "bucketOfImages": ["nnmyamut2yhkl1mvi9yq.jpg", "p77j2tlai1cmicivtczg.jpg", "gflzvg3llg7gjopokmkw.jpg"],
-        "sortOrder": 24
+        "sortOrder": 25
     },
     {
         "name": {"ru": "ГАЗ-ААА", "en": "GAZ-AAA"},
@@ -522,7 +543,7 @@
         "boxImage": "ut2gdtznkaxy7xjxypfm.jpg",
         "boxImageSmall": "ahga4imvd0g1a42l0ntp.jpg",
         "bucketOfImages": ["dfplfngf2yxgs5vql6ks.jpg", "huyndd7eshmjwqdfhtyz.jpg", "ssuwebrwccclze30gih0.jpg"],
-        "sortOrder": 25
+        "sortOrder": 26
     },
     {
         "name": {
@@ -552,7 +573,7 @@
         "boxImage": "",
         "boxImageSmall": "",
         "bucketOfImages": [],
-        "sortOrder": 26
+        "sortOrder": 27
     },
     {
         "name": {
@@ -582,7 +603,7 @@
         "boxImage": "",
         "boxImageSmall": "",
         "bucketOfImages": [],
-        "sortOrder": 27
+        "sortOrder": 28
     },
     {
         "name": {

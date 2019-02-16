@@ -3,11 +3,11 @@ const path = require('path');
 const locales = ['en', 'ru'];
 
 const itemsSlugsToDisplayInNews = [
+    '72111-pmg-1'
     '72033-gaz-4-4m',
     '72035-humber-mk4',
     '72036-aec-mk3',
     'SEA031-lebedenko-tank',
-    '72119-gaz-aaa',
     '72118-72-k-1943'
 ];
 
