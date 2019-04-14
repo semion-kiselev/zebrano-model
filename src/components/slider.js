@@ -20,11 +20,21 @@ class Slider extends PureComponent {
         if (e.target.classList.contains('slick-arrow')) {
             return;
         }
-        navigate(this.urlToNavigate);
+
+        if (this.urlToNavigate) {
+            navigate(this.urlToNavigate);
+        }
     }
 
-    handleItemClick(url) {
-        return () => this.urlToNavigate = url;
+    handleItemClick(url, itemLifeCycleState) {
+        return () => {
+            if (itemLifeCycleState === itemStatuses.COMING) {
+                this.urlToNavigate = null;
+                return;
+            }
+
+            this.urlToNavigate = url;
+        }
     }
 
     render() {
@@ -40,9 +50,14 @@ class Slider extends PureComponent {
                         <div
                             key={item.slug}
                             className="slider__item-wrapper"
-                            onClick={this.handleItemClick(`/${locale}/${item.subsection}/${item.slug}`)}
+                            onClick={this.handleItemClick(
+                                `/${locale}/${item.subsection}/${item.slug}`,
+                                item.lifeCycleState
+                            )}
                         >
-                            <span className="slider__item-link">
+                            <span className={cn('slider__item-link', {
+                                'slider__item-link--hovered': item.lifeCycleState !== itemStatuses.COMING
+                            })}>
                                 <div className="slider__item">
                                     <div className="slider__item-image-wrapper">
                                         <div className={cn('slider__item-status', {

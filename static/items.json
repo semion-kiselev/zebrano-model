@@ -607,6 +607,36 @@
     },
     {
         "name": {
+            "ru": "БМД-3",
+            "en": "BMD-3"
+        },
+        "title": {
+            "ru": "БМД-3",
+            "en": "BMD-3"
+        },
+        "description": {
+            "ru": "БМД-3 в масштабе 1/72",
+            "en": "1/72 scale model BMD-3"
+        },
+        "text": {
+            "ru": "",
+            "en": ""
+        },
+        "slug": "FUTURE-BMD-3",
+        "article": "FUTURE-BMD-3",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "coming",
+        "scale": "1/72",
+        "newsImage": "bmd-3.jpg",
+        "boxImage": "",
+        "boxImageSmall": "",
+        "bucketOfImages": [],
+        "sortOrder": 29
+    },
+    {
+        "name": {
             "ru": "Тяжелая САУ КВ-6",
             "en": "KV-6 Soviet Heavy SPG"
         },
@@ -1507,6 +1537,7 @@
     {"sortOrder": 6, "name": {"ru": "StuG 10.5 cm Hetzer", "en": "StuG 10.5 cm Hetzer"}, "slug": "Z100009-hetzer-105", "article": "Z100009", "visible": true, "subsection": "armor-resin-kits-1-100", "type": "armor", "lifeCycleState": "on", "scale": "1/100", "boxImage": "Z100009.jpg","boxImageSmall": "Z100009.jpg"},
     {"sortOrder": 7, "name": {"ru": "Flammpanzer 38(t)", "en": "Flammpanzer 38(t)"}, "slug": "Z100010-flammpanzer-38t", "article": "Z100010", "visible": true, "subsection": "armor-resin-kits-1-100", "type": "armor", "lifeCycleState": "on", "scale": "1/100", "boxImage": "Z100010.jpg","boxImageSmall": "Z100010.jpg"},
     {"sortOrder": 8, "name": {"ru": "Т-34 обр. 1942", "en": "T-34 mod. 1942"}, "slug": "Z100011-t-34-1942", "article": "Z100011", "visible": true, "subsection": "armor-resin-kits-1-100", "type": "armor", "lifeCycleState": "on", "scale": "1/100", "boxImage": "Z100011.jpg","boxImageSmall": "Z100011.jpg"},
+    {"sortOrder": 9, "name": {"ru": "Советский тягач \"Коминтерн\"", "en": "Soviet tractor \"Komintern\""}, "slug": "Z100013-komintern", "article": "Z100013", "visible": true, "subsection": "armor-resin-kits-1-100", "type": "armor", "lifeCycleState": "on", "scale": "1/100", "boxImage": "Z100013.jpg","boxImageSmall": "Z100013.jpg"},
     {"soerOrder": 1, "name": {"ru": "Расчет установки 4М", "en": "4M Machine Gun Crew"}, "slug": "Z72008", "article": "Z72008", "visible": true, "subsection": "figures-1-72", "type": "figures", "lifeCycleState": "on", "scale": "1/72", "boxImage": "vzfaghashkmmv92mzwlo.jpg", "boxImageSmall": "tdinjkmqyytetms7g5sj.jpg"},
     {"soerOrder": 2, "name": {"ru": "Советский танковый экипаж 1944", "en": "Soviet Tank Crew 1944"}, "slug": "Z72010", "article": "Z72010", "visible": true, "subsection": "figures-1-72", "type": "figures", "lifeCycleState": "on", "scale": "1/72", "boxImage": "jqx6vhdndblwalsr12s0.jpg", "boxImageSmall": "u749v4wfmvrb4kaohwow.jpg"},
     {"soerOrder": 3, "name": {"ru": "Немецкий танковый экипаж 1944", "en": "German Tank Crew 1944"}, "slug": "Z72012", "article": "Z72012", "visible": true, "subsection": "figures-1-72", "type": "figures", "lifeCycleState": "on", "scale": "1/72", "boxImage": "f94upbplhvsq5osgsnif.jpg", "boxImageSmall": "yjo8smave8uoi6pn1mrc.jpg"},
