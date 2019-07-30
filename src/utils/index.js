@@ -22,6 +22,11 @@ export const getNavData = (locale) => ([
                 href: `/${locale}/${pageLinks.armorPlasticKits172}/`
             },
             {
+                label: `${trans.SECTION_LINKS_ARMOR_PLASTIC_TITLE[locale]} 1/35`,
+                pageName: pageLinks.armorPlasticKits135,
+                href: `/${locale}/${pageLinks.armorPlasticKits135}/`
+            },
+            {
                 label: `${trans.SECTION_LINKS_ARMOR_RESIN_TITLE[locale]} 1/72`,
                 pageName: pageLinks.armorResinKits172,
                 href: `/${locale}/${pageLinks.armorResinKits172}/`

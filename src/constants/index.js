@@ -26,6 +26,7 @@ export const itemTypes = {
 export const pageLinks = {
     'home': '/',
     'armorPlasticKits172': 'armor-plastic-kits-1-72',
+    'armorPlasticKits135': 'armor-plastic-kits-1-35',
     'armorResinKits172': 'armor-resin-kits-1-72',
     'armorResinKits1100': 'armor-resin-kits-1-100',
     'figures172': 'figures-1-72',

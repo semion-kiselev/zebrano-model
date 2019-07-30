@@ -11,7 +11,8 @@ const getSectionLinks = (locale) => ([
         title: trans.SECTION_LINKS_ARMOR_PLASTIC_TITLE[locale],
         description: trans.SECTION_LINKS_ARMOR_PLASTIC_DESCRIPTION[locale],
         links: [
-            {label: '1/72', href: `/${locale}/${pageLinks.armorPlasticKits172}/`}
+            {label: '1/72', href: `/${locale}/${pageLinks.armorPlasticKits172}/`},
+            {label: '1/35', href: `/${locale}/${pageLinks.armorPlasticKits135}/`}
         ]
     },
     {

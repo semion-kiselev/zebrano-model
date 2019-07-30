@@ -636,6 +636,27 @@
         "sortOrder": 29
     },
     {
+        "name": {"ru": "45-мм противотанковая пушка обр. 1941 г.", "en": "Soviet 45-mm Anti-Tank Gun m.1941"},
+        "title": {"ru": "45-мм противотанковая пушка обр. 1941 г.", "en": "Soviet 45-mm Anti-Tank Gun m.1941"},
+        "description": {"ru": "45-мм противотанковая пушка обр. 1941 г. в масштабе 1/72", "en": "1/72 scale model Soviet 45-mm Anti-Tank Gun m.1941"},
+        "text": {
+            "ru": "В связи с огромными потерями пушек ПТО в начале войны было  принято решение наладить производство этих орудий в Ленинграде. К производству был принят проект инженера Н.П.Антонова. На складах хранилось более полутора тысяч стволов танковых 45-мм пушек 20-К, которые и пошли в работу. Первые орудия были выпущены уже в августе 1941 года. Всего в 1941-1942 гг. было выпущено около 700 орудий данного типа.",
+            "en": "Because of the huge losses of anti-tank guns at the start of the war, it was made a decision to produce these guns in Leningrad. The design of the engineer Antonov was accepted for production. In the warehouses were stored more than 1,500 barrels of tank 45-mm guns 20-K, which went to work. The first guns were issued in August 1941. In total in 1941-1942 it was issued about 700 guns of this type."
+        },
+        "slug": "35001-45-mm-gum-1941",
+        "article": "35001",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-35",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/35",
+        "newsImage": "",
+        "boxImage": "35001.jpg",
+        "boxImageSmall": "35001.jpg",
+        "bucketOfImages": ["35001-1.jpg", "35001-2.jpg", "35001-3.jpg", "35001-4.jpg", "35001-5.jpg", "35001-6.jpg", "35001-7.jpg"],
+        "sortOrder": 1
+    },
+    {
         "name": {
             "ru": "Тяжелая САУ КВ-6",
             "en": "KV-6 Soviet Heavy SPG"
