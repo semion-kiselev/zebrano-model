@@ -1550,6 +1550,76 @@
             "z72036-3.jpg"
         ]
     },
+    {
+        "name": {
+            "ru": "Американский автомобиль Тюдор (1928)",
+            "en": "Tudor (1928) American Car"
+        },
+        "title": {
+            "ru": "Американский автомобиль Тюдор (1928)",
+            "en": "Tudor (1928) American Car"
+        },
+        "description": {
+            "ru": "Американский автомобиль Тюдор (1928) в масштабе 1/72",
+            "en": "1/72 scale model Tudor (1928) American Car"
+        },
+        "text": {
+            "ru": "Форд модели А сменил на конвейере знаменитую модель Т в 1927 году. Модель выпускалась в нескольких вариантах кузова. Одним из них был седан Тюдор. Автомобиль выпускался черного, зеленого или серого цвета. Машинокомплекты данной модели поставлялись в Советский Союз. Сначала сборка автомобилей осуществлялась в Харькове, а с 1930 года по 1932 в Москве на заводе №2 имени КИМ. Все автомобили, выпущенные в Москве, направлялись в службу городского такси.",
+            "en": "Ford Model A replaced the famous T model on the assembly line in 1927. The model was available in several body styles. One of them was a Tudor sedan. The car was produced in black, green or gray. Car kits of this model were supplied to the Soviet Union. First, automobile assembly was carried out in Kharkov, and from 1930 to 1932 in Moscow at the KIM plant No. 2. All cars produced in Moscow were sent to the city taxi service."
+        },
+        "slug": "72037-tudor",
+        "article": "72037",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 28,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "72037.jpg",
+        "boxImage": "72037.jpg",
+        "boxImageSmall": "72037.jpg",
+        "bucketOfImages": [
+            "72037-1.jpg",
+            "72037-2.jpg"
+        ]
+    },
+    {
+        "name": {
+            "ru": "Огнеметный танк Объект 483",
+            "en": "Obyekt 483 Flamethrower Tank"
+        },
+        "title": {
+            "ru": "Огнеметный танк Объект 483",
+            "en": "Obyekt 483 Flamethrower Tank"
+        },
+        "description": {
+            "ru": "Огнеметный танк Объект 483 в масштабе 1/72",
+            "en": "1/72 scale model Obyekt 483 Flamethrower Tank"
+        },
+        "text": {
+            "ru": "Огнеметный танк Объект 483 был создан в Харькове в 1957 – 1958 гг. под руководством А.А.Морозова. Танк был вооружен огнеметом большой мощности ОМ-250 с емкостью выстрела в 100 л огнеметной смеси. В связи с демонтажем пушки и пулемета экипаж машины был сокращен до 3 человек. Танк прошел испытания на НИИБТ полигоне в 1961 году.",
+            "en": "Flamethrower tank Object 483 was designed in Kharkov in 1957 - 1958 under the leadership of A.A. Morozov. The tank was armed with a high power flamethrower OM-250 with a shot capacity of 100 l of flamethrower mixture. Because of the dismantling of the gun and machine gun, the crew of the car was reduced to 3 troopers. The tank was tested at the NIIBT prove ground in 1961."
+        },
+        "slug": "SEA033-object-483",
+        "article": "SEA033",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 29,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "sea033.jpg",
+        "boxImage": "sea033.jpg",
+        "boxImageSmall": "sea033.jpg",
+        "bucketOfImages": [
+            "sea033-1.jpg",
+            "sea033-2.jpg",
+            "sea033-3.jpg",
+            "sea033-4.jpg",
+            "sea033-5.jpg",
+            "sea033-6.jpg"
+        ]
+    },
     {"sortOrder": 1, "name": {"ru": "Советская САУ СУ-76М", "en": "Soviet SPG SU-76M"}, "slug": "Z100001-su-76m", "article": "Z100001", "visible": true, "subsection": "armor-resin-kits-1-100", "type": "armor", "lifeCycleState": "on", "scale": "1/100", "boxImage": "Z100001.jpg","boxImageSmall": "Z100001.jpg"},
     {"sortOrder": 2, "name": {"ru": "Hanomag Sdkfz. 251/1D", "en": "Hanomag Sdkfz. 251/1D"}, "slug": "Z100002-sdkfz-251-1d", "article": "Z100002", "visible": true, "subsection": "armor-resin-kits-1-100", "type": "armor", "lifeCycleState": "on", "scale": "1/100", "boxImage": "Z100002.jpg","boxImageSmall": "Z100002.jpg"},
     {"sortOrder": 3, "name": {"ru": "Т-34 обр. 1941", "en": "T-34 mod. 1941"}, "slug": "Z100003-t-34-1941", "article": "Z100003", "visible": true, "subsection": "armor-resin-kits-1-100", "type": "armor", "lifeCycleState": "on", "scale": "1/100", "boxImage": "Z100003-2.jpg","boxImageSmall": "Z100003-2.jpg"},
@@ -1559,6 +1629,8 @@
     {"sortOrder": 7, "name": {"ru": "Flammpanzer 38(t)", "en": "Flammpanzer 38(t)"}, "slug": "Z100010-flammpanzer-38t", "article": "Z100010", "visible": true, "subsection": "armor-resin-kits-1-100", "type": "armor", "lifeCycleState": "on", "scale": "1/100", "boxImage": "Z100010.jpg","boxImageSmall": "Z100010.jpg"},
     {"sortOrder": 8, "name": {"ru": "Т-34 обр. 1942", "en": "T-34 mod. 1942"}, "slug": "Z100011-t-34-1942", "article": "Z100011", "visible": true, "subsection": "armor-resin-kits-1-100", "type": "armor", "lifeCycleState": "on", "scale": "1/100", "boxImage": "Z100011.jpg","boxImageSmall": "Z100011.jpg"},
     {"sortOrder": 9, "name": {"ru": "Советский тягач \"Коминтерн\"", "en": "Soviet tractor \"Komintern\""}, "slug": "Z100013-komintern", "article": "Z100013", "visible": true, "subsection": "armor-resin-kits-1-100", "type": "armor", "lifeCycleState": "on", "scale": "1/100", "boxImage": "Z100013.jpg","boxImageSmall": "Z100013.jpg"},
+    {"sortOrder": 10, "name": {"ru": "Т-40 с пушкой ТНШ", "en": "T-40 w. TNSh AC"}, "slug": "Z100020-t-40-tnsh", "article": "Z100020", "visible": true, "subsection": "armor-resin-kits-1-100", "type": "armor", "lifeCycleState": "on", "scale": "1/100", "boxImage": "Z100020.jpg","boxImageSmall": "Z100020.jpg"},
+    {"sortOrder": 11, "name": {"ru": "Т-40 с пулеметом ДШК", "en": "T-40 w. DShK HMG"}, "slug": "Z100021-t-40-dshk", "article": "Z100021", "visible": true, "subsection": "armor-resin-kits-1-100", "type": "armor", "lifeCycleState": "on", "scale": "1/100", "boxImage": "Z100021.jpg","boxImageSmall": "Z100021.jpg"},
     {"soerOrder": 1, "name": {"ru": "Расчет установки 4М", "en": "4M Machine Gun Crew"}, "slug": "Z72008", "article": "Z72008", "visible": true, "subsection": "figures-1-72", "type": "figures", "lifeCycleState": "on", "scale": "1/72", "boxImage": "vzfaghashkmmv92mzwlo.jpg", "boxImageSmall": "tdinjkmqyytetms7g5sj.jpg"},
     {"soerOrder": 2, "name": {"ru": "Советский танковый экипаж 1944", "en": "Soviet Tank Crew 1944"}, "slug": "Z72010", "article": "Z72010", "visible": true, "subsection": "figures-1-72", "type": "figures", "lifeCycleState": "on", "scale": "1/72", "boxImage": "jqx6vhdndblwalsr12s0.jpg", "boxImageSmall": "u749v4wfmvrb4kaohwow.jpg"},
     {"soerOrder": 3, "name": {"ru": "Немецкий танковый экипаж 1944", "en": "German Tank Crew 1944"}, "slug": "Z72012", "article": "Z72012", "visible": true, "subsection": "figures-1-72", "type": "figures", "lifeCycleState": "on", "scale": "1/72", "boxImage": "f94upbplhvsq5osgsnif.jpg", "boxImageSmall": "yjo8smave8uoi6pn1mrc.jpg"},

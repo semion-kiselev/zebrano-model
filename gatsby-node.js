@@ -3,12 +3,12 @@ const path = require('path');
 const locales = ['en', 'ru'];
 
 const itemsSlugsToDisplayInNews = [
+    'SEA033-object-483',
+    '72037-tudor',
     '72111-pmg-1',
     'FUTURE-BMD-3',
     '72035-humber-mk4',
-    '72036-aec-mk3',
-    'SEA031-lebedenko-tank',
-    '72118-72-k-1943'
+    '72036-aec-mk3'
 ];
 
 const itemsPerPage = 30;
