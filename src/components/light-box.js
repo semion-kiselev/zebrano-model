@@ -93,7 +93,7 @@ class LightBox extends PureComponent {
 LightBox.propTypes = {
     onRequestClose: PropTypes.func.isRequired,
     isVisible: PropTypes.bool.isRequired,
-    image: PropTypes.string.isRequired
+    image: PropTypes.string
 };
 
 export default LightBox;

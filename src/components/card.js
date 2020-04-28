@@ -2,7 +2,7 @@ import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import cn from 'classnames';
 import {Link} from 'gatsby';
-import {TABLET_MEDIUM_BREAKPOINT, IMAGE_URL, BOX_IMAGE, SMALL_IMAGE, itemTypes} from '../constants';
+import {TABLET_MEDIUM_BREAKPOINT, IMAGE_URL, BOX_IMAGE, SMALL_IMAGE, itemTypes, slugs} from '../constants';
 
 class Card extends PureComponent {
     constructor(props) {
@@ -21,6 +21,10 @@ class Card extends PureComponent {
 
     render() {
         const {locale, subsectionSlug, item} = this.props;
+        const boxImageUrl = `${IMAGE_URL}/${BOX_IMAGE}/${item.boxImage}`;
+        const smallBoxImageUrl = subsectionSlug === slugs.ARMOR_RESIN_KITS_1_100
+            ? boxImageUrl
+            : `${IMAGE_URL}/${BOX_IMAGE}/${SMALL_IMAGE}/${item.boxImageSmall}`;
 
         return (
             <div className={cn('card', {
@@ -29,8 +33,8 @@ class Card extends PureComponent {
             })}>
                 <img
                     className="card__thumbnail"
-                    onClick={this.handleLoupe(`${IMAGE_URL}/${BOX_IMAGE}/${item.boxImage}`)}
-                    src={`${IMAGE_URL}/${BOX_IMAGE}/${SMALL_IMAGE}/${item.boxImageSmall}`}
+                    onClick={this.handleLoupe(boxImageUrl)}
+                    src={smallBoxImageUrl}
                     alt={`${item.name[locale]}`}
                 />
                 <div

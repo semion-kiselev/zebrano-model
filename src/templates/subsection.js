@@ -1,4 +1,5 @@
-import React, {PureComponent} from 'react';
+import React, {PureComponent, Fragment} from 'react';
+import partition from 'lodash.partition';
 import PropTypes from 'prop-types';
 import cn from 'classnames';
 import {graphql, Link} from 'gatsby';
@@ -6,6 +7,7 @@ import Layout from '../components/layout';
 import Card from '../components/card';
 import LightBox from '../components/light-box';
 import {getNormalizedData, getNavData, getPagesArray} from '../utils';
+import {slugs, resinKits1To100BoxTypes} from "../constants";
 
 class Subsection extends PureComponent {
     constructor(props) {
@@ -27,6 +29,41 @@ class Subsection extends PureComponent {
         this.setState({viewedImage: undefined});
     }
 
+    renderItem(item, locale, subsectionSlug) {
+        return (
+            <div key={item.article} className="subsection-content__item">
+                <Card
+                    locale={locale}
+                    item={item}
+                    subsectionSlug={subsectionSlug}
+                    onLoupe={this.handleLoupe}
+                />
+            </div>
+        );
+    }
+
+    renderItems(items, locale, subsectionSlug) {
+        return (
+            <div className="subsection-content__items">
+                {items.map(item => this.renderItem(item, locale, subsectionSlug))}
+            </div>
+        );
+    }
+
+    renderResin1To100Items(items, locale, subsectionSlug) {
+        const [verticalBoxes, horizontalBoxes] = partition(
+            items,
+            item => item.boxType === resinKits1To100BoxTypes.V
+        );
+
+        return (
+            <Fragment>
+                {verticalBoxes.length > 0 && this.renderItems(verticalBoxes, locale, subsectionSlug)}
+                {horizontalBoxes.length > 0 && this.renderItems(horizontalBoxes, locale, subsectionSlug)}
+            </Fragment>
+        );
+    }
+
     render() {
         const {locale, subsection, numPages, currentPage} = this.props.pageContext;
         const {data} = this.props;
@@ -39,6 +76,9 @@ class Subsection extends PureComponent {
             .filter(navItem => navItem.children.some(child => child.pageName === subsection.slug))[0];
         const url = `${locale}/${subsection.slug}/`;
         const pages = getPagesArray(numPages);
+
+        const isResin1to100Kits = subsection.slug === slugs.ARMOR_RESIN_KITS_1_100;
+        const renderItems = isResin1to100Kits ? this.renderResin1To100Items : this.renderItems;
 
         return (
             <Layout
@@ -67,20 +107,7 @@ class Subsection extends PureComponent {
                             ))
                         }
                     </div>
-                    <div className="subsection-content__items">
-                        {
-                            items.map(item => (
-                                <div key={item.article} className="subsection-content__item">
-                                    <Card
-                                        locale={locale}
-                                        item={item}
-                                        subsectionSlug={subsection.slug}
-                                        onLoupe={this.handleLoupe}
-                                    />
-                                </div>
-                            ))
-                        }
-                    </div>
+                    {renderItems.apply(this, [items, locale, subsection.slug])}
                     {
                         pages.length > 1 &&
                         <div className="subsection-content__paginator">
@@ -162,7 +189,8 @@ export const SubsectionQuery = graphql`
                     },
                     type,
                     boxImage,
-                    boxImageSmall
+                    boxImageSmall,
+                    boxType
                 }
             }
         }

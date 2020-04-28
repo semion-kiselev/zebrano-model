@@ -23,19 +23,34 @@ export const itemTypes = {
     ACCESSORIES: 'accessories'
 };
 
+export const slugs = {
+    HOME: '/',
+    WHERE_TO_BUY: 'where-to-buy',
+    SEARCH: 'search',
+    ARMOR_PLASTIC_KITS_1_72: 'armor-plastic-kits-1-72',
+    ARMOR_PLASTIC_KITS_1_35: 'armor-plastic-kits-1-35',
+    ARMOR_RESIN_KITS_1_72: 'armor-resin-kits-1-72',
+    ARMOR_RESIN_KITS_1_100: 'armor-resin-kits-1-100',
+    FIGURES_1_72: 'figures-1-72',
+    FIGURES_1_43: 'figures-1-43',
+    FIGURES_1_35: 'figures-1-35',
+    ACCESSORIES_1_72: 'accessories-1-72',
+    ACCESSORIES_1_35: 'accessories-1-35',
+};
+
 export const pageLinks = {
-    'home': '/',
-    'armorPlasticKits172': 'armor-plastic-kits-1-72',
-    'armorPlasticKits135': 'armor-plastic-kits-1-35',
-    'armorResinKits172': 'armor-resin-kits-1-72',
-    'armorResinKits1100': 'armor-resin-kits-1-100',
-    'figures172': 'figures-1-72',
-    'figures143': 'figures-1-43',
-    'figures135': 'figures-1-35',
-    'accessories172': 'accessories-1-72',
-    'accessories135': 'accessories-1-35',
-    'whereToBuy': 'where-to-buy',
-    'search': 'search'
+    'home': slugs.HOME,
+    'whereToBuy': slugs.WHERE_TO_BUY,
+    'search': slugs.SEARCH,
+    'armorPlasticKits172': slugs.ARMOR_PLASTIC_KITS_1_72,
+    'armorPlasticKits135': slugs.ARMOR_PLASTIC_KITS_1_35,
+    'armorResinKits172': slugs.ARMOR_RESIN_KITS_1_72,
+    'armorResinKits1100': slugs.ARMOR_RESIN_KITS_1_100,
+    'figures172': slugs.FIGURES_1_72,
+    'figures143': slugs.FIGURES_1_43,
+    'figures135': slugs.FIGURES_1_35,
+    'accessories172': slugs.ACCESSORIES_1_72,
+    'accessories135': slugs.ACCESSORIES_1_35,
 };
 
 export const TABLET_MEDIUM_BREAKPOINT = 768;
@@ -126,3 +141,8 @@ export const SMALL_IMAGE = 'sm';
 export const SEARCH_INPUT_DEBOUNCE_DELAY = 500;
 export const SEARCH_INPUT_MAX_LENGTH = 50;
 export const SEARCH_ITEMS_MAX_QTY = 20;
+
+export const resinKits1To100BoxTypes = {
+    V: 'V', // vertical
+    H: 'H' // horizontal
+};

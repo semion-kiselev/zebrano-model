@@ -38,7 +38,7 @@ class WhereToBuy extends PureComponent {
                                     shops.map(shopInfo => (
                                         shopInfo.name[locale] &&
                                         (
-                                            <li className="where-to-buy__item">
+                                            <li key={shopInfo.name[locale]} className="where-to-buy__item">
                                                 {
                                                     shopInfo.link[locale]
                                                     ? (
