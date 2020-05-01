@@ -4,9 +4,9 @@ export const locales = ['en', 'ru'];
 // double is gatsby-node
 export const itemsSlugsToDisplayInNews = [
     'SEA033-object-483',
-    '72037-tudor',
+    'bmd3',
+    'bmd4',
     '72111-pmg-1',
-    'FUTURE-BMD-3',
     '72035-humber-mk4',
     '72036-aec-mk3'
 ];

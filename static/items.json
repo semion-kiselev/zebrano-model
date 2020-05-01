@@ -547,6 +547,72 @@
     },
     {
         "name": {
+            "ru": "БМД-3",
+            "en": "BMD-3"
+        },
+        "title": {
+            "ru": "БМД-3",
+            "en": "BMD-3"
+        },
+        "description": {
+            "ru": "БМД-3 в масштабе 1/72",
+            "en": "1/72 scale model BMD-3"
+        },
+        "text": {
+            "ru": "Боевая машина десанта БМД-3 была принята на вооружение в 1990 году для замены устаревших БМД-1 и БМД-2. Боевая машина имела башню, унифицированную с БМП-2 и была вооружена 30-мм пушкой 2А42, спаренным с ней 7,62-мм пулеметом ПКТ, курсовым гранатометом АГС-17 «Пламя», 5,45-мм пулеметом РПКС  и ПТУР «Конкурс». Экипаж состоял из командира, водителя, оператора вооружения и 7 десантников.  В период с 1990 по 1997 год было выпущено 137 серийных БМД-3.",
+            "en": "BMD-3 airborne combat vehicle was adopted in 1990 to replace the obsolete BMD-1 and BMD-2. The combat vehicle had a turret unified with the BMP-2 and was armed with a 30 mm 2A42 cannon, a 7.62 mm PKT machine gun paired with it, an AGS-17 “Plamya” course grenade launcher, a 5.45 mm RPKS machine gun and the Concurs ATGM. The crew consisted of a commander, driver, weapons operator and 7 paratroopers. Between 1990 and 1997, 137 serial BMD-3s were produced."
+        },
+        "slug": "bmd3",
+        "article": "72120",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "bmd-3.jpg",
+        "boxImage": "72120-box.jpg",
+        "boxImageSmall": "72120-box-sm.jpg",
+        "bucketOfImages": [
+            "72120-1.jpg",
+            "72120-2.jpg",
+            "72120-3.jpg",
+            "72120-4.jpg",
+            "72120-5.jpg"
+        ],
+        "sortOrder": 27
+    },
+    {
+        "name": {
+            "ru": "БМД-4",
+            "en": "BMD-4"
+        },
+        "title": {
+            "ru": "БМД-4",
+            "en": "BMD-4"
+        },
+        "description": {
+            "ru": "БМД-4 в масштабе 1/72",
+            "en": "1/72 scale model BMD-4"
+        },
+        "text": {
+            "ru": "БМД-4 создана на базе боевой машины десанта БМД-3 и была принята на вооружение ВС РФ 31 декабря 2004 года. На корпус БМД-3 была установлена башня от БМП-3, в результате чего огневая мощь боевой машины выросла в 2,5 раза. Вооружение новой  машины состояло из 100-мм орудия – пусковой установки 2А70, 30-мм автоматической пушки 2А72, 7,62-мм пулемета ПКТМ, 8 ПТУР и автоматического гранатомета АГС-30. Всего их выпустили для испытаний 60 единиц, но в серию боевая машина не пошла.",
+            "en": "BMD-4 was designed on the basis of the BMD-3 airborne combat vehicle and was adopted by the Russian Armed Forces on December 31, 2004. A BMP-3 tower was installed on the BMD-3 hull, as a result of which the firepower of the combat vehicle grew 2.5 times. The armament of the new machine consisted of a 100-mm gun - a 2A70 launcher, a 30-mm 2A72 automatic gun, a 7.62-mm PKTM machine gun, 8 ATGMs and an AGS-30 automatic grenade launcher. In total, 60 units were released for testing, but the combat vehicle did not go into the series."
+        },
+        "slug": "bmd4",
+        "article": "72121",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "coming",
+        "scale": "1/72",
+        "newsImage": "72121-news.jpg",
+        "boxImage": "72121-box.jpg",
+        "boxImageSmall": "72121-box-sm.jpg",
+        "bucketOfImages": ["72121-1.jpg", "72121-2.jpg"],
+        "sortOrder": 28
+    },
+    {
+        "name": {
             "ru": "ФАИ",
             "en": "FAI"
         },
@@ -573,7 +639,7 @@
         "boxImage": "",
         "boxImageSmall": "",
         "bucketOfImages": [],
-        "sortOrder": 27
+        "sortOrder": 29
     },
     {
         "name": {
@@ -603,37 +669,7 @@
         "boxImage": "",
         "boxImageSmall": "",
         "bucketOfImages": [],
-        "sortOrder": 28
-    },
-    {
-        "name": {
-            "ru": "БМД-3",
-            "en": "BMD-3"
-        },
-        "title": {
-            "ru": "БМД-3",
-            "en": "BMD-3"
-        },
-        "description": {
-            "ru": "БМД-3 в масштабе 1/72",
-            "en": "1/72 scale model BMD-3"
-        },
-        "text": {
-            "ru": "",
-            "en": ""
-        },
-        "slug": "FUTURE-BMD-3",
-        "article": "FUTURE-BMD-3",
-        "visible": true,
-        "subsection": "armor-plastic-kits-1-72",
-        "type": "armor",
-        "lifeCycleState": "coming",
-        "scale": "1/72",
-        "newsImage": "bmd-3.jpg",
-        "boxImage": "",
-        "boxImageSmall": "",
-        "bucketOfImages": [],
-        "sortOrder": 29
+        "sortOrder": 30
     },
     {
         "name": {"ru": "45-мм противотанковая пушка обр. 1941 г.", "en": "Soviet 45-mm Anti-Tank Gun m.1941"},
@@ -1619,6 +1655,66 @@
             "sea033-5.jpg",
             "sea033-6.jpg"
         ]
+    },
+    {
+        "name": {
+            "ru": "Тяжелая САУ С-59",
+            "en": "S-59 Heavy SPG"
+        },
+        "title": {
+            "ru": "Тяжелая САУ С-59",
+            "en": "S-59 Heavy SPG"
+        },
+        "description": {
+            "ru": "Тяжелая САУ С-59 в масштабе 1/72",
+            "en": "1/72 scale model S-59 Heavy SPG"
+        },
+        "text": {
+            "ru": "Тяжелая САУ С-59 была разработана в КБ завода №100. От САУ С-51 данная машина отличалась установкой 152-мм пушки Бр-2. Пушка устанавливалась на шасси тяжелого танка КВ-1С и была предназначена, в первую очередь, для борьбы с железобетонными укреплениями.  САУ проходила испытания в мае – июне 1944 г., которые не выдержала. После окончания испытаний тема была закрыта.",
+            "en": "Heavy self-propelled gun S-59 was developed in the design bureau of plant number 100. This vehicle was distinguished from the S-51 self-propelled guns by the installation of a 152-mm Br-2 gun. The gun was mounted on the chassis of the KV-1S heavy tank and was intended, first of all, to combat reinforced concrete fortifications. SPG was tested in May - June 1944, which could not stand it. After testing, the project was closed."
+        },
+        "slug": "SEA034-s-59",
+        "article": "SEA034",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 30,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "sea034.jpg",
+        "boxImageSmall": "sea034.jpg",
+        "bucketOfImages": ["sea034-1.jpg", "sea034-2.jpg"]
+    },
+    {
+        "name": {
+            "ru": "Мармон-Херрингтон Мк.2 МЕ",
+            "en": "Marmon-Herrington Mk.II МЕ "
+        },
+        "title": {
+            "ru": "Мармон-Херрингтон Мк.2 МЕ",
+            "en": "Marmon-Herrington Mk.II МЕ "
+        },
+        "description": {
+            "ru": "Мармон-Херрингтон Мк.2 МЕ в масштабе 1/72",
+            "en": "1/72 scale model Marmon-Herrington Mk.II МЕ "
+        },
+        "text": {
+            "ru": "Бронеавтомобиль Мармон-Херрингтон Мк.2 выпу3скался в Южно-Африканской Республике в 1940 – 1941 гг. Вариант МЕ (Middle East) предназначался для действий на Среднем Востоке. Бронеавтомобили поставлялись в боевые части ЮАР, участвовавшие в боевых действиях в Северной Африке, а также в подразделения Великобритании. Вооружение состояло из 7,7-мм пулемета Bren, 13.97-мм противотанкового ружья Boys и зенитного пулемета. Всего было изготовлено 338 бронеавтомобилей данного варианта.",
+            "en": "The armored car Marmont-Herrington Mk.II was produced in the Republic of South Africa in 1940 - 1941. Option ME (Middle East) was intended for action in the Middle East. Armored vehicles were delivered to the combat units of South Africa, which participated in the hostilities in North Africa, as well as to units of Great Britain. The armament consisted of a 7.7 mm Bren machine gun, a 13.97 mm Boys anti-tank rifle and an anti-aircraft machine gun. In total, 338 armored vehicles of this variant were manufactured."
+        },
+        "slug": "72038-marmon-herrington-mk2-me",
+        "article": "72038",
+        "visible": true,
+        "subsection": "armor-resin-kits-1-72",
+        "sortOrder": 31,
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "",
+        "boxImage": "72038.jpg",
+        "boxImageSmall": "72038.jpg",
+        "bucketOfImages": []
     },
     {"sortOrder": 1, "name": {"ru": "Советская САУ СУ-76М", "en": "Soviet SPG SU-76M"}, "slug": "Z100001-su-76m", "article": "Z100001", "visible": true, "subsection": "armor-resin-kits-1-100", "type": "armor", "lifeCycleState": "on", "scale": "1/100", "boxImage": "Z100001.jpg", "boxType": "V"},
     {"sortOrder": 2, "name": {"ru": "Hanomag Sdkfz. 251/1D", "en": "Hanomag Sdkfz. 251/1D"}, "slug": "Z100002-sdkfz-251-1d", "article": "Z100002", "visible": true, "subsection": "armor-resin-kits-1-100", "type": "armor", "lifeCycleState": "on", "scale": "1/100", "boxImage": "Z100002.jpg", "boxType": "V"},
