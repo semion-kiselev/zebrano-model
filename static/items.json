@@ -613,36 +613,6 @@
     },
     {
         "name": {
-            "ru": "ФАИ",
-            "en": "FAI"
-        },
-        "title": {
-            "ru": "ФАИ",
-            "en": "FAI"
-        },
-        "description": {
-            "ru": "ФАИ в масштабе 1/72",
-            "en": "1/72 scale model FAI"
-        },
-        "text": {
-            "ru": "",
-            "en": ""
-        },
-        "slug": "FUTURE-FAI",
-        "article": "FUTURE-FAI",
-        "visible": true,
-        "subsection": "armor-plastic-kits-1-72",
-        "type": "armor",
-        "lifeCycleState": "coming",
-        "scale": "1/72",
-        "newsImage": "umgdfkjla16l8hgy0agl.jpg",
-        "boxImage": "",
-        "boxImageSmall": "",
-        "bucketOfImages": [],
-        "sortOrder": 29
-    },
-    {
-        "name": {
             "ru": "Д-8",
             "en": "D-8"
         },
@@ -655,20 +625,50 @@
             "en": "1/72 scale model D-8"
         },
         "text": {
-            "ru": "",
-            "en": ""
+            "ru": "Легкий бронеавтомобиль Д-8 был создан инженером Н. Дыренковым на базе автомобиля Форд-А в 1931 году. Бронеавтомобиль был вооружен одним 7,62-мм пулеметом ДТ с боекомплектом 2709 патронов (43 магазина). Для стрельбы из пулемета в корпусе бронеавтомобиля были выполнены 4 амбразуры. Всего было выпущено около 50 бронеавтомобилей Д-8. На вооружении Красной Армии бронеавтомобили Д-8 состояли до конца 1942 года.",
+            "en": "Light armored car D-8 was created by engineer N. Dyrenkov on the base of Ford-A car in 1931. The armored car was armed with one 7.62 mm DT machine gun with 2709 rounds of ammunition. Four embrasures were made in the body of an armored car for shooting. About 50 armored cars D-8 were issued in total. The D-8 armored cars consisted In the armament of the Red Army until the end of 1942."
         },
-        "slug": "FUTURE-D-8",
-        "article": "FUTURE-D-8",
+        "slug": "d-8",
+        "article": "72113",
         "visible": true,
         "subsection": "armor-plastic-kits-1-72",
         "type": "armor",
-        "lifeCycleState": "coming",
+        "lifeCycleState": "on",
         "scale": "1/72",
         "newsImage": "z3blrhdpv3g027rnogen.jpg",
-        "boxImage": "",
-        "boxImageSmall": "",
-        "bucketOfImages": [],
+        "boxImage": "72113.jpg",
+        "boxImageSmall": "72113-box-sm.jpg",
+        "bucketOfImages": ["72113-1.jpg", "72113-2.jpg"],
+        "sortOrder": 29
+    },
+    {
+        "name": {
+            "ru": "ФАИ",
+            "en": "FAI"
+        },
+        "title": {
+            "ru": "ФАИ",
+            "en": "FAI"
+        },
+        "description": {
+            "ru": "ФАИ в масштабе 1/72",
+            "en": "1/72 scale model FAI"
+        },
+        "text": {
+            "ru": "Советский легкий бронеавтомобиль ФАИ был разработан на Ижорском заводе в Ленинграде в 1933 году на базе легкового автомобиля Форд-А. Производство бронеавтомобилей было развернуто в г. Выкса, где с 1933 по 1936 гг. было выпущено 676 броневиков уже на базе отечественного ГАЗ-А. Бронеавтомобиль был вооружен одним пулеметом ДТ, имел противопульную броню и дальность хода до 250 км. Бронеавтомобиль поставлялся на экспорт, участвовал во всех довоенных конфликтах СССР и принял участия в боевых действиях на начальном этапе Великой Отечественной войны.",
+            "en": "FAI Soviet light armored car was developed at the Izhora plant in Leningrad in 1933 based on a Ford-A car. Production of armored cars was deployed in Vyksa, where 676 armored cars were issued in period from 1933 to 1936 already released on the basis of the domestic GAZ-A. The armored car was armed with one DT machine gun, had bulletproof armor and a range of up to 250 km. Armored vehicles were exported, participated in all the pre-war conflicts of the USSR and took part in battles at the initial stage of the Great Patriotic War."
+        },
+        "slug": "fai",
+        "article": "72114",
+        "visible": true,
+        "subsection": "armor-plastic-kits-1-72",
+        "type": "armor",
+        "lifeCycleState": "on",
+        "scale": "1/72",
+        "newsImage": "umgdfkjla16l8hgy0agl.jpg",
+        "boxImage": "72114.jpg",
+        "boxImageSmall": "72114-box-sm.jpg",
+        "bucketOfImages": ["72114-1.jpg", "72114-2.jpg", "72114-3.jpg"],
         "sortOrder": 30
     },
     {
