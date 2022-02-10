@@ -15,7 +15,7 @@
     "gatsby-transformer-json": "2.1.6",
     "lodash.debounce": "4.0.8",
     "lodash.partition": "^4.6.0",
-    "node-sass": "4.12.0",
+    "node-sass": "7.0.0",
     "postcss-pxtorem": "4.0.1",
     "react": "16.6.3",
     "react-dom": "16.6.3",
