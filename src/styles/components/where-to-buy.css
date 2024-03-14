@@ -1,0 +1,35 @@
+.where-to-buy {}
+
+.where-to-buy__wholesale {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.where-to-buy__retail {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.where-to-buy__list {}
+
+.where-to-buy__item {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.where-to-buy__item:first-child {
+  margin-top: 0;
+}
+
+.where-to-buy__link {
+  border-bottom: 1px solid var(--link-border-color);
+  color: var(--link-color);
+  line-height: 0.9;
+  text-decoration: none;
+  transition: color .2s ease, border-bottom .2s ease;
+}
+
+.where-to-buy__link:hover {
+  border-bottom: 1px solid var(--link-color-hover);
+  color: var(--link-color-hover);
+}

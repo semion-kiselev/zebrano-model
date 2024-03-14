@@ -12,8 +12,6 @@ const pxToRemOptions = {
     media_query: true
 };
 
-const autoPrefixerOptions = {browsers: ['last 2 versions', 'ie >= 11']};
-
 module.exports = {
     siteMetadata: {
         siteUrl: 'https://zebrano-model.com',
@@ -21,15 +19,13 @@ module.exports = {
     },
     plugins: [
         {
-            resolve: `gatsby-plugin-sass`,
+            resolve: `gatsby-plugin-postcss`,
             options: {
                 postCssPlugins: [
-                    require('autoprefixer')(autoPrefixerOptions),
                     require('postcss-pxtorem')(pxToRemOptions)
                 ]
             },
         },
-        'gatsby-plugin-postcss',
         'gatsby-plugin-react-helmet',
         {
             resolve: `gatsby-source-filesystem`,

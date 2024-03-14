@@ -1,0 +1,42 @@
+.about-us {
+	margin: 0 50px;
+	padding: 30px 60px;
+	border: 10px solid var(--link-color-active);
+}
+
+.about-us__title {
+	margin: 0 0 15px;
+	font-size: 24px;
+}
+
+.about-us__block {
+	line-height: 1.5;
+	font-size: 14px;
+}
+
+.about-us__link {
+	border-bottom: 1px solid var(--link-border-color);
+	color: var(--link-color);
+	line-height: 0.9;
+	text-decoration: none;
+	transition: color .2s ease, border-bottom .2s ease;
+}
+
+.about-us__link:hover {
+	border-bottom: 1px solid var(--link-color-hover);
+	color: var(--link-color-hover);
+}
+
+/* --tablet-medium-breakpoint: 768px; */
+@media screen and (max-width: 768px) {
+	.about-us {
+		margin: 0;
+	}
+}
+
+/* --phone-breakpoint: 576px; */
+@media screen and (max-width: 576px) {
+	.about-us {
+		padding: 20px 20px;
+	}
+}

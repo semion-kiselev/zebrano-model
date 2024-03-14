@@ -1,0 +1,119 @@
+.search-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.search-card:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.search-card__thumbnail-wrapper {
+  position: relative;
+  float: left;
+  width: 150px;
+}
+
+.search-card__image-link {
+  display: block;
+}
+
+.search-card__thumbnail {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.search-card__main {
+  position: absolute;
+  top: 50%;
+  left: 170px;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.search-card__name,
+.search-card__subsection {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.search-card__article {
+  margin-bottom: 4px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.search-card__name {
+  font-size: 18px;
+}
+
+.search-card__name .search-card__link {
+  font-size: 18px;
+}
+
+.search-card__subsection {
+  margin-top: 4px;
+}
+
+.search-card__subsection .search-card--sm-indent {
+  margin-top: 1px;
+}
+
+.search-card__link,
+.search-card__subsection-link {
+  display: inline-block;
+  border-bottom: 1px solid var(--link-border-color);
+  font-size: 15px;
+  color: var(--link-color);
+  text-decoration: none;
+  line-height: 1;
+  transition: color .2s ease, border-bottom .2s ease;
+}
+
+.search-card__link:hover,
+.search-card__subsection-link:hover {
+  color: var(--link-color-hover);
+  border-color: var(--link-color-hover);
+}
+
+/* --tablet-medium-breakpoint: 768px; */
+@media screen and (max-width: 768px) {
+  .search-card__thumbnail {
+    cursor: default;
+  }
+}
+
+/* --phone-breakpoint: 576px; */
+@media screen and (max-width: 576px) {
+  .search-card {
+    padding: 15px 15px 20px;
+  }
+
+  .search-card__thumbnail-wrapper {
+    position: relative;
+    float: none;
+    width: auto;
+  }
+
+  .search-card__main {
+    position: static;
+    top: auto;
+    left: auto;
+    right: auto;
+    transform: none;
+    margin-top: 12px;
+  }
+
+  .search-card__article {
+    margin-bottom: 2px;
+  }
+
+  .search-card__subsection {
+    margin-top: 2px;
+  }
+}

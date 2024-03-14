@@ -1,4 +1,4 @@
-import '../styles/index.scss';
+import '../styles/index.css';
 import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';

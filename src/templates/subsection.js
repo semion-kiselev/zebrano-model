@@ -74,7 +74,7 @@ class Subsection extends PureComponent {
         const pageData = navData
             .filter(navItem => Boolean(navItem.children))
             .filter(navItem => navItem.children.some(child => child.pageName === subsection.slug))[0];
-        const url = `${locale}/${subsection.slug}/`;
+        const url = `/${locale}/${subsection.slug}/`;
         const pages = getPagesArray(numPages);
 
         const isResin1to100Kits = subsection.slug === slugs.ARMOR_RESIN_KITS_1_100;
@@ -119,7 +119,7 @@ class Subsection extends PureComponent {
                                             className={cn('paginator__link', {
                                                 'paginator__link--active': page === currentPage
                                             })}
-                                            to={page === 1 ? url : `${url}/${page}/`}
+                                            to={page === 1 ? url : `${url}${page}/`}
                                         >
                                             {page}
                                         </Link>
@@ -149,10 +149,7 @@ export default Subsection;
 export const SubsectionQuery = graphql`
     query SubsectionQuery($itemsSlugsToDisplayInNews: [String], $subsectionSlug: String!, $skip: Int!, $limit: Int!) {
         newsItems: allItemsJson (
-            filter: {
-                slug: {in: $itemsSlugsToDisplayInNews},
-                visible: {eq: true}
-            }
+            filter: {slug: {in: $itemsSlugsToDisplayInNews}, visible: {eq: true}}
         ) {
             edges {
                 node {
@@ -162,15 +159,8 @@ export const SubsectionQuery = graphql`
         },
         
         items: allItemsJson (
-            filter: {
-                subsection: {eq: $subsectionSlug},
-                lifeCycleState: {eq: "on"},
-                visible: {eq: true}
-            },
-            sort: {
-                fields: [sortOrder],
-                order: DESC
-            },
+            filter: {subsection: {eq: $subsectionSlug}, lifeCycleState: {eq: "on"}, visible: {eq: true}}
+            sort: {sortOrder: DESC}
             limit: $limit
             skip: $skip
         ) {
