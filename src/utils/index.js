@@ -3,8 +3,6 @@ import {pageLinks} from '../constants';
 
 export const navItemChildIsActive = (pageName, children) => children.some(child => child.pageName === pageName);
 
-export const getNormalizedData = (data) => data.edges.map(({node}) => node);
-
 export const getNavData = (locale) => ([
     {
         id: 1,

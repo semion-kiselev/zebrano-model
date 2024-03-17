@@ -1,7 +1,7 @@
 import React, {PureComponent} from 'react';
 import PropTypes from 'prop-types';
 import cn from 'classnames';
-import {graphql, navigate} from 'gatsby';
+import {navigate} from 'gatsby';
 import SlickSlider from 'react-slick';
 import {SLIDER_SETTINGS, IMAGE_URL, NEWS_IMAGE, itemStatuses} from '../constants';
 import trans from '../lang';
@@ -98,20 +98,3 @@ Slider.propTypes = {
 };
 
 export default Slider;
-
-export const query = graphql`
-    fragment NewItemsFragment on ItemsJson {
-        slug,
-        name {
-            ru,
-            en
-        },
-        description {
-            ru,
-            en
-        },
-        subsection,
-        lifeCycleState,
-        newsImage
-    }
-`;
