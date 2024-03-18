@@ -51,6 +51,13 @@ module.exports = {
       },
     },
     "gatsby-transformer-json",
-    // "gatsby-plugin-sitemap",
+    {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        serialize: ({ path }) => ({
+          url: path,
+        }),
+      },
+    },
   ],
 };
