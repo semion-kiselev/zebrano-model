@@ -1,7 +1,7 @@
 body {
-  background: rgba(0,0,0,.1);
+  background: rgba(0, 0, 0, 0.1);
   color: #333;
-  transition: opacity .2s ease;
+  transition: opacity 0.2s ease;
 }
 
 .page {
@@ -11,16 +11,17 @@ body {
   margin: 0 auto;
   padding-bottom: var(--footer-height);
   background: var(--page-bg);
-  box-shadow: 0 0 3px 0 rgba(0,0,0,.5);
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
 }
 
-.page__header {}
+.page__header {
+}
 
 .page__head {
   position: relative;
   height: var(--head-height);
   padding: 0 30px;
-  background: url('../../images/header-bg.jpg') 0 0 no-repeat;
+  background: url("../../images/header-bg.jpg") 0 0 no-repeat;
 }
 
 .page__logo {
@@ -37,7 +38,7 @@ body {
 }
 
 .page__controls:after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
@@ -69,9 +70,11 @@ body {
   z-index: 9;
 }
 
-.page__slider {}
+.page__slider {
+}
 
-.page__main {}
+.page__main {
+}
 
 .page__footer {
   position: absolute;

@@ -21,7 +21,9 @@
   color: var(--link-color);
   line-height: 0.9;
   text-decoration: none;
-  transition: color .2s ease, border-bottom .2s ease;
+  transition:
+    color 0.2s ease,
+    border-bottom 0.2s ease;
 }
 
 .item-content__subsection-link:hover {

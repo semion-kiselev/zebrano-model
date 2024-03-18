@@ -9,7 +9,7 @@
 }
 
 .subsection-content__items:after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
@@ -25,7 +25,7 @@
 }
 
 .subsection-content__links:after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
@@ -40,7 +40,9 @@
   color: #333;
   text-decoration: none;
   line-height: 0.9;
-  transition: color .2s ease, border-bottom .2s ease;
+  transition:
+    color 0.2s ease,
+    border-bottom 0.2s ease;
 }
 
 .subsection-content__link:hover {

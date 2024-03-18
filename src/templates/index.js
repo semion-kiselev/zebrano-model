@@ -1,14 +1,14 @@
-import React, {PureComponent} from 'react';
-import PropTypes from 'prop-types';
-import Layout from '../components/layout';
-import AboutUs from '../components/about-us';
-import SectionLinks from '../components/section-links';
-import trans from '../lang';
-import {pageLinks} from '../constants';
+import PropTypes from "prop-types";
+import { PureComponent } from "react";
+import AboutUs from "../components/about-us";
+import Layout from "../components/layout";
+import SectionLinks from "../components/section-links";
+import { pageLinks } from "../constants";
+import trans from "../lang";
 
 class Home extends PureComponent {
   render() {
-    const {locale, itemsForNews} = this.props.pageContext;
+    const { locale, itemsForNews } = this.props.pageContext;
 
     return (
       <Layout
@@ -20,10 +20,10 @@ class Home extends PureComponent {
       >
         <div className="index-content">
           <div className="index-content__about-us">
-            <AboutUs locale={locale}/>
+            <AboutUs locale={locale} />
           </div>
           <div className="index-content__section-links">
-            <SectionLinks locale={locale}/>
+            <SectionLinks locale={locale} />
           </div>
         </div>
       </Layout>

@@ -1,41 +1,43 @@
 .paginator {
-	display: inline-block;
+  display: inline-block;
 }
 
 .paginator:after {
-	content: '';
-	display: block;
-	clear: both;
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .paginator__link {
-	float: left;
-	margin-left: 10px;
-	display: block;
-	line-height: 0.9;
-	text-align: center;
-	font-size: 16px;
-	color: var(--link-color);
-	border-bottom: 1px solid var(--link-border-color);
-	text-decoration: none;
-	transition: color .2s ease, border-bottom .2s ease;
+  float: left;
+  margin-left: 10px;
+  display: block;
+  line-height: 0.9;
+  text-align: center;
+  font-size: 16px;
+  color: var(--link-color);
+  border-bottom: 1px solid var(--link-border-color);
+  text-decoration: none;
+  transition:
+    color 0.2s ease,
+    border-bottom 0.2s ease;
 }
 
 .paginator__link:first-child {
-	margin-left: 0;
+  margin-left: 0;
 }
 
 .paginator__link:hover {
-	color: var(--link-color-hover);
-	border-bottom: 1px solid var(--link-color-hover);
+  color: var(--link-color-hover);
+  border-bottom: 1px solid var(--link-color-hover);
 }
 
 .paginator__link--active {
-	color: var(--link-color-active);
-	border-bottom: none;
+  color: var(--link-color-active);
+  border-bottom: none;
 }
 
 .paginator__link--active:hover {
-	color: var(--link-color-active);
-	border: none;
+  color: var(--link-color-active);
+  border: none;
 }

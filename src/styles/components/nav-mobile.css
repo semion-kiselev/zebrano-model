@@ -8,7 +8,9 @@
   width: 40px;
   color: #fff;
   cursor: pointer;
-  transition: color .2s ease, border-bottom .2s ease;
+  transition:
+    color 0.2s ease,
+    border-bottom 0.2s ease;
 }
 
 .nav-mobile__icon:hover,
@@ -23,7 +25,7 @@
   width: 300px;
   padding: 30px 30px 40px;
   background: #f9f9f2;
-  box-shadow: 1px 5px 10px 2px rgba(0, 0, 0, .4);
+  box-shadow: 1px 5px 10px 2px rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
 
@@ -32,7 +34,9 @@
 
 .nav-mobile__item {
   margin-top: 30px;
-  transition: color .2s ease, border-bottom .2s ease;
+  transition:
+    color 0.2s ease,
+    border-bottom 0.2s ease;
 }
 
 .nav-mobile__item:first-child {
@@ -79,7 +83,9 @@
   color: #333;
   font-size: 14px;
   text-transform: uppercase;
-  transition: color .2s ease, border-bottom .2s ease;
+  transition:
+    color 0.2s ease,
+    border-bottom 0.2s ease;
 }
 
 .nav-mobile__subitem:hover,

@@ -1,12 +1,12 @@
-import React, {PureComponent} from 'react';
-import PropTypes from 'prop-types';
-import Layout from '../components/layout';
-import trans from '../lang';
-import {pageLinks, shops} from '../constants';
+import PropTypes from "prop-types";
+import { PureComponent } from "react";
+import Layout from "../components/layout";
+import { pageLinks, shops } from "../constants";
+import trans from "../lang";
 
 class WhereToBuy extends PureComponent {
   render() {
-    const {locale, itemsForNews} = this.props.pageContext;
+    const { locale, itemsForNews } = this.props.pageContext;
 
     return (
       <Layout
@@ -17,44 +17,34 @@ class WhereToBuy extends PureComponent {
         newsItems={itemsForNews}
       >
         <div className="where-to-buy-content">
-          <h1 className="where-to-buy-content__title">
-            {trans.WHERE_TO_BUY_PAGE_TITLE[locale]}
-          </h1>
+          <h1 className="where-to-buy-content__title">{trans.WHERE_TO_BUY_PAGE_TITLE[locale]}</h1>
           <div className="where-to-buy-content__main">
             <div className="where-to-buy">
               <div
                 className="where-to-buy__wholesale"
-                dangerouslySetInnerHTML={{__html: trans.WHERE_TO_BUY_WHOLESALE[locale]}}
+                dangerouslySetInnerHTML={{ __html: trans.WHERE_TO_BUY_WHOLESALE[locale] }}
               />
-              <div className="where-to-buy__retail">
-                {trans.WHERE_TO_BUY_RETAIL[locale]}
-              </div>
+              <div className="where-to-buy__retail">{trans.WHERE_TO_BUY_RETAIL[locale]}</div>
               <ul className="where-to-buy__list">
-                {
-                  shops.map(shopInfo => (
-                    shopInfo.name[locale] &&
-                    (
+                {shops.map(
+                  (shopInfo) =>
+                    shopInfo.name[locale] && (
                       <li key={shopInfo.name[locale]} className="where-to-buy__item">
-                        {
-                          shopInfo.link[locale]
-                            ? (
-                              <a
-                                href={`${shopInfo.link[locale]}`}
-                                className="where-to-buy__link"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                {shopInfo.name[locale]}
-                              </a>
-                            )
-                            : (
-                              <span>{shopInfo.name[locale]}</span>
-                            )
-                        }
+                        {shopInfo.link[locale] ? (
+                          <a
+                            href={`${shopInfo.link[locale]}`}
+                            className="where-to-buy__link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {shopInfo.name[locale]}
+                          </a>
+                        ) : (
+                          <span>{shopInfo.name[locale]}</span>
+                        )}
                       </li>
                     )
-                  ))
-                }
+                )}
               </ul>
             </div>
           </div>
@@ -65,7 +55,7 @@ class WhereToBuy extends PureComponent {
 }
 
 WhereToBuy.propTypes = {
-  pageContext: PropTypes.object.isRequired
+  pageContext: PropTypes.object.isRequired,
 };
 
 export default WhereToBuy;

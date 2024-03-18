@@ -1,20 +1,20 @@
-import React, {PureComponent, Fragment} from 'react';
-import partition from 'lodash.partition';
-import PropTypes from 'prop-types';
-import cn from 'classnames';
-import {Link} from 'gatsby';
-import Layout from '../components/layout';
-import Card from '../components/card';
-import LightBox from '../components/light-box';
-import {getNavData, getPagesArray} from '../utils';
-import {slugs, resinKits1To100BoxTypes} from "../constants";
+import cn from "classnames";
+import { Link } from "gatsby";
+import partition from "lodash.partition";
+import PropTypes from "prop-types";
+import { Fragment, PureComponent } from "react";
+import Card from "../components/card";
+import Layout from "../components/layout";
+import LightBox from "../components/light-box";
+import { resinKits1To100BoxTypes, slugs } from "../constants";
+import { getNavData, getPagesArray } from "../utils";
 
 class Subsection extends PureComponent {
   constructor(props) {
     super(props);
 
     this.state = {
-      viewedImage: undefined
+      viewedImage: undefined,
     };
 
     this.handleLoupe = this.handleLoupe.bind(this);
@@ -22,11 +22,11 @@ class Subsection extends PureComponent {
   }
 
   handleLoupe(image) {
-    this.setState({viewedImage: image});
+    this.setState({ viewedImage: image });
   }
 
   clearViewedImage() {
-    this.setState({viewedImage: undefined});
+    this.setState({ viewedImage: undefined });
   }
 
   renderItem(item, locale, subsectionSlug) {
@@ -45,7 +45,7 @@ class Subsection extends PureComponent {
   renderItems(items, locale, subsectionSlug) {
     return (
       <div className="subsection-content__items">
-        {items.map(item => this.renderItem(item, locale, subsectionSlug))}
+        {items.map((item) => this.renderItem(item, locale, subsectionSlug))}
       </div>
     );
   }
@@ -53,7 +53,7 @@ class Subsection extends PureComponent {
   renderResin1To100Items(items, locale, subsectionSlug) {
     const [verticalBoxes, horizontalBoxes] = partition(
       items,
-      item => item.boxType === resinKits1To100BoxTypes.V
+      (item) => item.boxType === resinKits1To100BoxTypes.V
     );
 
     return (
@@ -65,12 +65,13 @@ class Subsection extends PureComponent {
   }
 
   render() {
-    const {locale, subsection, numPages, currentPage, itemsForNews, items} = this.props.pageContext;
-    const {viewedImage} = this.state;
+    const { locale, subsection, numPages, currentPage, itemsForNews, items } =
+      this.props.pageContext;
+    const { viewedImage } = this.state;
     const navData = getNavData(locale);
     const pageData = navData
-      .filter(navItem => Boolean(navItem.children))
-      .filter(navItem => navItem.children.some(child => child.pageName === subsection.slug))[0];
+      .filter((navItem) => Boolean(navItem.children))
+      .filter((navItem) => navItem.children.some((child) => child.pageName === subsection.slug))[0];
     const url = `/${locale}/${subsection.slug}/`;
     const pages = getPagesArray(numPages);
 
@@ -86,45 +87,38 @@ class Subsection extends PureComponent {
         newsItems={itemsForNews}
       >
         <div className="subsection-content">
-          <h1 className="subsection-content__title">
-            {pageData.label}
-          </h1>
+          <h1 className="subsection-content__title">{pageData.label}</h1>
           <div className="subsection-content__links">
-            {
-              pageData.children.map(child => (
-                <Link
-                  key={child.href}
-                  to={child.href}
-                  className={cn('subsection-content__link', {
-                    'subsection-content__link--active': child.pageName === subsection.slug
-                  })}
-                >
-                  {child.label}
-                </Link>
-              ))
-            }
+            {pageData.children.map((child) => (
+              <Link
+                key={child.href}
+                to={child.href}
+                className={cn("subsection-content__link", {
+                  "subsection-content__link--active": child.pageName === subsection.slug,
+                })}
+              >
+                {child.label}
+              </Link>
+            ))}
           </div>
           {renderItems.apply(this, [items, locale, subsection.slug])}
-          {
-            pages.length > 1 &&
+          {pages.length > 1 && (
             <div className="subsection-content__paginator">
               <div className="paginator">
-                {
-                  pages.map((page) => (
-                    <Link
-                      key={page}
-                      className={cn('paginator__link', {
-                        'paginator__link--active': page === currentPage
-                      })}
-                      to={page === 1 ? url : `${url}${page}/`}
-                    >
-                      {page}
-                    </Link>
-                  ))
-                }
+                {pages.map((page) => (
+                  <Link
+                    key={page}
+                    className={cn("paginator__link", {
+                      "paginator__link--active": page === currentPage,
+                    })}
+                    to={page === 1 ? url : `${url}${page}/`}
+                  >
+                    {page}
+                  </Link>
+                ))}
               </div>
             </div>
-          }
+          )}
           <LightBox
             onRequestClose={this.clearViewedImage}
             isVisible={Boolean(viewedImage)}
@@ -138,7 +132,7 @@ class Subsection extends PureComponent {
 
 Subsection.propTypes = {
   data: PropTypes.object.isRequired,
-  pageContext: PropTypes.object.isRequired
+  pageContext: PropTypes.object.isRequired,
 };
 
 export default Subsection;

@@ -1,4 +1,5 @@
-.where-to-buy {}
+.where-to-buy {
+}
 
 .where-to-buy__wholesale {
   margin-bottom: 20px;
@@ -10,7 +11,8 @@
   font-size: 15px;
 }
 
-.where-to-buy__list {}
+.where-to-buy__list {
+}
 
 .where-to-buy__item {
   margin-top: 15px;
@@ -26,7 +28,9 @@
   color: var(--link-color);
   line-height: 0.9;
   text-decoration: none;
-  transition: color .2s ease, border-bottom .2s ease;
+  transition:
+    color 0.2s ease,
+    border-bottom 0.2s ease;
 }
 
 .where-to-buy__link:hover {

@@ -1,4 +1,5 @@
-.card {}
+.card {
+}
 
 .card--figures .card__name,
 .card--figures .card__article {
@@ -34,7 +35,9 @@
   color: var(--link-color);
   text-decoration: none;
   line-height: 0.9;
-  transition: color .2s ease, border-bottom .2s ease;
+  transition:
+    color 0.2s ease,
+    border-bottom 0.2s ease;
 }
 
 .card__link:hover {

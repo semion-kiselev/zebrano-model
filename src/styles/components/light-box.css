@@ -5,10 +5,10 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(20,22,24,0.95);
+  background-color: rgba(20, 22, 24, 0.95);
   opacity: 0;
   z-index: 100;
-  transition: opacity .4s ease;
+  transition: opacity 0.4s ease;
 }
 
 .light-box.__visible {
@@ -39,7 +39,7 @@
 .light-box__image {
   transform: scale(0);
   z-index: 101;
-  transition: transform .4s ease;
+  transition: transform 0.4s ease;
 }
 
 .light-box__image.__full-size {
@@ -60,7 +60,7 @@
 
 .light-box__loader:before,
 .light-box__loader:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
 }

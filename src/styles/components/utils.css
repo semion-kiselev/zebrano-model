@@ -1,7 +1,8 @@
-.utils {}
+.utils {
+}
 
 .utils__list:after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
