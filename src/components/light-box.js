@@ -1,94 +1,78 @@
 import cn from "classnames";
 import PropTypes from "prop-types";
-import { PureComponent, createRef } from "react";
+import { memo, useEffect, useRef, useState } from "react";
+import { usePrevious } from "../utils";
 import CloseIcon from "./icons/close";
 
-class LightBox extends PureComponent {
-  constructor(props) {
-    super(props);
+const LightBox = memo(({ image, onRequestClose, isVisible }) => {
+  const [overlayIsShown, setIfOverlayIsShown] = useState(false);
+  const [imageIsLoaded, setIfImageIsLoaded] = useState(false);
+  const [loaderIsVisible, setIfLoaderIsVisible] = useState(true);
 
-    this.state = {
-      overlayIsShown: false,
-      imageIsLoaded: false,
-      loaderIsVisible: true,
+  const overlayRef = useRef(null);
+
+  const prevIsVisible = usePrevious(isVisible);
+
+  useEffect(() => {
+    if (typeof prevIsVisible === "undefined" || prevIsVisible === isVisible) return;
+
+    if (isVisible) {
+      overlayRef.current.style.display = "block";
+      setTimeout(() => setIfOverlayIsShown(true), 20);
+      return;
+    }
+
+    const transitionEnd = () => {
+      overlayRef.current.style.display = "none";
+      overlayRef.current.removeEventListener("transitionend", transitionEnd);
     };
 
-    this.overlay = createRef();
+    overlayRef.current.addEventListener("transitionend", transitionEnd);
+    setTimeout(() => setIfOverlayIsShown(false), 20);
+  }, [isVisible]);
 
-    this.handleChildrenContainerClick = this.handleChildrenContainerClick.bind(this);
-    this.handleImageLoad = this.handleImageLoad.bind(this);
-    this.handleClose = this.handleClose.bind(this);
-  }
-
-  componentDidUpdate(prevProps) {
-    const { isVisible } = this.props;
-
-    if (prevProps.isVisible !== isVisible) {
-      if (isVisible) {
-        this.overlay.current.style.display = "block";
-        setTimeout(() => this.setState({ overlayIsShown: true }), 20);
-        return;
-      }
-
-      const transtionEnd = () => {
-        this.overlay.current.style.display = "none";
-        this.overlay.current.removeEventListener("transitionend", transtionEnd);
-      };
-
-      this.overlay.current.addEventListener("transitionend", transtionEnd);
-      setTimeout(() => this.setState({ overlayIsShown: false }), 20);
-    }
-  }
-
-  handleChildrenContainerClick(e) {
+  const handleChildrenContainerClick = (e) => {
     e.stopPropagation();
-  }
+  };
 
-  handleImageLoad() {
-    this.setState({
-      imageIsLoaded: true,
-      loaderIsVisible: false,
-    });
-  }
+  const handleImageLoad = () => {
+    setIfImageIsLoaded(true);
+    setIfLoaderIsVisible(false);
+  };
 
-  handleClose() {
-    this.props.onRequestClose();
-    this.setState({ imageIsLoaded: false });
-  }
+  const handleClose = () => {
+    onRequestClose();
+    setIfImageIsLoaded(false);
+  };
 
-  render() {
-    const { image, onRequestClose } = this.props;
-    const { overlayIsShown, imageIsLoaded, loaderIsVisible } = this.state;
-
-    return (
-      <div
-        ref={this.overlay}
-        className={cn("light-box", {
-          __visible: overlayIsShown,
-        })}
-        onClick={this.handleClose}
-      >
-        <div className="light-box__close" onClick={onRequestClose}>
-          <CloseIcon />
-        </div>
-        <div onClick={this.handleChildrenContainerClick}>
-          <>
-            {loaderIsVisible && <div className="light-box__loader" />}
-            <div className="light-box__image-wrapper">
-              <img
-                className={cn("light-box__image", { "__full-size": imageIsLoaded })}
-                src={image}
-                alt={image}
-                onLoad={this.handleImageLoad}
-                onError={this.handleClose}
-              />
-            </div>
-          </>
-        </div>
+  return (
+    <div
+      ref={overlayRef}
+      className={cn("light-box", {
+        __visible: overlayIsShown,
+      })}
+      onClick={handleClose}
+    >
+      <div className="light-box__close" onClick={onRequestClose}>
+        <CloseIcon />
       </div>
-    );
-  }
-}
+      <div onClick={handleChildrenContainerClick}>
+        <>
+          {loaderIsVisible && <div className="light-box__loader" />}
+          <div className="light-box__image-wrapper">
+            <img
+              className={cn("light-box__image", { "__full-size": imageIsLoaded })}
+              src={image}
+              alt={image}
+              onLoad={handleImageLoad}
+              onError={handleClose}
+            />
+          </div>
+        </>
+      </div>
+    </div>
+  );
+});
 
 LightBox.propTypes = {
   onRequestClose: PropTypes.func.isRequired,

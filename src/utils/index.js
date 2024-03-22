@@ -4,6 +4,16 @@ import trans from "../lang";
 export const navItemChildIsActive = (pageName, children) =>
   children.some((child) => child.pageName === pageName);
 
+export const getIfNavItemWithChildrenIsActive = (
+  itemId,
+  itemChildren,
+  activeMenuItemId,
+  pageName
+) => {
+  const childIsActive = navItemChildIsActive(pageName, itemChildren);
+  return childIsActive || activeMenuItemId === itemId;
+};
+
 export const getNavData = (locale) => [
   {
     id: 1,
@@ -82,6 +92,50 @@ export const getNavData = (locale) => [
   },
 ];
 
+export const getSectionLinks = (locale) => [
+  {
+    id: 1,
+    image: "/images/armor-plastic-kits-thumbnail.jpg",
+    title: trans.SECTION_LINKS_ARMOR_PLASTIC_TITLE[locale],
+    description: trans.SECTION_LINKS_ARMOR_PLASTIC_DESCRIPTION[locale],
+    links: [
+      { label: "1/72", href: `/${locale}/${pageLinks.armorPlasticKits172}/` },
+      { label: "1/35", href: `/${locale}/${pageLinks.armorPlasticKits135}/` },
+    ],
+  },
+  {
+    id: 2,
+    image: "/images/armor-resin-kits-thumbnail.jpg",
+    title: trans.SECTION_LINKS_ARMOR_RESIN_TITLE[locale],
+    description: trans.SECTION_LINKS_ARMOR_RESIN_DESCRIPTION[locale],
+    links: [
+      { label: "1/72", href: `/${locale}/${pageLinks.armorResinKits172}/` },
+      { label: "1/100", href: `/${locale}/${pageLinks.armorResinKits1100}/` },
+    ],
+  },
+  {
+    id: 3,
+    image: "/images/figures-thumbnail.jpg",
+    title: trans.SECTION_LINKS_FIGURES_TITLE[locale],
+    description: trans.SECTION_LINKS_FIGURES_DESCRIPTION[locale],
+    links: [
+      { label: "1/72", href: `/${locale}/${pageLinks.figures172}/` },
+      { label: "1/43", href: `/${locale}/${pageLinks.figures143}/` },
+      { label: "1/35", href: `/${locale}/${pageLinks.figures135}/` },
+    ],
+  },
+  {
+    id: 4,
+    image: "/images/accessories-thumbnail.jpg",
+    title: trans.SECTION_LINKS_ACCESSORIES_TITLE[locale],
+    description: trans.SECTION_LINKS_ACCESSORIES_DESCRIPTION[locale],
+    links: [
+      { label: "1/72", href: `/${locale}/${pageLinks.accessories172}/` },
+      { label: "1/35", href: `/${locale}/${pageLinks.accessories135}/` },
+    ],
+  },
+];
+
 export const setCookie = (name, value, options) => {
   options = options || {};
 
@@ -136,4 +190,14 @@ export const getJSON = (url, onSuccess, onError) => {
 
   xhr.open("GET", url, true);
   xhr.send(null);
+};
+
+import { useEffect, useRef } from "react";
+
+export const usePrevious = (value) => {
+  const ref = useRef();
+  useEffect(() => {
+    ref.current = value;
+  }, [value]);
+  return ref.current;
 };

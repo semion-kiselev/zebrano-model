@@ -1,11 +1,11 @@
 @import "./variables.css";
 @import "./reset.css";
 
-@import "./content-layouts/index-content.css";
-@import "./content-layouts/subsection-content.css";
-@import "./content-layouts/where-to-buy-content.css";
-@import "./content-layouts/search-content.css";
-@import "./content-layouts/item-content.css";
+@import "templates/index.css";
+@import "templates/subsection.css";
+@import "templates/where-to-buy.css";
+@import "templates/search.css";
+@import "templates/item.css";
 
 @import "./components/about-us.css";
 @import "./components/card.css";
