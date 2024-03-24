@@ -3,14 +3,14 @@ export default () => (
     <defs>
       <style>
         {`
-                    .cls-1 {
-                        fill: #fff;
-                    }
+          .cls-1 {
+              fill: #fff;
+          }
 
-                    .cls-2 {
-                        fill: transparent;
-                    }
-                `}
+          .cls-2 {
+              fill: transparent;
+          }
+      `}
       </style>
     </defs>
     <g>

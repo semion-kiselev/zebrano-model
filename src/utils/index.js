@@ -1,8 +1,20 @@
-import { pageLinks } from "../constants";
+import debounce from "lodash.debounce";
+import { useEffect, useRef } from "react";
+import { SEARCH_INPUT_DEBOUNCE_DELAY, SEARCH_ITEMS_MAX_QTY, pageLinks } from "../constants";
 import trans from "../lang";
 
 export const navItemChildIsActive = (pageName, children) =>
   children.some((child) => child.pageName === pageName);
+
+export const getIfNavItemWithChildrenIsActive = (
+  itemId,
+  itemChildren,
+  activeMenuItemId,
+  pageName
+) => {
+  const childIsActive = navItemChildIsActive(pageName, itemChildren);
+  return childIsActive || activeMenuItemId === itemId;
+};
 
 export const getNavData = (locale) => [
   {
@@ -82,6 +94,50 @@ export const getNavData = (locale) => [
   },
 ];
 
+export const getSectionLinks = (locale) => [
+  {
+    id: 1,
+    image: "/images/armor-plastic-kits-thumbnail.jpg",
+    title: trans.SECTION_LINKS_ARMOR_PLASTIC_TITLE[locale],
+    description: trans.SECTION_LINKS_ARMOR_PLASTIC_DESCRIPTION[locale],
+    links: [
+      { label: "1/72", href: `/${locale}/${pageLinks.armorPlasticKits172}/` },
+      { label: "1/35", href: `/${locale}/${pageLinks.armorPlasticKits135}/` },
+    ],
+  },
+  {
+    id: 2,
+    image: "/images/armor-resin-kits-thumbnail.jpg",
+    title: trans.SECTION_LINKS_ARMOR_RESIN_TITLE[locale],
+    description: trans.SECTION_LINKS_ARMOR_RESIN_DESCRIPTION[locale],
+    links: [
+      { label: "1/72", href: `/${locale}/${pageLinks.armorResinKits172}/` },
+      { label: "1/100", href: `/${locale}/${pageLinks.armorResinKits1100}/` },
+    ],
+  },
+  {
+    id: 3,
+    image: "/images/figures-thumbnail.jpg",
+    title: trans.SECTION_LINKS_FIGURES_TITLE[locale],
+    description: trans.SECTION_LINKS_FIGURES_DESCRIPTION[locale],
+    links: [
+      { label: "1/72", href: `/${locale}/${pageLinks.figures172}/` },
+      { label: "1/43", href: `/${locale}/${pageLinks.figures143}/` },
+      { label: "1/35", href: `/${locale}/${pageLinks.figures135}/` },
+    ],
+  },
+  {
+    id: 4,
+    image: "/images/accessories-thumbnail.jpg",
+    title: trans.SECTION_LINKS_ACCESSORIES_TITLE[locale],
+    description: trans.SECTION_LINKS_ACCESSORIES_DESCRIPTION[locale],
+    links: [
+      { label: "1/72", href: `/${locale}/${pageLinks.accessories172}/` },
+      { label: "1/35", href: `/${locale}/${pageLinks.accessories135}/` },
+    ],
+  },
+];
+
 export const setCookie = (name, value, options) => {
   options = options || {};
 
@@ -123,17 +179,54 @@ export const getPagesArray = (pagesNum) => {
   return pages;
 };
 
-export const getJSON = (url, onSuccess, onError) => {
-  const xhr = new XMLHttpRequest();
-
-  xhr.onload = xhr.onerror = () => {
-    if (xhr.status === 200) {
-      onSuccess(xhr.responseText);
-    } else {
-      onError(xhr.status);
-    }
-  };
-
-  xhr.open("GET", url, true);
-  xhr.send(null);
+export const usePrevious = (value) => {
+  const ref = useRef();
+  useEffect(() => {
+    ref.current = value;
+  }, [value]);
+  return ref.current;
 };
+
+export const withCancelPrevious = (func) => {
+  let controller;
+  return (arg) => {
+    if (controller) {
+      controller.abort();
+    }
+    controller = new AbortController();
+    return func(arg, controller.signal);
+  };
+};
+
+export const getItemsBySearchQuery = withCancelPrevious(async ({ query, locales }, signal) => {
+  const q = query.trim().toLowerCase();
+
+  if (q === "") {
+    return [];
+  }
+
+  const result = await fetch("/items.json", { signal });
+
+  if (!result.ok) {
+    throw new Error("Items search Http Error");
+  }
+
+  const items = await result.json();
+
+  const filteredItems = items.filter(
+    ({ article, name, visible }) =>
+      (article.toLowerCase().includes(q) ||
+        locales.some((locale) => name[locale].toLowerCase().includes(q))) &&
+      visible
+  );
+
+  if (filteredItems.length === 0) {
+    return [];
+  }
+
+  return filteredItems.slice(0, SEARCH_ITEMS_MAX_QTY);
+});
+
+export const applySearchQuery = debounce((inputValue, setQuery) => {
+  setQuery(inputValue);
+}, SEARCH_INPUT_DEBOUNCE_DELAY);

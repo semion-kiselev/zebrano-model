@@ -1,7 +1,7 @@
 import cn from "classnames";
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
-import { PureComponent } from "react";
+import { memo } from "react";
 import {
   BOX_IMAGE,
   IMAGE_URL,
@@ -11,56 +11,46 @@ import {
   slugs,
 } from "../constants";
 
-class Card extends PureComponent {
-  constructor(props) {
-    super(props);
+const Card = memo(({ locale, subsectionSlug, item, onLoupe }) => {
+  const getLoupeHandler = (image) => () => {
+    if (window.innerWidth >= TABLET_MEDIUM_BREAKPOINT) {
+      onLoupe(image);
+    }
+  };
 
-    this.handleLoupe = this.handleLoupe.bind(this);
-  }
+  const boxImageUrl = `${IMAGE_URL}/${BOX_IMAGE}/${item.boxImage}`;
 
-  handleLoupe(image) {
-    return () => {
-      if (window.innerWidth >= TABLET_MEDIUM_BREAKPOINT) {
-        this.props.onLoupe(image);
-      }
-    };
-  }
+  const smallBoxImageUrl =
+    subsectionSlug === slugs.ARMOR_RESIN_KITS_1_100
+      ? boxImageUrl
+      : `${IMAGE_URL}/${BOX_IMAGE}/${SMALL_IMAGE}/${item.boxImageSmall}`;
 
-  render() {
-    const { locale, subsectionSlug, item } = this.props;
-    const boxImageUrl = `${IMAGE_URL}/${BOX_IMAGE}/${item.boxImage}`;
-    const smallBoxImageUrl =
-      subsectionSlug === slugs.ARMOR_RESIN_KITS_1_100
-        ? boxImageUrl
-        : `${IMAGE_URL}/${BOX_IMAGE}/${SMALL_IMAGE}/${item.boxImageSmall}`;
-
-    return (
-      <div
-        className={cn("card", {
-          "card--figures": item.type === itemTypes.FIGURES,
-          "card--acc": item.type === itemTypes.ACCESSORIES,
-        })}
-      >
-        <img
-          className="card__thumbnail"
-          onClick={this.handleLoupe(boxImageUrl)}
-          src={smallBoxImageUrl}
-          alt={`${item.name[locale]}`}
-        />
-        <div className="card__name" title={`${item.name[locale]}`}>
-          {item.type === itemTypes.ARMOR && item.scale !== "1/100" ? (
-            <Link className="card__link" to={`/${locale}/${subsectionSlug}/${item.slug}/`}>
-              {item.name[locale]}
-            </Link>
-          ) : (
-            <span>{item.name[locale]}</span>
-          )}
-        </div>
-        <div className="card__article">{item.article}</div>
+  return (
+    <div
+      className={cn("card", {
+        "card--figures": item.type === itemTypes.FIGURES,
+        "card--acc": item.type === itemTypes.ACCESSORIES,
+      })}
+    >
+      <img
+        className="card__thumbnail"
+        onClick={getLoupeHandler(boxImageUrl)}
+        src={smallBoxImageUrl}
+        alt={`${item.name[locale]}`}
+      />
+      <div className="card__name" title={`${item.name[locale]}`}>
+        {item.type === itemTypes.ARMOR && item.scale !== "1/100" ? (
+          <Link className="card__link" to={`/${locale}/${subsectionSlug}/${item.slug}/`}>
+            {item.name[locale]}
+          </Link>
+        ) : (
+          <span>{item.name[locale]}</span>
+        )}
       </div>
-    );
-  }
-}
+      <div className="card__article">{item.article}</div>
+    </div>
+  );
+});
 
 Card.propTypes = {
   locale: PropTypes.string.isRequired,

@@ -2,81 +2,62 @@ import cn from "classnames";
 import { Link } from "gatsby";
 import partition from "lodash.partition";
 import PropTypes from "prop-types";
-import { Fragment, PureComponent } from "react";
+import { Fragment, memo, useCallback, useState } from "react";
 import Card from "../components/card";
 import Layout from "../components/layout";
 import LightBox from "../components/light-box";
 import { resinKits1To100BoxTypes, slugs } from "../constants";
 import { getNavData, getPagesArray } from "../utils";
 
-class Subsection extends PureComponent {
-  constructor(props) {
-    super(props);
+const Subsection = memo(
+  ({ pageContext: { locale, subsection, numPages, currentPage, itemsForNews, items } }) => {
+    const [viewedImage, setViewedImage] = useState();
 
-    this.state = {
-      viewedImage: undefined,
+    const handleLoupe = (image) => {
+      setViewedImage(image);
     };
 
-    this.handleLoupe = this.handleLoupe.bind(this);
-    this.clearViewedImage = this.clearViewedImage.bind(this);
-  }
+    const clearViewedImage = useCallback(() => {
+      setViewedImage(undefined);
+    }, []);
 
-  handleLoupe(image) {
-    this.setState({ viewedImage: image });
-  }
-
-  clearViewedImage() {
-    this.setState({ viewedImage: undefined });
-  }
-
-  renderItem(item, locale, subsectionSlug) {
-    return (
+    const renderItem = (item, locale, subsectionSlug) => (
       <div key={item.article} className="subsection-content__item">
-        <Card
-          locale={locale}
-          item={item}
-          subsectionSlug={subsectionSlug}
-          onLoupe={this.handleLoupe}
-        />
+        <Card locale={locale} item={item} subsectionSlug={subsectionSlug} onLoupe={handleLoupe} />
       </div>
     );
-  }
 
-  renderItems(items, locale, subsectionSlug) {
-    return (
+    const renderBaseItems = (items, locale, subsectionSlug) => (
       <div className="subsection-content__items">
-        {items.map((item) => this.renderItem(item, locale, subsectionSlug))}
+        {items.map((item) => renderItem(item, locale, subsectionSlug))}
       </div>
     );
-  }
 
-  renderResin1To100Items(items, locale, subsectionSlug) {
-    const [verticalBoxes, horizontalBoxes] = partition(
-      items,
-      (item) => item.boxType === resinKits1To100BoxTypes.V
-    );
+    const renderResin1To100Items = (items, locale, subsectionSlug) => {
+      const [verticalBoxes, horizontalBoxes] = partition(
+        items,
+        (item) => item.boxType === resinKits1To100BoxTypes.V
+      );
 
-    return (
-      <Fragment>
-        {verticalBoxes.length > 0 && this.renderItems(verticalBoxes, locale, subsectionSlug)}
-        {horizontalBoxes.length > 0 && this.renderItems(horizontalBoxes, locale, subsectionSlug)}
-      </Fragment>
-    );
-  }
+      return (
+        <Fragment>
+          {verticalBoxes.length > 0 && renderBaseItems(verticalBoxes, locale, subsectionSlug)}
+          {horizontalBoxes.length > 0 && renderBaseItems(horizontalBoxes, locale, subsectionSlug)}
+        </Fragment>
+      );
+    };
 
-  render() {
-    const { locale, subsection, numPages, currentPage, itemsForNews, items } =
-      this.props.pageContext;
-    const { viewedImage } = this.state;
     const navData = getNavData(locale);
+
     const pageData = navData
       .filter((navItem) => Boolean(navItem.children))
       .filter((navItem) => navItem.children.some((child) => child.pageName === subsection.slug))[0];
+
     const url = `/${locale}/${subsection.slug}/`;
     const pages = getPagesArray(numPages);
 
     const isResin1to100Kits = subsection.slug === slugs.ARMOR_RESIN_KITS_1_100;
-    const renderItems = isResin1to100Kits ? this.renderResin1To100Items : this.renderItems;
+    const renderItems = isResin1to100Kits ? renderResin1To100Items : renderBaseItems;
 
     return (
       <Layout
@@ -101,7 +82,7 @@ class Subsection extends PureComponent {
               </Link>
             ))}
           </div>
-          {renderItems.apply(this, [items, locale, subsection.slug])}
+          {renderItems(items, locale, subsection.slug)}
           {pages.length > 1 && (
             <div className="subsection-content__paginator">
               <div className="paginator">
@@ -120,7 +101,7 @@ class Subsection extends PureComponent {
             </div>
           )}
           <LightBox
-            onRequestClose={this.clearViewedImage}
+            onRequestClose={clearViewedImage}
             isVisible={Boolean(viewedImage)}
             image={viewedImage}
           />
@@ -128,10 +109,9 @@ class Subsection extends PureComponent {
       </Layout>
     );
   }
-}
+);
 
 Subsection.propTypes = {
-  data: PropTypes.object.isRequired,
   pageContext: PropTypes.object.isRequired,
 };
 
