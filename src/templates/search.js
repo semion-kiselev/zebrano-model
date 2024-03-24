@@ -1,31 +1,39 @@
-import debounce from "lodash.debounce";
 import PropTypes from "prop-types";
-import { memo, useState } from "react";
+import { memo, useEffect, useMemo, useState } from "react";
 import Layout from "../components/layout";
 import LightBox from "../components/light-box";
 import SearchCard from "../components/search-card";
-import {
-  SEARCH_INPUT_DEBOUNCE_DELAY,
-  SEARCH_INPUT_MAX_LENGTH,
-  SEARCH_ITEMS_MAX_QTY,
-  pageLinks,
-} from "../constants";
+import { SEARCH_INPUT_MAX_LENGTH, pageLinks } from "../constants";
 import trans from "../lang";
-import { getJSON } from "../utils";
-
-// todo: save items after first request
-// todo: check 1/100 search results
-
-const requestItems = debounce(
-  (onSuccess, onError) => getJSON("/items.json", onSuccess, onError),
-  SEARCH_INPUT_DEBOUNCE_DELAY
-);
+import { applySearchQuery, getItemsBySearchQuery } from "../utils";
 
 const Search = memo(({ pageContext: { locales, locale, subsections, itemsForNews } }) => {
+  const [inputValue, setInputValue] = useState("");
   const [query, setQuery] = useState("");
-  const [error, setError] = useState(null);
+  const [hasError, setHasError] = useState(false);
   const [items, setItems] = useState([]);
   const [viewedImage, setViewedImage] = useState();
+
+  const subsectionsMap = useMemo(
+    () =>
+      subsections.reduce((acc, subsection) => {
+        acc[subsection.slug] = subsection;
+        return acc;
+      }, {}),
+    [subsections]
+  );
+
+  useEffect(() => {
+    getItemsBySearchQuery({ query, locales })
+      .then((items) => setItems(items))
+      .catch((error) => {
+        if (error.name === "AbortError") {
+          return;
+        }
+        setHasError(true);
+        setItems([]);
+      });
+  }, [query]);
 
   const handleLoupe = (image) => {
     setViewedImage(image);
@@ -35,55 +43,11 @@ const Search = memo(({ pageContext: { locales, locale, subsections, itemsForNews
     setViewedImage(undefined);
   };
 
-  const onQuerySuccess = (itemsJsonString) => {
-    if (query.length === 0) {
-      return;
-    }
-
-    const items = JSON.parse(itemsJsonString);
-
-    if (!Array.isArray(items) || items.length === 0) {
-      setError(true);
-      setItems([]);
-      return;
-    }
-
-    const q = query.toLowerCase();
-
-    const filteredItems = items.filter(
-      ({ article, name, visible }) =>
-        (article.toLowerCase().indexOf(q) > -1 ||
-          locales.some((locale) => name[locale].toLowerCase().indexOf(q) > -1)) &&
-        visible
-    );
-
-    if (filteredItems.length === 0) {
-      setItems([]);
-      return;
-    }
-
-    setItems(filteredItems.slice(0, SEARCH_ITEMS_MAX_QTY));
+  const handleQueryChange = ({ target: { value } }) => {
+    setInputValue(value);
+    setHasError(false);
+    applySearchQuery(value, setQuery);
   };
-
-  const onQueryError = () => {
-    setError(true);
-  };
-
-  const handleQuery = ({ target: { value } }) => {
-    if (value.trim().length === 0) {
-      setQuery("");
-      setItems([]);
-      return;
-    }
-
-    setQuery(value);
-    requestItems(onQuerySuccess, onQueryError);
-  };
-
-  const subsectionsMap = subsections.reduce((acc, subsection) => {
-    acc[subsection.slug] = subsection;
-    return acc;
-  }, {});
 
   return (
     <Layout
@@ -101,11 +65,11 @@ const Search = memo(({ pageContext: { locales, locale, subsections, itemsForNews
             placeholder={trans.SEARCH_PAGE_TITLE[locale]}
             name="searchInput"
             maxLength={SEARCH_INPUT_MAX_LENGTH}
-            value={query}
-            onChange={handleQuery}
+            value={inputValue}
+            onChange={handleQueryChange}
           />
         </div>
-        {error && <div className="search-content__no-results">{trans.SEARCH_ERROR[locale]}</div>}
+        {hasError && <div className="search-content__no-results">{trans.SEARCH_ERROR[locale]}</div>}
         {items.length > 0 ? (
           <div className="search-content__items">
             {items.map((item) => (

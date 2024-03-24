@@ -8,6 +8,7 @@ import {
   SMALL_IMAGE,
   TABLET_MEDIUM_BREAKPOINT,
   itemTypes,
+  slugs,
 } from "../constants";
 
 const SearchCard = memo(({ locale, item, subsection, onLoupe }) => {
@@ -17,14 +18,21 @@ const SearchCard = memo(({ locale, item, subsection, onLoupe }) => {
     }
   };
 
+  const boxImageUrl = `${IMAGE_URL}/${BOX_IMAGE}/${item.boxImage}`;
+
+  const smallBoxImageUrl =
+    subsection.slug === slugs.ARMOR_RESIN_KITS_1_100
+      ? boxImageUrl
+      : `${IMAGE_URL}/${BOX_IMAGE}/${SMALL_IMAGE}/${item.boxImageSmall}`;
+
   return (
     <div className="search-card">
       <div className="search-card__thumbnail-wrapper">
         <span className="search-card__image-link">
           <img
             className="search-card__thumbnail"
-            onClick={getLoupeHandler(`${IMAGE_URL}/${BOX_IMAGE}/${item.boxImage}`)}
-            src={`${IMAGE_URL}/${BOX_IMAGE}/${SMALL_IMAGE}/${item.boxImageSmall}`}
+            onClick={getLoupeHandler(boxImageUrl)}
+            src={smallBoxImageUrl}
             alt={`${item.name[locale]}`}
           />
         </span>

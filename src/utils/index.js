@@ -1,4 +1,6 @@
-import { pageLinks } from "../constants";
+import debounce from "lodash.debounce";
+import { useEffect, useRef } from "react";
+import { SEARCH_INPUT_DEBOUNCE_DELAY, SEARCH_ITEMS_MAX_QTY, pageLinks } from "../constants";
 import trans from "../lang";
 
 export const navItemChildIsActive = (pageName, children) =>
@@ -177,23 +179,6 @@ export const getPagesArray = (pagesNum) => {
   return pages;
 };
 
-export const getJSON = (url, onSuccess, onError) => {
-  const xhr = new XMLHttpRequest();
-
-  xhr.onload = xhr.onerror = () => {
-    if (xhr.status === 200) {
-      onSuccess(xhr.responseText);
-    } else {
-      onError(xhr.status);
-    }
-  };
-
-  xhr.open("GET", url, true);
-  xhr.send(null);
-};
-
-import { useEffect, useRef } from "react";
-
 export const usePrevious = (value) => {
   const ref = useRef();
   useEffect(() => {
@@ -201,3 +186,47 @@ export const usePrevious = (value) => {
   }, [value]);
   return ref.current;
 };
+
+export const withCancelPrevious = (func) => {
+  let controller;
+  return (arg) => {
+    if (controller) {
+      controller.abort();
+    }
+    controller = new AbortController();
+    return func(arg, controller.signal);
+  };
+};
+
+export const getItemsBySearchQuery = withCancelPrevious(async ({ query, locales }, signal) => {
+  const q = query.trim().toLowerCase();
+
+  if (q === "") {
+    return [];
+  }
+
+  const result = await fetch("/items.json", { signal });
+
+  if (!result.ok) {
+    throw new Error("Items search Http Error");
+  }
+
+  const items = await result.json();
+
+  const filteredItems = items.filter(
+    ({ article, name, visible }) =>
+      (article.toLowerCase().includes(q) ||
+        locales.some((locale) => name[locale].toLowerCase().includes(q))) &&
+      visible
+  );
+
+  if (filteredItems.length === 0) {
+    return [];
+  }
+
+  return filteredItems.slice(0, SEARCH_ITEMS_MAX_QTY);
+});
+
+export const applySearchQuery = debounce((inputValue, setQuery) => {
+  setQuery(inputValue);
+}, SEARCH_INPUT_DEBOUNCE_DELAY);
