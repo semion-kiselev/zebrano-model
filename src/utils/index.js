@@ -139,6 +139,10 @@ export const getSectionLinks = (locale) => [
 ];
 
 export const setCookie = (name, value, options) => {
+  if (typeof document === undefined) {
+    return;
+  }
+
   options = options || {};
 
   let expires = options.expires;
@@ -170,7 +174,10 @@ export const setCookie = (name, value, options) => {
 };
 
 export const getCookie = (name) => {
-  let matches = document.cookie.match(
+  if (typeof document === undefined) {
+    return undefined;
+  }
+  const matches = document.cookie.match(
     new RegExp("(?:^|; )" + name.replace(/([.$?*|{}()\[\]\\\/+^])/g, "\\$1") + "=([^;]*)")
   );
   return matches ? decodeURIComponent(matches[1]) : undefined;
