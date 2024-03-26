@@ -3,6 +3,8 @@ import { useEffect, useRef } from "react";
 import { SEARCH_INPUT_DEBOUNCE_DELAY, SEARCH_ITEMS_MAX_QTY, pageLinks } from "../constants";
 import trans from "../lang";
 
+const isBrowser = typeof window !== "undefined";
+
 export const navItemChildIsActive = (pageName, children) =>
   children.some((child) => child.pageName === pageName);
 
@@ -139,7 +141,7 @@ export const getSectionLinks = (locale) => [
 ];
 
 export const setCookie = (name, value, options) => {
-  if (typeof document === undefined) {
+  if (!isBrowser) {
     return;
   }
 
@@ -170,14 +172,14 @@ export const setCookie = (name, value, options) => {
     }
   }
 
-  document.cookie = updatedCookie;
+  window.document.cookie = updatedCookie;
 };
 
 export const getCookie = (name) => {
-  if (typeof document === undefined) {
+  if (!isBrowser) {
     return undefined;
   }
-  const matches = document.cookie.match(
+  const matches = window.document.cookie.match(
     new RegExp("(?:^|; )" + name.replace(/([.$?*|{}()\[\]\\\/+^])/g, "\\$1") + "=([^;]*)")
   );
   return matches ? decodeURIComponent(matches[1]) : undefined;
