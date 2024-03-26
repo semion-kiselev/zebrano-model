@@ -164,9 +164,4 @@ export default {
     en: "New",
     ru: "Новинка",
   },
-
-  OLD_BROWSER_WARN: {
-    en: "Please, update your browser Internet Explorer not less then version 11. This site will not work with this Internet Explorer version",
-    ru: "Пожалуйста, обновите Ваш браузер Internet Explorer до версии не ниже 11. Сайт не будет работать с данной версией Internet Explorer",
-  },
 };

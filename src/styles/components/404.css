@@ -1,0 +1,27 @@
+.page-404 {
+  margin: 100px 50px;
+  padding: 30px 0;
+  border: 10px solid var(--link-color-active);
+  font-size: 22px;
+  text-align: center;
+}
+
+.page-404__message {
+  margin: 6px 0;
+}
+
+.page-404__link {
+  border-bottom: 1px solid var(--link-border-color);
+  color: var(--link-color);
+  line-height: 0.9;
+  text-decoration: none;
+  transition:
+    color 0.2s ease,
+    border-bottom 0.2s ease;
+  font-size: 16px;
+}
+
+.page-404__link:hover {
+  border-bottom: 1px solid var(--link-color-hover);
+  color: var(--link-color-hover);
+}

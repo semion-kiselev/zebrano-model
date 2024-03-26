@@ -2,14 +2,13 @@ import PropTypes from "prop-types";
 import { memo } from "react";
 import Helmet from "react-helmet";
 import Logo from "../components/icons/logo";
-import trans from "../lang";
 import "../styles/index.css";
 import Nav from "./nav";
 import NavMobile from "./nav-mobile";
 import Slider from "./slider";
 import Utils from "./utils";
 
-const Layout = memo(({ locale, title, description, pageName, newsItems, children }) => (
+const Layout = memo(({ locale, title, description, pageName, newsItems, is404, children }) => (
   <>
     <Helmet title={title}>
       <html lang={locale} />
@@ -22,16 +21,6 @@ const Layout = memo(({ locale, title, description, pageName, newsItems, children
       <link rel="shortcut icon" href="/favicons/favicon.ico" />
       <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
       <meta name="theme-color" content="#ffffff" />
-
-      <script>
-        {`
-          var ua = window.navigator.userAgent;
-          var msie = ua.indexOf('MSIE');
-          if (msie > 0) {
-              alert("${trans.OLD_BROWSER_WARN[locale]}");
-          }
-        `}
-      </script>
     </Helmet>
     <section className="page">
       <header className="page__header">
@@ -41,19 +30,25 @@ const Layout = memo(({ locale, title, description, pageName, newsItems, children
               <Logo />
             </div>
           </div>
-          <div className="page__nav-mobile">
-            <NavMobile locale={locale} pageName={pageName} />
-          </div>
-          <div className="page__nav">
-            <Nav locale={locale} pageName={pageName} />
-          </div>
-          <div className="page__utils">
-            <Utils locale={locale} pageName={pageName} />
-          </div>
+          {!is404 && (
+            <>
+              <div className="page__nav-mobile">
+                <NavMobile locale={locale} pageName={pageName} />
+              </div>
+              <div className="page__nav">
+                <Nav locale={locale} pageName={pageName} />
+              </div>
+              <div className="page__utils">
+                <Utils locale={locale} pageName={pageName} />
+              </div>
+            </>
+          )}
         </div>
-        <div className="page__slider">
-          <Slider locale={locale} newsItems={newsItems} />
-        </div>
+        {newsItems && (
+          <div className="page__slider">
+            <Slider locale={locale} newsItems={newsItems} />
+          </div>
+        )}
       </header>
       <div className="page__main">{children}</div>
       <div className="page__footer">Zebrano Model, {new Date().getFullYear()} &copy;</div>
@@ -68,6 +63,7 @@ Layout.propTypes = {
   description: PropTypes.string.isRequired,
   pageName: PropTypes.string,
   newsItems: PropTypes.arrayOf(PropTypes.object),
+  is404: PropTypes.bool,
 };
 
 export default Layout;
