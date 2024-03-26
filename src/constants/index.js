@@ -1,3 +1,5 @@
+export const DEFAULT_LOCALE = "en";
+
 export const itemStatuses = {
   COMING: "coming",
   ON: "on",

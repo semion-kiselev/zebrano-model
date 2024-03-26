@@ -164,4 +164,15 @@ export default {
     en: "New",
     ru: "Новинка",
   },
+
+  // 404
+
+  NOT_FOUND: {
+    en: "404 Page not found",
+    ru: "404 Страница не найдена",
+  },
+  GO_HOME: {
+    en: "Let's go home",
+    ru: "Пойдем домой",
+  },
 };
