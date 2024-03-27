@@ -24,11 +24,16 @@ body {
   background: url("../../images/header-bg.jpg") 0 0 no-repeat;
 }
 
-.page__logo {
+.page__logo-wrapper {
   position: absolute;
   top: 50%;
   left: 30px;
   transform: translateY(-53%);
+}
+
+.page__logo {
+  width: 150px;
+  height: 56px;
 }
 
 .page__controls {

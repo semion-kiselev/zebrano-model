@@ -1,9 +1,10 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import { memo, useState } from "react";
-import Layout from "../components/layout";
-import LightBox from "../components/light-box";
-import { BUCKET_IMAGE, IMAGE_URL, TABLET_MEDIUM_BREAKPOINT } from "../constants";
+import Layout from "../../components/layout/layout";
+import LightBox from "../../components/light-box/light-box";
+import { BUCKET_IMAGE, IMAGE_URL, TABLET_MEDIUM_BREAKPOINT } from "../../constants";
+import "./item.css";
 
 const Item = memo(({ pageContext: { locale, subsection, item, itemsForNews } }) => {
   const [viewedImage, setViewedImage] = useState();

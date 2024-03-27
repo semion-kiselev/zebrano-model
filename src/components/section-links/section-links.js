@@ -1,7 +1,8 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import { memo } from "react";
-import { getSectionLinks } from "../utils";
+import { getSectionLinks } from "../../utils";
+import "./section-links.css";
 
 const SectionLinks = memo(({ locale }) => (
   <div className="section-links">

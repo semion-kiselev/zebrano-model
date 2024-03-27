@@ -9,7 +9,8 @@ import {
   TABLET_MEDIUM_BREAKPOINT,
   itemTypes,
   slugs,
-} from "../constants";
+} from "../../constants";
+import "./search-card.css";
 
 const SearchCard = memo(({ locale, item, subsection, onLoupe }) => {
   const getLoupeHandler = (image) => () => {

@@ -3,8 +3,9 @@ import { navigate } from "gatsby";
 import PropTypes from "prop-types";
 import { memo, useRef } from "react";
 import SlickSlider from "react-slick";
-import { IMAGE_URL, NEWS_IMAGE, SLIDER_SETTINGS, itemStatuses } from "../constants";
-import trans from "../lang";
+import { IMAGE_URL, NEWS_IMAGE, SLIDER_SETTINGS, itemStatuses } from "../../constants";
+import trans from "../../lang";
+import "./slider.css";
 
 const Slider = memo(({ locale, newsItems }) => {
   const urlToNavigateRef = useRef(null);

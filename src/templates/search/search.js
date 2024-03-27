@@ -1,11 +1,12 @@
 import PropTypes from "prop-types";
 import { memo, useEffect, useMemo, useState } from "react";
-import Layout from "../components/layout";
-import LightBox from "../components/light-box";
-import SearchCard from "../components/search-card";
-import { SEARCH_INPUT_MAX_LENGTH, pageLinks } from "../constants";
-import trans from "../lang";
-import { applySearchQuery, getItemsBySearchQuery } from "../utils";
+import Layout from "../../components/layout/layout";
+import LightBox from "../../components/light-box/light-box";
+import SearchCard from "../../components/search-card/search-card";
+import { SEARCH_INPUT_MAX_LENGTH, pageLinks } from "../../constants";
+import trans from "../../lang";
+import { applySearchQuery, getItemsBySearchQuery } from "../../utils";
+import "./search.css";
 
 const Search = memo(({ pageContext: { locales, locale, subsections, itemsForNews } }) => {
   const [inputValue, setInputValue] = useState("");

@@ -2,7 +2,8 @@ import cn from "classnames";
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import { memo, useEffect, useState } from "react";
-import { getIfNavItemWithChildrenIsActive, getNavData } from "../utils";
+import { getIfNavItemWithChildrenIsActive, getNavData } from "../../utils";
+import "./nav.css";
 
 const Nav = memo(({ locale, pageName }) => {
   const [activeMenuItemId, setActiveMenuItemId] = useState(null);

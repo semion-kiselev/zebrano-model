@@ -1,8 +1,9 @@
 import cn from "classnames";
 import PropTypes from "prop-types";
 import { memo, useEffect, useRef, useState } from "react";
-import { usePrevious } from "../utils";
-import CloseIcon from "./icons/close";
+import { usePrevious } from "../../utils";
+import CloseIcon from "../icons/close";
+import "./light-box.css";
 
 const LightBox = memo(({ image, onRequestClose, isVisible }) => {
   const [overlayIsShown, setIfOverlayIsShown] = useState(false);

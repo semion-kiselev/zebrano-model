@@ -103,7 +103,7 @@ exports.createPages = ({ actions, graphql }) => {
         locales.forEach((locale) => {
           createPage({
             path: `${locale}`,
-            component: path.resolve("./src/templates/index.js"),
+            component: path.resolve("./src/templates/home/home.js"),
             context: {
               locale,
               itemsForNews,
@@ -112,7 +112,7 @@ exports.createPages = ({ actions, graphql }) => {
 
           createPage({
             path: `${locale}/where-to-buy`,
-            component: path.resolve("./src/templates/where-to-buy.js"),
+            component: path.resolve("./src/templates/where-to-buy/where-to-buy.js"),
             context: {
               locale,
               itemsForNews,
@@ -121,7 +121,7 @@ exports.createPages = ({ actions, graphql }) => {
 
           createPage({
             path: `${locale}/search`,
-            component: path.resolve("./src/templates/search.js"),
+            component: path.resolve("./src/templates/search/search.js"),
             context: {
               locale,
               locales,
@@ -149,7 +149,7 @@ exports.createPages = ({ actions, graphql }) => {
             Array.from({ length: numPages }).forEach((_, i) => {
               createPage({
                 path: i === 0 ? url : `${url}/${i + 1}`,
-                component: path.resolve("./src/templates/subsection.js"),
+                component: path.resolve("./src/templates/subsection/subsection.js"),
                 context: {
                   limit: itemsPerPage,
                   skip: i * itemsPerPage,
@@ -170,7 +170,7 @@ exports.createPages = ({ actions, graphql }) => {
                 if (item.scale !== "1/100") {
                   createPage({
                     path: `${locale}/${subsection.slug}/${item.slug}`,
-                    component: path.resolve("./src/templates/item.js"),
+                    component: path.resolve("./src/templates/item/item.js"),
                     context: {
                       locale,
                       subsection,

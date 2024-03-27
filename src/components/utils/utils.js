@@ -3,10 +3,11 @@ import cn from "classnames";
 import { Link, navigate } from "gatsby";
 import PropTypes from "prop-types";
 import { memo } from "react";
-import { NETLIFY_LOCALE_COOKIE_NAME, pageLinks } from "../constants";
-import trans from "../lang";
-import { setCookie } from "../utils";
-import SearchIcon from "./icons/search";
+import { NETLIFY_LOCALE_COOKIE_NAME, pageLinks } from "../../constants";
+import trans from "../../lang";
+import { setCookie } from "../../utils";
+import SearchIcon from "../icons/search";
+import "./utils.css";
 
 const Utils = memo(({ locale, pageName }) => {
   const changeLocale =

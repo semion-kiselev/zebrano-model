@@ -2,9 +2,10 @@ import cn from "classnames";
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import { memo, useEffect, useRef, useState } from "react";
-import { getNavData, navItemChildIsActive } from "../utils";
-import MenuIcon from "./icons/menu";
-import Utils from "./utils";
+import { getNavData, navItemChildIsActive } from "../../utils";
+import MenuIcon from "../icons/menu";
+import Utils from "../utils/utils";
+import "./nav-mobile.css";
 
 const NavMobile = memo(({ locale, pageName }) => {
   const [navIsVisible, setNavIsVisible] = useState(false);

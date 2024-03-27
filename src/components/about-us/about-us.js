@@ -1,7 +1,8 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import { memo } from "react";
-import trans from "../lang";
+import trans from "../../lang";
+import "./about-us.css";
 
 const AboutUs = memo(({ locale }) => (
   <div className="about-us">

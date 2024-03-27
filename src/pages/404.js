@@ -1,9 +1,10 @@
 import { Link } from "gatsby";
 import { memo } from "react";
-import Layout from "../components/layout";
+import Layout from "../components/layout/layout";
 import { DEFAULT_LOCALE, NETLIFY_LOCALE_COOKIE_NAME } from "../constants";
 import trans from "../lang";
 import { getCookie } from "../utils";
+import "./404.css";
 
 const NotFound = memo(() => {
   const locale = getCookie(NETLIFY_LOCALE_COOKIE_NAME) || DEFAULT_LOCALE;

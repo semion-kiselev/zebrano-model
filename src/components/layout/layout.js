@@ -1,12 +1,14 @@
 import PropTypes from "prop-types";
 import { memo } from "react";
 import Helmet from "react-helmet";
-import Logo from "../components/icons/logo";
-import "../styles/index.css";
-import Nav from "./nav";
-import NavMobile from "./nav-mobile";
-import Slider from "./slider";
-import Utils from "./utils";
+import "../../styles/reset.css";
+import "../../styles/variables.css";
+import Logo from "../icons/logo";
+import NavMobile from "../nav-mobile/nav-mobile";
+import Nav from "../nav/nav";
+import Slider from "../slider/slider";
+import Utils from "../utils/utils";
+import "./page.css";
 
 const Layout = memo(({ locale, title, description, pageName, newsItems, is404, children }) => (
   <>
@@ -25,8 +27,8 @@ const Layout = memo(({ locale, title, description, pageName, newsItems, is404, c
     <section className="page">
       <header className="page__header">
         <div className="page__head">
-          <div className="page__logo">
-            <div className="logo">
+          <div className="page__logo-wrapper">
+            <div className="page__logo">
               <Logo />
             </div>
           </div>

@@ -1,10 +1,11 @@
 import PropTypes from "prop-types";
 import { memo } from "react";
-import AboutUs from "../components/about-us";
-import Layout from "../components/layout";
-import SectionLinks from "../components/section-links";
-import { pageLinks } from "../constants";
-import trans from "../lang";
+import AboutUs from "../../components/about-us/about-us";
+import Layout from "../../components/layout/layout";
+import SectionLinks from "../../components/section-links/section-links";
+import { pageLinks } from "../../constants";
+import trans from "../../lang";
+import "./home.css";
 
 const Home = memo(({ pageContext: { locale, itemsForNews } }) => (
   <Layout

@@ -3,11 +3,13 @@ import { Link } from "gatsby";
 import partition from "lodash.partition";
 import PropTypes from "prop-types";
 import { Fragment, memo, useCallback, useState } from "react";
-import Card from "../components/card";
-import Layout from "../components/layout";
-import LightBox from "../components/light-box";
-import { resinKits1To100BoxTypes, slugs } from "../constants";
-import { getNavData, getPagesArray } from "../utils";
+import Card from "../../components/card/card";
+import Layout from "../../components/layout/layout";
+import LightBox from "../../components/light-box/light-box";
+import Paginator from "../../components/paginator/paginator";
+import { resinKits1To100BoxTypes, slugs } from "../../constants";
+import { getNavData, getPagesArray } from "../../utils";
+import "./subsection.css";
 
 const Subsection = memo(
   ({ pageContext: { locale, subsection, numPages, currentPage, itemsForNews, items } }) => {
@@ -85,19 +87,7 @@ const Subsection = memo(
           {renderItems(items, locale, subsection.slug)}
           {pages.length > 1 && (
             <div className="subsection-content__paginator">
-              <div className="paginator">
-                {pages.map((page) => (
-                  <Link
-                    key={page}
-                    className={cn("paginator__link", {
-                      "paginator__link--active": page === currentPage,
-                    })}
-                    to={page === 1 ? url : `${url}${page}/`}
-                  >
-                    {page}
-                  </Link>
-                ))}
-              </div>
+              <Paginator pages={pages} currentPage={currentPage} url={url} />
             </div>
           )}
           <LightBox
