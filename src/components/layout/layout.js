@@ -8,7 +8,7 @@ import NavMobile from "../nav-mobile/nav-mobile";
 import Nav from "../nav/nav";
 import Slider from "../slider/slider";
 import Utils from "../utils/utils";
-import "./page.css";
+import "./layout.css";
 
 const Layout = memo(({ locale, title, description, pageName, newsItems, is404, children }) => (
   <>
@@ -24,36 +24,36 @@ const Layout = memo(({ locale, title, description, pageName, newsItems, is404, c
       <meta name="msapplication-config" content="/favicons/browserconfig.xml" />
       <meta name="theme-color" content="#ffffff" />
     </Helmet>
-    <section className="page">
-      <header className="page__header">
-        <div className="page__head">
-          <div className="page__logo-wrapper">
-            <div className="page__logo">
+    <section className="layout">
+      <header className="layout__header">
+        <div className="layout__head">
+          <div className="layout__logo-wrapper">
+            <div className="layout__logo">
               <Logo />
             </div>
           </div>
           {!is404 && (
             <>
-              <div className="page__nav-mobile">
+              <div className="layout__nav-mobile">
                 <NavMobile locale={locale} pageName={pageName} />
               </div>
-              <div className="page__nav">
+              <div className="layout__nav">
                 <Nav locale={locale} pageName={pageName} />
               </div>
-              <div className="page__utils">
+              <div className="layout__utils">
                 <Utils locale={locale} pageName={pageName} />
               </div>
             </>
           )}
         </div>
         {newsItems && (
-          <div className="page__slider">
+          <div className="layout__slider">
             <Slider locale={locale} newsItems={newsItems} />
           </div>
         )}
       </header>
-      <div className="page__main">{children}</div>
-      <div className="page__footer">Zebrano Model, {new Date().getFullYear()} &copy;</div>
+      <div className="layout__main">{children}</div>
+      <div className="layout__footer">Zebrano Model, {new Date().getFullYear()} &copy;</div>
     </section>
   </>
 ));

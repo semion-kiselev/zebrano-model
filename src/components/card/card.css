@@ -6,17 +6,13 @@
   display: none;
 }
 
-.card__image-link {
-  display: block;
-}
-
 .card__thumbnail {
   display: block;
   max-width: 100%;
   width: 100%;
   height: auto;
   border: 1px solid #aaa;
-  cursor: pointer;
+  cursor: zoom-in;
 }
 
 .card__name {
@@ -60,10 +56,6 @@
 
 /* --phone-breakpoint: 576px; */
 @media screen and (max-width: 576px) {
-  .card__image-link {
-    cursor: default;
-  }
-
   .card__name {
     white-space: normal;
   }

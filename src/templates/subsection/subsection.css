@@ -8,31 +8,24 @@
   font-size: 32px;
 }
 
-.subsection-content__items:after {
-  content: "";
-  display: block;
-  clear: both;
+.subsection-content__items {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .subsection-content__item {
-  float: left;
   width: 33.33333333%;
   padding: 14px;
 }
 
 .subsection-content__links {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0 0 30px 2px;
-}
-
-.subsection-content__links:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 
 .subsection-content__link {
   display: block;
-  float: left;
   margin: 6px 12px;
   border-bottom: 1px solid #c7c7c2;
   font-size: 24px;

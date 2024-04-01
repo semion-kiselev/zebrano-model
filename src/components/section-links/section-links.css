@@ -1,11 +1,9 @@
-.section-links:after {
-  content: "";
-  display: block;
-  clear: both;
+.section-links {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .section-links__col {
-  float: left;
   width: 25%;
   padding: 10px;
 }

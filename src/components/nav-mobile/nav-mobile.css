@@ -49,18 +49,14 @@
   color: var(--link-color-active);
 }
 
-.nav-mobile__item--with-children {
+.nav-mobile__item.nav-mobile__item--with-children,
+.nav-mobile__item.nav-mobile__item--with-children:hover {
   color: #888;
 }
 
 .nav-mobile__item--with-children .nav-mobile__trigger {
   font-size: 12px;
   cursor: default;
-}
-
-.nav-mobile__item:hover,
-.nav-mobile__item--opened {
-  color: #888;
 }
 
 .nav-mobile__link,

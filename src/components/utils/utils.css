@@ -1,21 +1,15 @@
 .utils {
 }
 
-.utils__list:after {
-  content: "";
-  display: block;
-  clear: both;
+.utils__list {
+  display: flex;
+  gap: 20px;
 }
 
 .utils__item {
-  float: left;
   cursor: pointer;
   font-size: 14px;
   color: var(--utils-color);
-}
-
-.utils__item:not(:first-child) {
-  margin-left: 20px;
 }
 
 .utils__item:hover,
@@ -46,8 +40,11 @@
 
 /* --tablet-medium-breakpoint: 768px; */
 @media screen and (max-width: 768px) {
+  .utils__list {
+    display: block;
+  }
+
   .utils__item {
-    float: none;
     margin-top: 30px;
     padding-left: 0;
     text-transform: uppercase;

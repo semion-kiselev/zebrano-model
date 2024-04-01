@@ -1,16 +1,10 @@
 .paginator {
-  display: inline-block;
-}
-
-.paginator:after {
-  content: "";
-  display: block;
-  clear: both;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 .paginator__link {
-  float: left;
-  margin-left: 10px;
   display: block;
   line-height: 0.9;
   text-align: center;

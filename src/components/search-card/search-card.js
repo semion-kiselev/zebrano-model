@@ -39,24 +39,29 @@ const SearchCard = memo(({ locale, item, subsection, onLoupe }) => {
         </span>
       </div>
       <div className="search-card__main">
-        <div className="search-card__article">{item.article}</div>
-        <div className="search-card__name">
-          {item.type === itemTypes.ARMOR && item.scale !== "1/100" ? (
-            <Link className="search-card__link" to={`/${locale}/${item.subsection}/${item.slug}/`}>
-              {item.name[locale]}
+        <div className="search-card__main-inner">
+          <div className="search-card__article">{item.article}</div>
+          <div className="search-card__name">
+            {item.type === itemTypes.ARMOR && item.scale !== "1/100" ? (
+              <Link
+                className="search-card__link"
+                to={`/${locale}/${item.subsection}/${item.slug}/`}
+              >
+                {item.name[locale]}
+              </Link>
+            ) : (
+              <span>{item.name[locale]}</span>
+            )}
+          </div>
+          <div
+            className={cn("search-card__subsection", {
+              "search-card__subsection--sm-indent": item.type !== itemTypes.ARMOR,
+            })}
+          >
+            <Link className="search-card__subsection-link" to={`/${locale}/${item.subsection}/`}>
+              {subsection.name[locale]}
             </Link>
-          ) : (
-            <span>{item.name[locale]}</span>
-          )}
-        </div>
-        <div
-          className={cn("search-card__subsection", {
-            "search-card__subsection--sm-indent": item.type !== itemTypes.ARMOR,
-          })}
-        >
-          <Link className="search-card__subsection-link" to={`/${locale}/${item.subsection}/`}>
-            {subsection.name[locale]}
-          </Link>
+          </div>
         </div>
       </div>
     </div>

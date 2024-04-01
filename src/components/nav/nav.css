@@ -1,22 +1,15 @@
 .nav {
 }
 
-.nav__list:after {
-  content: "";
-  display: block;
-  clear: both;
+.nav__list {
+  display: flex;
+  gap: 20px;
 }
 
 .nav__item {
   position: relative;
-  float: left;
-  margin-left: 20px;
   font-weight: bold;
   color: var(--menu-item-color);
-}
-
-.nav__item:first-child {
-  margin-left: 0;
 }
 
 .nav__item:hover,

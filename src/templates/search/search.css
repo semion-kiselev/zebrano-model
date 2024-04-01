@@ -44,11 +44,6 @@
   font-size: 18px;
 }
 
-.search-content__pagonator {
-  margin-top: 30px;
-  text-align: center;
-}
-
 /* --tablet-medium-breakpoint: 768px; */
 @media screen and (max-width: 768px) {
   .search-content__input {

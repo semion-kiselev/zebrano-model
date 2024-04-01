@@ -55,7 +55,7 @@
   height: auto;
   margin-top: 10px;
   border: 1px solid #aaa;
-  cursor: pointer;
+  cursor: zoom-in;
 }
 
 /* --tablet-medium-breakpoint: 768px; */
